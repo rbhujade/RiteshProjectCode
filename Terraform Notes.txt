@@ -1,0 +1,84 @@
+======Terraform========
+Terraform is infrastructure as code tool that lets you define and manage infrastructure resources through human readable configuration file.
+
+Terraform is an Infrastructure as Code (IaC) tool created by HashiCorp that allows you to define, deploy, 
+and manage infrastructure resources in a declarative way. 
+It is cloud-agnostic, meaning it can work with multiple cloud providers, including AWS (Amazon Web Services). 
+Using Terraform with AWS, you can automate the provisioning of AWS resources such as EC2 instances, S3 buckets, RDS databases, and more.
+ 
+Infrastructure is defined in .tf files.
+
+Terraform supports almost all AWS services via the AWS provider.
+
+Terraform generates an execution plan (terraform plan) to preview changes before applying them.
+
+Terraform maintains the state of the infrastructure in a file (terraform.tfstate) to track the real-world environment.
+
+Terraform automatically determines dependencies between resources and provisions them in the correct order.
+
+
+---How Terraform Works with AWS---
+1 Install Terraform:
+Download and install Terraform from the official website.
+
+2 Configure AWS Provider:
+Specify the AWS provider in your Terraform configuration to allow it to interact with AWS.
+Authenticate using an AWS access key and secret key.
+
+3 Define Infrastructure:
+Write .tf files to declare AWS resources such as EC2, S3, etc.
+
+4 Initialize Terraform:
+Use terraform init to download the required provider plugins (e.g., AWS).
+
+4.1 Validate the Configuration: Check for syntax errors in your Terraform files.
+terraform validate
+
+5 Plan Infrastructure Changes:
+Run terraform plan to see the resources Terraform will create, update, or delete.
+
+6 Apply Changes:
+Execute terraform apply to provision resources on AWS.
+
+7 Manage Resources:
+Use terraform destroy to remove all resources created by your Terraform code.
+
+===========
+Automate and manage AWS infrastructure easily with configuration files.
+
+===========================================
+-------------Provider.tf--------------------
+provider "aws" {
+	region = "us-east-1"
+	shared_credentials_files = ["~/.aws/credentials"]
+	profile = "cast3-uat"
+}
+
+terraform {
+	required_providers{
+		aws = {
+		  version = ">= 5.66.0"
+		  source  = "hashicorp/aws"
+		}
+	}
+}
+
+------------s3_job.tf--------------
+data "aws_s3_bucket" "job"{
+	bucket = "bucket_name"
+}
+
+-----------sg.tf----------security group----------
+resource "aws_security_group" "this"{
+	name ="sgrp-xyz"
+	description=""
+	vpc_id =""
+	egress {
+		from_port   = 0
+		to_port     = 0
+		protocol    = "-1"
+		cidr_blocks = ["0.0.0.0/0"]
+	}
+	tags 	=""
+	lifecycle { }
+}

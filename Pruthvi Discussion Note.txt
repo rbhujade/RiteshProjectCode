@@ -1,0 +1,16 @@
+=======Interview Que========
+======= C# ===
+How to versioning in .net core.
+SQL query peformance
+SQL City/Emp count
+cluster / not cluster index
+write Linq= Select * from emp where city = "Pune"
+interface vs abstract class
+Array = reverse
+API = how to protect payload data while sending to API.
+Degine pattern
+Unit of work
+CQRS = command query response segrigation
+
+
+ 

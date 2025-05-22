@@ -1,0 +1,485 @@
+================Design Pattern==============
+Design patterns are defined as reusable solutions to the common problems that arise during software design and development. 
+They are general templates or best practices that guide developers in creating well-structured, maintainable, and efficient code.
+=============================================
+Creational Design pattern => focus on object creation mechanisms
+	Singleton Pattern => class has only one instance and provides a global point of access to that instance
+	Factory Method Pattern => provides an interface for creating objects
+	Abstract Factory Pattern => Provides an interface for creating families of related objects
+
+Structural design pattern => concerned with how classes and objects are composed to form larger structures
+	Decorator Pattern => dynamically add behavior to objects at runtime without modifying their original structure
+	
+Behavioral design pattern => how objects interact and communicate with each other
+	Template Method Pattern => defines the skeleton of an algorithm in a base class
+
+==============================================
+Creational Design pattern
+Structural design pattern
+Behavioral design pattern
+=====================================
+=====Creational Design pattern=======
+=====================================
+Creational design patterns in C# focus on object creation mechanisms, optimizing how objects 
+	are instantiated to improve code flexibility and maintainability.
+Creational design patterns abstract the instantiation process. 
+They help make a system independent of how its objects are created, composed, and represented.
+
+🧠 Use When:
+Object creation is complex or repeated.
+You want to hide or abstract the instantiation process.
+
+There are two recurring themes in these patterns: 
+	They all encapsulate knowledge about which concrete class the system uses. 
+	They hide how instances of these classes are created and put together.
+	
+======Singleton Pattern===========
+The Singleton Pattern ensures that a class has only one instance and provides a global point of access to that instance. 
+It is commonly used for managing shared resources like logging, configuration settings, database connections, etc.
+Use :
+Logging System	=> One logger instance used across the application
+Configuration Manager	=> Centralized config settings, e.g., reading from appsettings.json
+Database Connection Pool	=> Prevents multiple connections being opened
+Caching Service	=> Single instance to store and retrieve cached data
+
+public sealed class Singleton
+{
+    private static Singleton _instance;
+	private static readonly object _lock = new object();
+    
+    // Private constructor prevents external instantiation
+    private Singleton() 
+	{ 
+		Console.WriteLine("Singleton instance created.");
+	}
+
+    // Public method to get the single instance
+    public static Singleton GetInstance()
+    {
+        if (_instance == null)
+        {
+            lock (_lock) // Thread-safe lock
+            {
+                // Double-check to prevent race condition
+                if (_instance == null)
+                {
+                    _instance = new Singleton();
+                }
+            }    
+        }
+        return _instance;
+    }
+
+    public void ShowMessage()
+    {
+        Console.WriteLine("Singleton Instance Called!");
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        Singleton obj1 = Singleton.GetInstance();
+        Singleton obj2 = Singleton.GetInstance();
+
+        obj1.ShowMessage();
+
+        // Checking if both instances are the same
+        Console.WriteLine(obj1 == obj2);  // Output: True
+    }
+}
+
+Advantages :
+Ensures a single instance  – Saves memory and prevents redundant objects.
+Global access point – Any part of the application can access the same instance.
+Prevents multiple object creation.
+
+Disadvantages :
+Hard to unit test – Mocking a singleton is complex.
+Tightly coupled – Classes depend on the singleton, violating Dependency Injection principles.
+
+
+
+==========Factory Method Pattern================
+The Factory Method Pattern is a creational design pattern that provides an interface for creating objects 
+but allows subclasses to alter the type of objects that will be created.
+
+✔ Encapsulating object creation logic
+✔ Making code more maintainable and scalable
+✔ Following the Open/Closed Principle (OCP)
+
+Example : Consider a scenario where we need to send notifications via Email, SMS, or Push Notification. 
+Instead of creating objects manually, we use a Factory Method.
+
+public interface INotification
+{
+    void Notify(string message);
+}
+
+public class EmailNotification : INotification
+{
+    public void Notify(string message)
+    {
+        Console.WriteLine($"Email Notification: {message}");
+    }
+}
+
+public class SmsNotification : INotification
+{
+    public void Notify(string message)
+    {
+        Console.WriteLine($"SMS Notification: {message}");
+    }
+}
+
+public class PushNotification : INotification
+{
+    public void Notify(string message)
+    {
+        Console.WriteLine($"Push Notification: {message}");
+    }
+}
+
+public class NotificationFactory
+{
+    public static INotification CreateNotification(string type)
+    {
+        return type.ToLower() switch
+        {
+            "email" => new EmailNotification(),
+            "sms" => new SmsNotification(),
+            "push" => new PushNotification(),
+            _ => throw new ArgumentException("Invalid notification type")
+        };
+    }
+}
+
+Use: 
+Logging Systems =>	Creates different loggers (e.g., FileLogger, ConsoleLogger, DatabaseLogger)
+Database Access (ORMs) =>	Generates connections to SQL, MySQL, PostgreSQL dynamically
+Payment Gateway =>	Processes different payment methods (e.g., PayPal, Stripe, CreditCard)
+
+Advantages : 
+✔ Encapsulates object creation – Reduces dependency on concrete classes.
+✔ Follows Open/Closed Principle (OCP) – Easy to extend without modifying existing code.
+✔ Enhances code maintainability – Centralized object creation logic.
+
+Disadvantages :
+❌ Adds complexity – More classes and interfaces than a simple new instantiation.
+
+Summary :
+✔ Factory Method Pattern centralizes object creation
+✔ Provides flexibility in choosing object types at runtime
+✔ Commonly used in Logging, Databases, UI components, and Payment Processing
+✔ Follows SOLID principles (OCP & SRP)
+
+
+=========== Abstract Factory Pattern =====================
+Provides an interface for creating families of related objects without specifying their concrete classes.
+Abstract Factory is a creational design pattern, which solves the problem of creating entire product families 
+	without specifying their concrete classes.
+Abstract Factory defines an interface for creating all distinct products but leaves the actual product creation 
+	to concrete factory classes.
+
+Use :
+✔ Multiple related objects need to be created dynamically.
+✔ The application should not depend on concrete implementations.
+✔ It follows the Open/Closed Principle (OCP) and Dependency Inversion Principle (DIP).
+
+Use : 
+Cross-Platform UI Components =>	Creates UI elements for Windows, Mac, Linux dynamically
+Database Access =>	Provides factory for creating SQL, MongoDB, or PostgreSQL repositories
+Payment Gateways =>	Generates payment objects (PayPal, Stripe, Razorpay) dynamically
+
+Advantages :
+✔ Encapsulates Object Creation – Clients don't need to know concrete class names.
+✔ Follows Open/Closed Principle (OCP) – New families of objects can be added easily.
+
+Disadvantages :
+❌ Complexity Increases – More classes and interfaces than a simple factory.
+
+Summary :
+✔ Abstract Factory Pattern is used to create families of related objects dynamically.
+✔ Commonly used in UI frameworks, database connections, and game engines.
+✔ Encapsulates object creation, improving maintainability and scalability.
+✔ Introduces more complexity but ensures flexibility in large systems.
+
+Example :
+public interface IProduct
+{
+    string GetName();
+}
+
+public class Mobile : IProduct
+{
+    public string GetName()
+    {
+        return "Mobile Phone";
+    }
+}
+
+public class Chair : IProduct
+{
+    public string GetName() 
+    {
+        return "Chair";
+    }
+}
+
+public class Laptop : IProduct
+{
+    public string GetName()
+    {
+        return "Laptop";
+    }
+}
+
+
+public class Table : IProduct
+{
+    public string GetName()
+    {
+        return "Table";
+    }
+}
+
+public interface IProductFactory
+{
+    IProduct CreateProductA();
+    IProduct CreateProductB();
+}
+
+public class ElectronicFactory : IProductFactory
+{
+    public IProduct CreateProductA()
+    { 
+        return new Mobile();
+    }
+
+    public IProduct CreateProductB()
+    {
+        return new Laptop();
+    }
+}
+
+public class FurnitureFactory : IProductFactory
+{
+    public IProduct CreateProductA()
+    {
+        return new Chair();
+    }
+
+    public IProduct CreateProductB()
+    {
+        return new Table();
+    }
+}
+
+main
+{
+	IProductFactory productFactory = new ElectronicFactory();
+
+	IProduct product1 = productFactory.CreateProductA();
+	IProduct product2 = productFactory.CreateProductB();
+
+	Console.WriteLine($"Product 1 : {product1.GetName()}");
+	Console.WriteLine($"Product 2 : {product2.GetName()}");
+
+	productFactory = new FurnitureFactory();
+
+	IProduct furniture1 = productFactory.CreateProductA();
+	IProduct furniture2 = productFactory.CreateProductB();
+
+	Console.WriteLine($"Furniture 1 : {furniture1.GetName()}");
+	Console.WriteLine($"Furniture 2 : {furniture2.GetName()}");
+}
+
+
+=====================================
+===== Structural design pattern =====
+=====================================
+Structural Design Patterns are concerned with how classes and objects are composed to form larger structures. 
+Structural class patterns use inheritance to compose interfaces or implementations. 
+Consider how multiple inheritances mix two or more classes into one.
+The result is a class that combines the properties of its parent classes.
+
+===============================
+===== Decorator Pattern =======
+===============================
+The Decorator Pattern is a structural design pattern that allows you to dynamically add behavior to objects at 
+	runtime without modifying their original structure.
+	
+🔹Use : 
+Extends functionality dynamically – Without modifying the base class.
+Follows the Open-Closed Principle (OCP) – You can add new behaviors without changing existing code.
+Flexible alternative to inheritance – Instead of creating multiple subclasses, you can compose behaviors.
+
+🔹 When to Use the Decorator Pattern?
+✅ When you need to add behavior dynamically at runtime.
+✅ When subclassing is impractical due to too many possible combinations.
+✅ When following the Open-Closed Principle (OCP).
+
+//Define the Component Interface
+public interface ICoffee
+{
+    string GetDescription();
+    double GetCost();
+}
+
+//Implement the Concrete Component
+public class Coffee : ICoffee 
+{ 
+    public string GetDescription()
+    {
+        return "Simple Coffee.";
+    }
+
+    public double GetCost()
+    {
+        return 100;
+    }
+}
+
+//Create an Abstract Decorator Class
+public abstract class CoffeeDecorator : ICoffee
+{
+    protected ICoffee _coffee;
+
+    public CoffeeDecorator(ICoffee coffee)
+    {
+        _coffee = coffee;
+    }
+
+    public virtual string GetDescription()
+    {
+        return _coffee.GetDescription();
+    }
+
+    public virtual double GetCost() 
+    { 
+        return _coffee.GetCost();
+    }
+}
+
+public class MilkDecorator : CoffeeDecorator
+{
+    public MilkDecorator(ICoffee coffee) : base(coffee) { }
+
+    public override string GetDescription()
+    {
+        return _coffee.GetDescription() + ", Milk";
+    }
+
+    public override double GetCost()
+    {
+        return _coffee.GetCost() + 10;
+    }
+}
+
+public class SugarDecorator : CoffeeDecorator
+{
+    public SugarDecorator(ICoffee coffee) : base(coffee) { }
+
+    public override string GetDescription()
+    {
+        return _coffee.GetDescription() + ", Sugar";
+    }
+
+    public override double GetCost()
+    {
+        return _coffee.GetCost() + 20;
+    }
+}
+
+
+=====================================
+=====Behavioral design pattern=======
+=====================================
+Behavioral Design Patterns in C#, which are all about how objects interact and communicate with each other.
+Behavioral patterns focus on the responsibility and communication between objects.
+
+
+=====================================
+===== Template Method Pattern =======
+=====================================
+The Template Method Pattern is a behavioral design pattern that defines the skeleton of an algorithm in a base class 
+while allowing subclasses to override certain steps without changing the overall structure.
+
+🔹 How Template Method Pattern Works?
+Define an Abstract Class with a template method that defines the algorithm structure.
+Implement some steps as abstract methods to be overridden by subclasses.
+Implement Concrete Classes that provide specific implementations of the abstract methods.
+The client calls the template method, which enforces the algorithm flow.
+
+🔹 Why Use the Template Method Pattern?
+Code Reusability – The common algorithm structure is in the base class, reducing duplication.
+Encapsulation of Algorithm Steps – Ensures a consistent workflow while allowing flexibility in specific steps.
+Follows the Open-Closed Principle (OCP) – Allows extending behavior without modifying existing code.
+
+🔹 When to Use the Template Method Pattern?
+✅ When multiple classes share a common algorithm structure but have different implementations for some steps.
+✅ When you want to enforce a sequence of steps in an algorithm.
+✅ When you need to reduce code duplication in subclasses.
+
+
+public abstract class CoffeeTemplate
+{
+    // Template Method - Defines the skeleton of the algorithm
+    public void PreparedCoffee()
+    {
+        BoilWater();
+        BrewCoffee();
+        PourInCup();
+        AddCondiments();
+    }
+
+    private void BoilWater() 
+    {
+        Console.WriteLine("Boiling water...");
+    }
+
+    private void PourInCup() 
+    {
+        Console.WriteLine("Pouring coffee into cup...");
+    }
+
+    // Steps that subclasses will implement
+    protected abstract void BrewCoffee();
+    protected abstract void AddCondiments();
+}
+
+public class BlackCoffee : CoffeeTemplate
+{
+    protected override void BrewCoffee()
+    {
+        Console.WriteLine("Brewing black coffee ...");
+    }
+
+    protected override void AddCondiments()
+    {
+        Console.WriteLine("No condiments added.");
+    }
+}
+
+public class MilkCoffee : CoffeeTemplate
+{
+    protected override void BrewCoffee()
+    {
+        Console.WriteLine("Brewing coffee with milk...");
+    }
+
+    protected override void AddCondiments()
+    {
+        Console.WriteLine("Adding sugar and milk.");
+    }
+}
+
+//Template Method
+Console.WriteLine("Making Black Coffee:");
+CoffeeTemplate blackCoffee = new BlackCoffee();
+blackCoffee.PreparedCoffee();
+
+Console.WriteLine("\nMaking Milk Coffee:");
+CoffeeTemplate milkCoffee = new MilkCoffee();
+milkCoffee.PreparedCoffee();

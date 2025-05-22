@@ -1,0 +1,59 @@
+=============Microservices Architecture============
+Microservices architecture is a design style where an application is structured as a 
+	collection of small, independent, loosely coupled services — each responsible for a specific business function.
+
+Instead of building one large monolithic application, microservices break the app into autonomous units that can:
+Be developed, Deployed, Scaled, Updated independently.
+
+🧱 Key Characteristics:
+1️⃣ Single Responsibility:
+Each microservice focuses on one business capability (e.g., User Service, Order Service, Payment Service).
+
+2️⃣ Independent Deployment:
+You can deploy one service without redeploying the entire application.
+
+3️⃣ Decentralized Data Management:
+Each service typically has its own database (Polyglot Persistence).
+
+4️⃣ Communication via APIs:
+Services talk to each other using lightweight protocols — usually HTTP/HTTPS (REST) or gRPC, Message Queues (SQS, EventBridge).
+
+5️⃣ Scalability:
+You can scale only the service that needs more resources rather than the whole system.
+
+6️⃣ Technology Diversity:
+Each service can use the language and framework best suited for it (e.g., .NET Core for some, Python for others).
+
+
+🏗️ Microservices Architecture Example (Your Project)
+Based on your stack:
+.NET Core 8 for backend services.
+PostgreSQL for service-specific databases.
+AWS Lambda for compute in serverless functions.
+AWS Cognito for authentication & authorization.
+SQS / EventBridge for async communication.
+S3 for file storage.
+CloudWatch for logging and monitoring.
+RDS for relational data storage.
+
+
+⚙️ Flow Example:
+1️⃣ Client sends request to API Gateway.
+2️⃣ API Gateway routes the request to the appropriate Lambda-based microservice.
+3️⃣ Service authenticates the user via AWS Cognito.
+4️⃣ Service logic executes and queries PostgreSQL / RDS.
+5️⃣ Events or notifications are sent via SQS/EventBridge.
+6️⃣ Results are returned to the client or another microservice.
+
+
+✅ Benefits:
+Faster development and deployment.
+Independent scalability.
+Easier maintenance.
+Clear separation of concerns.
+
+⚠️ Challenges:
+More complex infrastructure.
+Distributed system — needs advanced monitoring/logging.
+Data consistency issues.
+Network latency and error handling.

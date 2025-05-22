@@ -1,0 +1,26 @@
+Web API=========
+
+web API is an extensible framework for building HTTP based services that can be access in different application on different flatform such as web,mobile,windows.
+it supports olnly HTTP protocol.
+
+Characteristics===
+asp.net web api in ideal platform for building RESTfull services.
+support asp.net request/response pipeline.
+asp.net web api maps HTTP verbs to method names.
+support for different format of response data,build in support for json ,xml,bson.
+
+controller===
+it must be derived from system.web.http.ApiController class.
+
+Action param type========
+Primitive => Query String
+Complex => Request Body
+[FromBody]Primitive => Request Body
+[FromUri]Complex => Query String
+
+
+Action Method return type========
+Void
+Primitive and Complex type
+HttpResponseMessage
+IHttpActionResult

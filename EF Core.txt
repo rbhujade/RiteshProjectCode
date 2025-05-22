@@ -1,0 +1,68 @@
+--------------------------------
+------------ Entity Framework Core -------------
+EF Core is an open-source, cross-platform ORM (Object-Relational Mapper) developed by Microsoft.
+It helps .NET developers interact with databases using C# objects instead of raw SQL, allowing for clean 
+	and efficient data access.
+
+🔥 Why EF Core?
+Cross-platform support (.NET Core, .NET 5/6/7/8+).
+Lightweight and extensible.
+Supports LINQ queries.
+Supports migrations.
+Works with relational and non-relational databases.
+High performance compared to EF 6.
+
+⚙️ Approaches in EF Core
+1️⃣ Code-First Approach
+2️⃣ Database-First Approach
+3️⃣ Model-First Approach
+
+========Code First approach========
+Add===
+add-migration "V1"
+
+Update====
+update-database
+
+========Database first approach=====
+Scaffold-DbContext "Server=(localdb)\MSSQLLocalDB;Database=Sample_DB;Integrated Security=True;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -o Models
+
+Scaffold-DbContext "Server=(localdb)\MSSQLLocalDB;Database=Sample_DB;Integrated Security=True;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer 
+-ContextDir Data 
+-OutputDir Models
+-DataAnnotation
+
+
+"Server=(localdb)\\MSSQLLocalDB;Database=Sample_DB;Integrated Security=True;Trusted_Connection=True;"
+Add======
+Scaffold-DbContext "Server=(localdb)\MSSQLLocalDB;Database=Sample_DB;Integrated Security=True;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+
+Update====
+Scaffold-DbContext "Server=(localdb)\v11.0;Database=Blogging;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Force
+
+
+
+Scaffold-DbContext "Server=(localdb)\\MSSQLLocalDB;Database=Sample_DB;Trusted_Connection=True;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -o Models
+
+===============================================
+======== Call Stored Procedure EF ================
+
+✅ FromSqlRaw  :=> For queries returning data.
+
+	var customers = _context.Customers
+		.FromSqlRaw("EXEC GetCustomersByCity @p0", "London")
+		.ToList();
+		
+✅ ExecuteSqlRaw :=> For non-query SPs like insert/update/delete
+
+	int rowsAffected = _context.Database.ExecuteSqlRaw(
+		"EXEC UpdateCustomerStatus @CustomerId, @Status",
+		new SqlParameter("@CustomerId", 1),
+		new SqlParameter("@Status", "Active")
+	);
+	
+✅ FromSqlInterpolated :=> safer and cleaner syntax
+
+	var customers = _context.Customers
+		.FromSqlInterpolated($"EXEC GetCustomersByCity {city}")
+		.ToList();

@@ -1,0 +1,950 @@
+---------------------------------
+=======Eager Loading = EF =======
+Eager Loading is a technique in EF used to load related data along with the main entity, in a single query.
+This avoids the N+1 query problem (multiple DB calls for each related entity).
+Eager Loading helps you to load all your needed entities at once.
+All your child entities will be loaded at single database call.
+This can be achieved, using the Include method.
+which returs the related entities as a part of the query and a large amount of data is loaded at once.
+
+User usr = dbContext.Users.Include(a => a.UserDetails).FirstOrDefault(a => a.UserId == userId);
+var result = await context.Schools.Include(s => s.Students).ThenInclude(st => st.Grades).ToListAsync();
+
+-----------------------------
+======= Lazy Loading =======
+Lazy Loading means that related data is not loaded from the database until it is explicitly accessed.
+It is the default behavior of an Entity Framework, 
+where a child entity is loaded only when it is accessed for the first time. 
+It simply delays the loading of the related data, until you ask for it.
+
+For example, when we run the query given below, UserDetails table will not be loaded along with the User table. 
+User usr = dbContext.Users.FirstOrDefault(a => a.UserId == userId);
+
+It will only be loaded when you explicitly call for it, as shown below.
+UserDeatils ud = usr.UserDetails; // UserDetails are loaded here
+
+---------------------------
+=========out and ref=======
+Ref and out keywords in C# are used to pass arguments within a method or function.
+Both indicate that an argument/parameter is passed by reference.
+By default, parameters are passed to a method by value. 
+By using these keywords (ref and out) we can pass a parameter by reference.
+
+-------------------
+====== Ref ========
+Requires the variable to be initialized before being passed.
+It's not must to assign a value to passed ref parameter in side the method.
+Allows reading and modifying the value inside the method.
+The value must not necessarily be changed inside the method.
+
+It may or may not modify the value.
+Method can read the value of the passed parameter.
+
+	static void UpdateValue(ref int num)
+    {
+        num += 10; // Modify the original variable
+    }
+
+    static void Main()
+    {
+        int value = 5; // Must be initialized
+        Console.WriteLine("Before: " + value);
+
+        UpdateValue(ref value);
+        Console.WriteLine("After: " + value); // Output: 15
+    }
+
+-----------------------
+======== Out =========
+Does not require the variable to be initialized before passing.
+The method must assign a value before it exits.
+Typically used when a method needs to return multiple values.
+It is must to assign a value to passed out parameter inside the method.
+It definetly modifies the value.
+It's doesn't read the value and considers the parameter as unassigned.
+
+	static void GetValues(out int a, out int b)
+    {
+        a = 10; // Must assign a value
+        b = 20;
+    }
+
+    static void Main()
+    {
+        int x, y; // No need to initialize
+        GetValues(out x, out y);
+        Console.WriteLine($"Values: x = {x}, y = {y}"); // Output: x = 10, y = 20
+    }
+	
+-----------------------------------------------
+--------string and string builder------------
+✅String  :
+String is a sequence of characters used to represent text. It is a reference type.
+The string is immutable, Immutable means if you create a string object then you cannot modify it and 
+It always creates a new object of string type in memory.
+Every change creates a new string object, making it less efficient for repetitive modifications.
+
+	string strMyValue = "Hello Visitor";
+	// create a new string instance instead of changing the old one
+	strMyValue += "How Are";
+	strMyValue += "You ??";
+
+✅StringBuilder :
+StringBuilder is mutable, which means if create a string builder object then you can perform any operation 
+like insert, replace, or append without creating a new instance every time. 
+it will update the string in one place in memory and doesn't create new space in memory.
+Ideal when you're building a string incrementally or modifying it frequently.
+
+	StringBuilder sbMyValue = new StringBuilder("");
+	sbMyValue.Append("Hello Visitor");
+	sbMyValue.Append("How Are You ??");
+	string strMyValue = sbMyValue.ToString();
+
+-----------------------------------------------
+-------- try catch finally block ------------
+The try catch finally block in .NET allows developers to handle runtime exceptions. 
+The syntax has three variations, try..catch, try..finally, and try..catch..finally.
+The try-catch-finally block in C# is used to handle exceptions 
+ and ensure that certain code runs regardless of whether an exception occurs or not.
+
+✅try block: Place the code that may throw an exception.
+✅catch block: Handle specific or general exceptions.
+✅finally block: Executes no matter what (whether an exception occurred or not). Great for cleanup tasks.
+
+	try  
+	{  
+		//Put suspected code here. When an exception occurs, the control will move to the catch block
+	}  
+	catch (ExceptionType ex) 
+	{  
+		//Catch the exception  
+	}  
+	finally  
+	{  
+		//release any system resources such as file handles and network connections  
+		// Code that always runs (cleanup code, closing files/connections etc.)
+	}  
+
+-----------------------------------------------
+--------Task Parallel Library (TPL)------------
+TPL provides a high-level abstraction for writing concurrent and parallel code using tasks instead of manually creating threads.
+Uses Task and Task<TResult> for asynchronous programming.
+Automatically handles thread pooling, scheduling and load balancing.
+TPL simplify parallel loops, async processing and background operations.
+
+•	Provides APIs for parallel programming.
+•	Key classes include Task and Parallel.
+•	Enables efficient CPU usage and scalability.
+
+Example:
+
+Task task = Task.Run(() =>
+{
+    Console.WriteLine("Running in background task...");
+});
+----------------------------------
+
+using System;
+using System.Threading.Tasks;
+
+class Program
+{
+    static void Main()
+    {
+        Parallel.For(0, 10, i =>
+        {
+            Console.WriteLine($"Task {i} is running on thread {Task.CurrentId}");
+        });
+
+        Console.WriteLine("All tasks are complete.");
+    }
+}
+
+------------------------------------------------
+================= Thread ======================
+A Thread in C# is a lightweight process that enables parallel execution of code, allowing multiple tasks to run concurrently. 
+It is part of multithreading, which helps in improving application performance, especially for CPU-intensive and long-running tasks.
+
+Key Characteristics of Threads
+✔ Runs Independently – Each thread executes code separately.
+✔ Concurrency – Enables multiple operations to run simultaneously.
+✔ Parallel Execution – Utilizes multi-core processors efficiently.
+✔ Shared Memory – Threads share memory space within the same process.
+✔ Managed via System.Threading – C# provides APIs for thread management.
+
+When to Use Threads?
+✅ When you need long-running background tasks.
+✅ When working with low-level thread control (priority, scheduling).
+✅ When using real-time processing that cannot use Task.
+
+	static void Main(string[] args)
+    {
+        // Create a new thread and pass the method to execute
+        Thread thread = new Thread(PrintNumbers);
+        thread.Start();  // Start the new thread
+
+        // Main thread continues
+        Console.WriteLine("Main thread is running...");
+
+        // Optional: Wait for thread to finish
+        thread.Join();
+
+        Console.WriteLine("Main thread ends.");
+    }
+
+    static void PrintNumbers()
+    {
+        for (int i = 1; i <= 5; i++)
+        {
+            Console.WriteLine($"Worker thread: {i}");
+            Thread.Sleep(500);  // Simulate work
+        }
+    }
+
+--------------------------------------
+=============== Task ==================
+Task represents an asynchronous operation and is part of the Task Parallel Library (TPL). 
+It is a higher-level abstraction over threads, designed to handle concurrency efficiently without manually managing threads.
+
+Key Characteristics of Task
+✔ Runs Asynchronously – Executes operations in the background without blocking the main thread.
+✔ Uses ThreadPool – Tasks run on managed ThreadPool threads, reducing overhead.
+✔ Supports async/await – Makes async programming easier.
+✔ Supports Return Values (Task<T>) – Unlike Thread, Task can return data.
+✔ Built-in Exception Handling – Handles exceptions better than raw threads.
+✔ Supports Continuations (ContinueWith) – Allows chaining of tasks.
+
+-----------------------------------------------------
+------------- Asynchronous Programming --------------
+Asynchronous Programming allow you to run multiple tasks together without blocking the main thread.
+Asynchronous Programming allows actions to be performed in the background without interfering with the main thread.
+Using this,you can make your applications more responsive and attractive.
+You can use the async and await keywords to handle long-running operations, such as I/O tasks, 
+	by pausing execution until completion without freezing the application.
+	
+✔ CancellationToken :
+CancellationToken is a powerful structure used to cancel asynchronous operations gracefully.
+It's widely used in multithreading, async/await programming, and Task Parallel Library (TPL) to give the caller the ability to signal a cancellation request to the running task or operation.
+
+CancellationTokenSource : 
+	Used to trigger the cancellation.
+	You create a token from this.
+CancellationToken :
+	Passed to the task/method that supports cancellation.
+	The task checks this token to see if it should stop early.
+
+-----------------------------------
+------------Async and await---------
+ Async and await are used to handle asynchronous programming in C#.
+ Allows you to write non-blocking code, improving responsiveness and performance.
+ They allow you to perform time consuming operations without blocking the execution of the application.
+ To avoid blocking threads during long running operations.
+ To perform parallel processing and improve scalability in server side application.
+ Tasks can run in parallel,improving application performance.
+ Methods with async return Task or Task<T>.
+ 
+using System;
+using System.Net.Http;
+using System.Threading.Tasks;
+
+class Program
+{
+    static async Task Main()
+    {
+        Console.WriteLine("Fetching data...");
+        string data = await FetchDataFromAPI();
+        Console.WriteLine(data);
+    }
+
+    static async Task<string> FetchDataFromAPI()
+    {
+        using HttpClient client = new HttpClient();
+        string response = await client.GetStringAsync("https://jsonplaceholder.typicode.com/posts/1");
+        return response;
+    }
+}
+
+---------------------------------------------------
+--------Abstract class vs interface ---------------
+• An abstract class doesn't provide full abstraction but an interface does provide full abstraction; 
+	i.e. both a declaration and a definition is given in an abstract class but not so in an interface.
+• Using abstract we cannot achieve multiple inheritance but using an Interface we can achieve multiple inheritance.
+• We can not declare a member field in an Interface.
+• We can not use any access modifier i.e. public, private, protected, internal etc., because within an interface 
+	by default everything is public.
+• An Interface member cannot be defined using the keyword static, virtual, abstract or sealed.
+
+
+						Abstract Class										Interface
+Purpose				Base class with shared behavior and structure		Contract for capabilities/behavior
+Declaration			abstract class Animal {}							interface IFlyable {}
+Can have fields		✔️ Yes (fields, properties, constructors)			❌ No fields (only constants allowed)
+Method types		Abstract, virtual, concrete							Only method signatures (from C# 8, can have default)
+Access modifiers	Yes (public, protected, private)					All members are implicitly public
+Inheritance			Single abstract class inheritance only				Multiple interfaces supported
+Constructor			✔️ Can define and call base constructors			❌ No constructors
+Use case			Shared implementation + polymorphism				Capability declaration (e.g., IDisposable, ICloneable)
+Use					"You want to share common code						"You want to define capabilities/contracts
+					You need base class fields or properties			You want multiple inheritance
+					You want to evolve base logic"						You want to be framework/API friendly"
+
+Can instantiate?					❌ No								❌ No
+Fields or Constructors				✔️ Yes								❌ No
+Method implementation allowed?		✔️ Partial							✔️ (C# 8+ default only)
+Multiple inheritance?				❌ No								✔️ Yes
+Polymorphism supported?				✔️ Yes								✔️ Yes
+
+
+Example	
+	abstract class Animal
+	{
+		public string Name { get; set; }
+
+		public abstract void Speak();
+		public void Sleep() => Console.WriteLine(""Sleeping..."");
+	}
+
+	interface IWalkable
+	{
+		void Walk();
+	}
+
+-------------------------
+-------Abstract class----
+used to define base class with common implementation and functionality that derived classes can inherit or override.
+Support single inheritance,class can only inherit from abstract class.
+Allow sharing code and behavior in derived classes.
+Abstract method contain abstract members-without implementation,overriden by derived class.
+concrete member with implementation, shared by derived class.
+Supports access modifiers public,protected,internal
+abstract class can define fields to store data.
+Abstract class is good choice when you are sure some method are concrete/defined and must be implemented in same way in all derived classes.
+Provide a base class with shared functionality.
+Include fields, constructors, or access modifiers.
+Define common logic for derived classes.
+
+✅Use : 
+Provide a Common Base with Partial Implementation
+	Shared logic is written once in the abstract class.
+
+Define Abstract Members
+	Force derived classes to implement specific methods or properties.
+
+Code Reusability
+	Reduces duplication by centralizing common functionality.
+
+Enforce Design Patterns
+	Common in Template Method or Factory Method patterns.
+
+-------------------------
+------Interface----------
+Interfaces achieving abstraction and allowing objects to interact with each other.
+Used for define a contract or blueprint for classes.
+Interface define event, method and properties but do not provide an implementation for them.
+An interface looks like a class but has no implementation.
+Support multiple inheritance.
+members are always public by default and cannot have access modifiers.
+Can not define fields,Interface only can declare constant. 
+Interface is good choice when you know method has to be there,but it can be implemented differently by independent derived classes.
+
+--------------------------------------------
+--------Overloading vs Overriding-----------
+Method overloading is a type of polymorphisam , in which we create multiple methods with SAME NAME AND DIFFERENT SIGNATURE in the same class,all method work different way.
+Method overloading not use any keyword.
+Method overloading doesnot need inheritance,it is in same class.
+
+Method overriding is having method with SAME NAME AND SIGNATURE but in different classes.
+Overriding uses VIRTUAL keyword in base class method and OVERRIDE in derived class method. 
+Method overriding need inheritance (Base class/Derived class), it is not possible in same class.
+
+----------------------------------------------
+-------------Value and reference type---------
+✅Value
+Variable of these data type directaly contain values.
+A value type variable is immutable data which contain the data.
+It is store in stack.
+Value type holds the actual data.
+include type like int,float,enum,struct,bool.
+Examples: int, float, double, char, bool, struct, enum
+The memory is automatically deallocated when the variable goes out of the scope.
+
+✅Reference
+Hold the memory address (reference) of location where value is stored.
+Data is stored in the Heap and reference on stack.
+include type like class,interface,string,delegate,object.
+Required garbage collection to manage heap memory.
+
+-------------------------------------------------------------------
+-----------static ,readonly ,constant and static read-only-----------
+const : cannot change value enywhere.
+static : can change value enywhere.
+read-only : can change value only in public/private constructor.
+static read-only : can change value only in static constructor.
+
+constant is compile time constant and readonly is run time constant.
+constant value can't be changed but readonly field value can be changed .
+we must assign values with declareation itself in constant,but readonly value can assign in declareation as well as in the constructor part.
+
+✅Const :
+The cost keyword declares a constant type variable.
+const only supports primitive types and strings.
+You CANNOT define a const for Reference types (like: object, List<>, Array, class objects).
+That means a variable of which the value is constant but at compile time.
+By default, a const is static, and we cannot change the value of a const variable throughout the entire program.
+So constant variables are useful when you already know a variable's value and know it will never change in the entire program.
+
+✅Readonly :
+The read-only keyword can be initialized either at the time of declaration or within the constructor of the same class.
+read-only keyword can be used for run-time constants.
+read-only member is like a constant in that it always represents an unchanging value.
+difference is that a read-only member can be initialized at runtime ,in a constructor.
+
+public class TestCase
+{
+    public readonly double TotalDaysInWeek = 7;
+    public readonly int TotalMonths;
+
+    public TestCase()
+    {
+      TotalMonths = 12;
+    }
+}
+
+✅Static readonly :
+it is used to declare a static field that can only be initialized once, 
+	either at the time of declaration or in a static constructor.
+Assigned at Runtime (constructor allowed).
+Allowed any type.
+Immutable after assignment.
+you cannot assign a static readonly field inside a public/private constructor.
+you can assign a static readonly field inside only static constructor.
+
+
+--------------------------------
+----------record vs class----------------
+record type are immutable by default,class is mutable.
+record type is reference type that has readonly properties by default,class also reference type that can have readonly properties if needed.
+record type fundamental is storing data , class fundamental use is defining responsiblities.
+record help us to ensure that we don't accidentaly change or corrupt data due to its immutable nature,
+classes are mutable so even if they have the same data ,doesn't mean they are the same because its value can be change later.
+After instantiation ,Record should not have any state changes ,classes chang the properties values.
+If there is a need to change the state,we could create new record from existing one.
+With classes we modify the existing one.
+
+when to use record-----
+when we want to ensure the property values of an object cannot be changed during the execution of other process.
+It can be used while loading and retrieving data from database.
+Holding data from external services that doesn't be changed. 
+
+-------------------------------------------------------------
+---------------- IEnumerable vs IQueryable vs List ----------
+IEnumerable executes the query in the client's memory, making it suitable for in-memory collections 
+	but less efficient for large datasets.
+In contrast, IQueryable executes the query on the server,allowing for more efficient data handling, 
+	especially with large or complex data sets.
+IEnumerable is more straightforward and is used for in-memory data.
+IQueryable is more complex and is better suited for remote data sources or situations where 
+	performance optimization is crucial.
+ 
+Q: When would you use IQueryable instead of IEnumerable?
+A: Use IQueryable when working with large datasets in an ORM like Entity Framework to fetch only the required data from the database. For instance, in a web application where filtering, sorting, or paging needs to be done server-side.
+
+
+•	IEnumerable:
+	o	Executes queries on the server (for databases like SQL Server) and fetches data 
+			in memory on the client side for enumeration.
+	o	Suitable for in-memory collections like arrays or lists.
+	o	Supports deferred execution.
+•	IQueryable:
+	o	Executes the query directly on the database server.
+	o	Enables querying with LINQ that translates to SQL queries.
+	o	Useful for large datasets as it fetches only the necessary data.
+•	List:
+	o	Represents an in-memory collection.
+	o	Best for small datasets and manipulation on the client side.
+	o	Does not support deferred execution.
+
+Example:
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+class Program
+{
+    static void Main()
+    {
+        List<int> numbers = Enumerable.Range(1, 100).ToList();
+
+        // IEnumerable: Processed in-memory
+        IEnumerable<int> evenNumbers = numbers.Where(n => n % 2 == 0);
+        Console.WriteLine("Using IEnumerable:");
+        foreach (var num in evenNumbers)
+        {
+            Console.WriteLine(num);
+        }
+
+        // IQueryable: Query executed on-demand
+        IQueryable<int> queryableNumbers = numbers.AsQueryable().Where(n => n % 2 == 0);
+        Console.WriteLine("Using IQueryable:");
+        foreach (var num in queryableNumbers)
+        {
+            Console.WriteLine(num);
+        }
+    }
+}
+ 
+ -------------------------------------
+ -----------Array vs ArrayList---------
+ Array can store only specific type of item/elements
+ ArrayList can store any type of item/elements.
+ Array can contain fixed number of items. 
+ ArrayList can contain any number of items.
+ 
+ 
+
+-----------------------------------
+---------Extension Method---------------
+Extension method in c# are a way to extend the existing type (class,interface,struct) 
+	with new method without modifying their source code or using inheritance.
+Add functionality to existing types without altering their source code.
+Extension methods must be defined in a static class.
+Extension method itself must be static.
+ 
+	public static class StringExtensions
+	{
+		public static bool IsPalindrome(this string str)
+		{
+			string reversed = new string(str.Reverse().ToArray());
+			return str.Equals(reversed, StringComparison.OrdinalIgnoreCase);
+		}
+	}
+
+	class Program
+	{
+		static void Main()
+		{
+			string word = "madam";
+			Console.WriteLine(word.IsPalindrome() ? $"{word} is a palindrome" : $"{word} is not a palindrome");
+		}
+	}
+ 
+ ------------------------------------
+ ----------Shallow copy vs Deep Copy-------
+ Shallow copy create new object,but it copy only references for any reference type member.
+ Deep copy create new object also recursively copies all objects it references.The new object is entirly independant of original including any reference type member.
+ 
+----------------------------------------
+-----------Generics -------------------
+Generics allow you to write type-safe, reusable, and flexible code without specifying the exact data type up front.
+Generics allow you to define classes , interface and methods with the placeholder for the type of data they operate on.
+This enables type-safe and reusable code while improving performance by avoiding unnecessary type casting or boxing/unboxing.
+ 
+✅ Why Use Generics?
+Type Safety: Compile-time checks to avoid runtime errors.
+Code Reusability: Write once, use with any data type.
+Performance: Avoids boxing/unboxing for value types.
+
+🧱 Generic Class Example:
+
+	public class Box<T>
+	{
+		public T Value { get; set; }
+
+		public void Display()
+		{
+			Console.WriteLine($"Value: {Value}");
+		}
+	}
+
+	// Usage
+	var intBox = new Box<int> { Value = 10 };
+	intBox.Display();  // Output: Value: 10
+
+	var stringBox = new Box<string> { Value = "Hello" };
+	stringBox.Display();  // Output: Value: Hello
+
+🧩 Generic Method Example:
+
+	public class Utilities
+	{
+		public void Print<T>(T item)
+		{
+			Console.WriteLine(item);
+		}
+	}
+
+	// Usage
+	var util = new Utilities();
+	util.Print<int>(123);      // Output: 123
+	util.Print("Generic!");    // Output: Generic!
+
+🧰 Generic Interface Example:
+
+	public interface IRepository<T>
+	{
+		void Add(T item);
+		T Get(int id);
+	}
+
+	public class ProductRepository : IRepository<Product>
+	{
+		public void Add(Product item) { /* logic */ }
+		public Product Get(int id) { return new Product(); }
+	}
+
+-----------------------------------------------------------
+--------------- var and dynamic and object ----------------
+In C#, var, dynamic, and object are all used to handle different types of variables with varying levels of flexibility and type safety.
+✅Var :
+•	Implicitly Typed Variable.
+•	Type Determination: Determined at compile-time based on the assigned value.
+•	Type Safety: Strongly typed (once assigned, the type cannot change).
+•	Usage: Useful when the type is obvious or complex (e.g. anonymous types, LINQ queries).
+•	var must be initialized at the time of declaration.
+
+Example : 
+var x = 10;         // Compiler infers int
+var name = "John";  // Compiler infers string
+
+// Invalid: var cannot be reassigned to a different type
+// x = "Hello";  // Error: Cannot implicitly convert string to int
+
+✅Dynamic :
+•	Runtime Type Handling.
+•	Type Determination: Decided at runtime.
+•	Type Safety: No compile-time checking, errors appear only at runtime.
+•	Performance: Slightly slower than var and object due to runtime type resolution.
+•	Usage: Useful when working with reflection, COM objects, JSON/XML data, or dynamic languages (e.g., JavaScript interop).
+•	Can change type dynamically.
+
+Example:
+dynamic value = 10;  
+Console.WriteLine(value); // Output: 10
+
+value = "Hello";  
+Console.WriteLine(value); // Output: Hello
+
+value = new { Name = "Alice", Age = 25 };
+Console.WriteLine(value.Name); // Output: Alice
+
+✅Object :
+•	Type Determination: Known but requires explicit casting for usage.
+•	Type Safety: Weakly typed, requires manual type conversion.
+•	Performance: Boxing/unboxing overhead for value types.
+•	Usage: Useful when working with collections that store multiple types before generics were introduced.
+•	Requires explicit casting for value retrieval.
+•	Can store any type, but boxing/unboxing affects performance for value types.
+•	Used before generics (List<object> vs List<T>).
+
+Example :
+object obj = 10; // Can store any type
+Console.WriteLine(obj); // Output: 10
+
+obj = "Hello"; // Allowed
+Console.WriteLine(obj); // Output: Hello
+
+// Casting required
+object number = 100;
+int num = (int)number;  // Explicit cast needed
+Console.WriteLine(num); // Output: 100
+
+-------------------------------------------
+-------------- Garbage Collector ----------
+•	GC in .NET manages memory by reclaiming unused objects.
+•	Runs automatically but can be invoked using GC.Collect().
+
+Example:
+
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        for (int i = 0; i < 1000; i++)
+        {
+            var obj = new object();
+        }
+        Console.WriteLine("Objects created. Forcing Garbage Collection.");
+        GC.Collect();
+        Console.WriteLine("Garbage Collection complete.");
+    }
+}
+
+Q: What is the role of the Dispose method in garbage collection?
+A: The Dispose method is used to release unmanaged resources manually before the garbage collector runs. 
+	It's part of the IDisposable interface.
+	
+---------------------------------------
+---- virtual and abstract Methods -----
+✅virtual  :
+Definition : A method that has a base implementation but can be overridden by a derived class.
+Declaration : Declared using the virtual keyword.
+Implementation : Has a default body in the base class.
+Override Requirement : Overriding is optional.
+Class Type : Can exist in a non-abstract class.
+
+✅abstract :
+A method that has no implementation in the base class and must be implemented by derived classes.
+Declared using the abstract keyword.
+No body in the base class.
+Overriding is mandatory in derived classes.
+Can only exist in an abstract class.
+
+-------------------------------------------------
+------------- Constructor and Type --------------
+Constructor is a special method of the class that is automatically invoked when an instance of the class is created.
+The main use of constructors is to initialize the private fields of the class while creating an instance for the class.
+Class can have any number of constructors.
+Constructor doesn't have any return type, not even void.
+When you have not created a constructor in the class, the compiler will automatically create a default constructor of the class.
+Static constructor can not be a parametrized constructor.
+Within a class, you can create one static constructor only. 
+
+✅Default Constructor :
+Constructor without any parameters is called a default constructor.this type of constructor does not take parameters.
+Default constructor initializes all numeric fields in the class to zero and all string and object fields to null.
+
+✅Parameterized Constructor :
+Constructor with at least one parameter is called a parameterized constructor.
+The advantage of a parameterized constructor is that you can initialize each instance of the class 
+	with a different value.
+
+✅Copy Constructor :
+Constructor which creates an object by copying data from another object is called a copy constructor.
+The purpose of a copy constructor is to initialize a new instance to the values of an existing instance.
+ 
+✅Static Constructor :
+When a constructor is created using a static keyword.
+It will be invoked only once for all of the instances of the class.
+It is invoked during the creation of the first instance of the class or 
+	the first reference to a static member in the class.
+Static constructor is used to initialize static fields of the class and 
+	write the code that needs to be executed only once.
+Static constructor does not take access modifiers or have parameters.
+Static constructor cannot be called directly.
+Typical use of static constructors is when the class is using a log file and the constructor is used to 
+	write entries to this file.
+
+
+✅Private Constructor :
+Constructor is created with a private specifier.
+It is not possible for other classes to derive from this class.
+It is not possible to create an instance of this class.
+They are usually used in classes that contain static members only.
+One use of a private constructor is when we have only static members.
+It provides an implementation of a singleton class pattern.
+Can only be called inside the same class.
+
+--------------------------------------
+-------------- using -----------------
+using for Namespace Import.
+using System;
+
+Automatically disposes unmanaged resources like : files,database connections,network streams.
+When the using block finishes, .Dispose() is called — even if an exception occurs.
+It’s like an automatic safety net for cleaning up.
+
+using (var stream = new FileStream("data.txt", FileMode.Open))
+{
+    // use the stream
+}
+
+You can also create an alias : Shortens long type names.
+using Project = MyCompany.MyLongNamespace.ProjectUtilities;
+Project.DoSomething();
+
+-----------------------------------------------------
+------------- Finalize and Dispose Method -----------
+Dispose() and Finalize() are resource management methods used in the .NET.
+Both are used for object cleanup scenarios.
+They are connected to the process of releasing resources that an object is holding.
+
+✅Dispose() :
+In C#, the IDisposable interface includes the Dispose() method.
+A method for releasing unmanaged resources, like file handles, database connections or network connections is provided by this interface. 
+It is called by user code.Used to manually release resources.
+Dispose method free managed & unmanaged resources.
+When an object is no longer needed, or the developer desires to release the resources associated with the object, 
+	it is their responsibility to explicitly call the Dispose() method.
+It's important to dispose of the connection properly to prevent memory leaks or connection pool exhaustion.
+
+🔁 Why Dispose()?
+	Closes the connection
+	Releases memory
+	Returns connection to the pool
+	
+	var connection = new SqlConnection(connectionString);
+	try
+	{
+		connection.Open();
+		// Use the connection
+	}
+	finally
+	{
+		connection.Dispose(); // Or connection.Close(); but Dispose is more complete
+	}
+
+✅Finalize() :
+The garbage collector calls the Finalize() method.
+Used to automatically release resources by GC.
+Uses only for unmanaged resources.
+It is used to clean up unmanaged resources before an object is reclaimed by garbage collection.
+It is called by the garbage collector and cannot be called by user code.
+It is part of the object lifecycle and is similar in purpose to Dispose, but it is called by the garbage collector, not manually by the developer.
+
+
+------------------------------------------------
+--------- 🔧 Just-In-Time (JIT) Compiler -------
+JIT compiler converts Intermediate Language (IL) code into native machine code just before the code is executed.
+This is done before the MSIL or CIL can be executed.
+The JIT compiler is required to speed up the code execution and provide support for multiple platforms.
+JIT compiler is a part of Common Language Runtime (CLR) in .NET which is responsible for managing the execution 
+	of .NET programs regardless of any .NET programming language.
+	
+🛠️ How JIT Works:
+✅C# Code → IL Code
+	When you compile a C# program, it becomes IL code stored in a .dll or .exe.
+
+✅IL Code → Native Code
+	When the program runs, the JIT compiler translates IL into machine code at runtime, so the CPU can execute it.
+
+🔄 JIT Compilation Process
+
+		C# Source Code
+			  ↓
+		C# Compiler
+			  ↓
+		Intermediate Language (IL)
+			  ↓
+		CLR (Common Language Runtime)
+			  ↓
+		JIT Compiler
+			  ↓
+		Native Machine Code
+			  ↓
+		Execution
+
+🚀 Advantages of JIT:
+	Platform independence at compile time.
+	Optimizations can be made at runtime (e.g., CPU-specific optimizations).
+	Memory efficiency via just-in-time compilation of only what's used.
+
+✅Types of JIT Compiler:
+	Pre-JIT Compiler – Compiles entire code at once
+	Normal JIT Compiler – Compiles code on first use, stores it in memory for reuse
+	Econo JIT Compiler – Compiles code as needed, and discards it after use.
+	
+-----------------------------------------------------
+------------- Common Language Runtime (CLR) ---------
+When you compile C# code,it is compiled into CIL,which is then executed by the CLR using JIT compilation.
+CLR loading and executing the code written in various .NET programming languages, including C#, VB.NET, F#, and others.
+When you compile C# code, it is not directly converted to machine code. 
+Instead, it is compiled into CIL, which is then executed by the .NET runtime (CLR) using JIT compilation.
+
+
+🔄 How It Works
+	C# code is written by the developer.
+	The C# compiler (csc) compiles the code to CIL and stores it in a .dll or .exe.
+	At runtime, the CLR uses the JIT compiler to convert CIL into native machine code.
+	
+🔧 Compilation Flow :
+
+		C# Code (.cs)
+		   ↓
+		C# Compiler (Roslyn)
+		   ↓
+		CIL Code (.dll / .exe)
+		   ↓
+		JIT Compiler (CLR)
+		   ↓
+		Machine Code
+		   ↓
+		Execution
+		
+-----------------------------------------------------
+------------🧳 Boxing and Unboxing ------------------
+Boxing and unboxing are conversions between value types and reference types in C#.
+
+📦 Boxing
+Converting a value type (like int, char, etc.) into an object (reference type).
+The value is wrapped inside an object and stored on the heap.
+
+Example:
+	int number = 123;
+	object obj = number; // Boxing
+	
+📤 Unboxing
+Converting the object back to a value type.
+⚠️ Requires an explicit cast, and the object must originally contain that value type.
+
+Example:
+	object obj = 123;
+	int number = (int)obj; // Unboxing
+	
+	
+📊 Summary:
+
+Concept					Description									Example
+Boxing			Value → Object (heap)							object obj = val;
+Unboxing		Object → Value (requires explicit cast)			int val = (int)obj;
+
+---------------------------------------------------------
+--------------🧵 Parallel LINQ (PLINQ)-------------------
+Parallel LINQ (PLINQ) is a parallel implementation of LINQ to Objects. 
+It enables parallel processing of queries to take advantage of multi-core processors, improving performance for CPU-bound operations.
+
+
+=---------------------------------------------------
+--------------- Generalization --------------------- 
+Generalization means multi classes can inherit same attributes from the same superclass.
+Generalization involves identifying common attributes or behaviors and placing them in a superclass 
+	that multiple subclasses can inherit from, promoting code reusability.
+Generalization is the process of grouping entities or distributed categories based on certain common attributes.
+All the common attributes bind together to form a higher-level component or element, which is called a generalized entity. 
+The process of extracting common characteristics from two or more classes and combining them into a generalized superclass is called Generalization.
+
+Generalization in OOPS involves creating a superclass that encapsulates shared attributes and methods across related classes.
+It promotes code reusability by allowing subclasses to inherit common functionality.
+Generalization supports abstraction by focusing on the common characteristics of objects.
+It enables polymorphism, where subclasses can implement specialized behaviors while sharing a common interface.
+
+=---------------------------------------------------
+--------------- specialization ---------------------
+Specialization focuses on creating subclasses that extend a generalized superclass by adding specific attributes or methods.
+It enhances code customization, allowing subclasses to provide unique behaviors that are not present in the superclass.
+Specialization supports modularity by breaking down complex systems into more specific and manageable parts.
+It maintains flexibility, enabling subclasses to override or extend the functionality of the superclass while retaining shared traits.
+Specialization in OOPs is the reverse process of Generalization, which means creating new subclasses from an existing class.
+specialization concentrates on expanding a broad class by giving subclasses certain characteristics 
+	or functions, allowing for more focused use cases.
+	
+	// Generalized class
+	public class Animal
+	{
+		public string Name { get; set; }
+
+		public void Eat()
+		{
+			Console.WriteLine($"{Name} is eating.");
+		}
+	}
+
+	// Specialized class
+	public class Dog : Animal
+	{
+		public void Bark()
+		{
+			Console.WriteLine($"{Name} is barking.");
+		}
+	}
+
+	// Specialized class
+	public class Cat : Animal
+	{
+		public void Meow()
+		{
+			Console.WriteLine($"{Name} is meowing.");
+		}
+	}

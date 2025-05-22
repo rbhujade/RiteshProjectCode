@@ -1,0 +1,192 @@
+SOLID principle
+
+Single responsiblity
+class/module should have only one responsiblity or only one reason to change.
+here class persorm only one job.
+
+class employee
+{
+	public string name;
+	public int age;
+	
+	
+}
+
+class GenerateReport
+{
+	public void GenerateReport()
+	{
+		
+	}
+}
+
+Open/closed principle
+
+class should be open for extention but closed for modification.
+can add new feature without altering existing code.
+
+abstarct class Shape
+{
+	double CalculateArea();
+}
+
+class Circle : Shape
+{
+radius
+	public double CalculateArea()
+	{
+		
+	}
+}
+
+class Rectangle : Shape
+{
+width
+lenth
+	public double CalculateArea()
+	{
+	
+	}
+}
+
+
+Lisko Substitution principle
+derived class must be substitutable for its base class.
+derived classes extend new functionality without breaking the behavior of base class.
+
+public abstarct class Bird
+{
+	abstarct void Fly();
+}
+
+class Sparrow : Bird
+{
+	public override void Fly()
+	{
+		sparrow is flying 
+	}
+}
+
+class Ostrich : Bird
+{
+	public override void Fly()
+	{
+		ostrich can't fly - voilate LSP here
+	}
+}
+
+--------
+
+public abstarct class Bird{}
+interface IFlyable
+{
+	void Fly();
+}
+
+class Sparrow : Bird , iFlyable
+{
+	public override void Fly()
+	{
+	 sparrow is flying
+	}
+}
+
+class Ostrich : Bird
+{
+	ostrich doesn't implement IFlyble
+}
+ 
+ 
+Interface segregation princliple
+class should not be forced to implement interface it doesn't used.
+avoid create large interfaces,unwidly interfaces
+promote smaller interfaces more focused interfaces
+
+interface IAnimal
+{
+	void Fly();
+	void Swim();
+}
+
+class Dog : IAnimal
+{
+	public void Fly()
+	{
+		dog can't fly- voilate ISP
+	}
+}
+
+interface IFly
+{
+	void Fly();
+}
+interface ISwim
+{
+	void Swim();
+}
+
+class Dog : ISwim
+{
+	void Swim()
+	{
+	
+	}
+}
+
+dependency inversion
+large module shouldn't depend on the low level module , both are depends on the abstraction
+avoid tight coupling between the modules 
+
+public class MessageService
+{
+	public void SendMsg(string msg)
+	{
+	
+	}
+}
+
+class Notification
+{
+	public readonly MessageService _service;
+	
+	public Notification(MessageService service)
+	{
+		_service = service;
+	}
+	
+	public void Notify(string msg)
+	{
+		_service.SendMsg(msg);
+	}
+}
+
+-------
+interface IMessageService
+{
+	void SendMsg(string msg);
+}
+
+public class MessageService : IMessageService
+{
+	public void SendMsg(string msg)
+	{
+	
+	}
+}
+
+class Notification : IMessageService
+{
+	public readonly IMessageService _service;
+	
+	public Notification(IMessageService service)
+	{
+		_service = service;
+	}
+	
+	public void Notify(string msg)
+	{
+		_service.SendMsg(msg);
+	}	
+}
+
+

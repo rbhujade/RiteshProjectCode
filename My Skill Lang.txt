@@ -1,0 +1,32 @@
+C#,OOPs,EF,LINQ,Solid Principle,Design Pattern 
+.Net Framework - Web API ,MVC,Web Form
+.Net Core - Web API , Microservices ,MVC
+Front End - HTML,CSS,Bootstrap,Javascript
+AWS - ,EC2,Lambda, RDS,S3,SQS,CloudWatch
+DB- MS SQL Server,PostgreSQL 
+IaC - Terraform 
+Web Service Deployment tool - IIS
+Version control - SVN,Git ,GitHub
+Scripting Language - Powershell
+Message Queueing service - Kafka
+
+
+oops concept
+C#
+ASP .Net Framework MVC
+ASP .Net Framework Web API
+ASP .Net Framework Web App
+ASP .Net Core Web API 
+SQL Server
+LINQ
+Entity Framework
+HTML
+CSS
+git
+docker
+aws lambda - serverless app
+terraform
+
+solution architecture
+
+https://www.javatpoint.com/sql-server-unique-key

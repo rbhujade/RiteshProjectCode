@@ -1,0 +1,183 @@
+============== Class  ==========
+A class in C# is a blueprint for creating objects. 
+It defines the properties (data) and methods (behavior) that objects of that class will have.
+
+✅Key Characteristics of a Class :
+Encapsulation – Groups related data and behavior together.
+Reusability – Can be used to create multiple objects.
+Inheritance – Supports reusability by extending existing classes.
+Abstraction – Hides implementation details and exposes only necessary features.
+
+============ Type of Classes ============
+========
+							Instance		Inherit
+Class	Concrete Class	Can instantiated	Can Inherit
+		Abstract Class	Can't Instantiated	Can Inherit
+		Sealed Class	Can instantiated	Can't Inherit
+		Partial Class	Can instantiated	Can Inherit
+		Static Class	Can't Instantiated	Can't Inherit
+
+==== 1. Normal class (Concrete) ============
+Class are user defind data type that represent the state and behavior of an object.
+State represent the properties and behavior is the action that object can perform.
+A normal class (or concrete) is a standard class that can be instantiated and contains implementation.
+Classes are reference type that hold the object created dynamically in heap.
+The default access modifier of class in internal.
+The default access modifier of method and variable is private.
+
+public class Car
+{
+    public string Model { get; set; }
+
+    public void Drive()
+	{
+		Console.WriteLine("Driving...");
+	}
+}
+
+======== 2. Abstract Class ==============
+Abstract class is a class that provides a common defination to the subclasses.
+we can't create the object of abstract class.
+An abstract class can'nt be instantiated ans may contain abstract method(without implementation).
+It must be inherited in subclass if you want to use it.
+An abstract class contain both abstract and non-abstract method.
+The method inside the abstract class can either have an or no implementation.
+We can inherit two abstract classes.
+Abstract class can have multiple subclasses.
+Method inside the abstract class can't be private.
+If there is at least one method abstract class,then the class must be abstract class. 
+Use : They are commonly used when you want to define a template for a group of subclasses that share some common implementation code.
+Abstarct class achieve Encapsulation, Inheritence and Polymorphism.
+
+========== 3 Sealed Class ============
+A Sealed class is a class that cannot be inherited and used to restrict the properties.
+Sealed class is created using the sealed keyword.
+Access modifiers are not applied to a sealed class.
+To access the sealed members, we must create an object of the class.
+Sealed class can have methods, including virtual methods, but it cannot be inherited.
+✔ Restricts inheritance
+✔ Ensures class behavior remains unchanged
+✔ Improves security and performance
+
+Use :
+Security =>	Prevents unauthorized modifications via inheritance
+Performance =>	JIT compiler optimizes sealed classes better
+Final Implementation =>	Ensures no further extension is needed
+Prevent Accidental Changes =>	Protects core business logic
+
+Disadvantages of Sealed Classes
+❌ Limits flexibility – Cannot extend functionality via inheritance.
+❌ Code duplication risk – Without inheritance, shared code may need repetition.
+❌ Not suitable for extensible systems – Bad choice if future modifications are
+
+sealed class Accounts
+{
+	public void Display()
+    {
+        Console.WriteLine("This is a sealed class.");
+    }
+}
+
+============== 4 Partial Classes ==============
+A partial class in C# allows you to split a class definition into multiple files.
+It is a type of class that allows dividing their properties, methods, and events into multiple source files, 
+ and at compile time, these files are combined into a single class.
+All the parts of the partial class must be prefixed with the partial keyword.
+If you seal a specific part of a partial class, the entire class is sealed, the same as for an abstract class.
+Inheritance can be applied to partial classes.
+The classes written in two class files are combined at run time.
+✔ Improves code organization
+✔ Helps with large projects
+✔ Useful in auto-generated code (e.g., Entity Framework, WinForms)
+
+public partial class Person
+{
+    public string FirstName { get; set; }
+    public string LastName { get; set; }
+
+    public void ShowName()
+    {
+        Console.WriteLine($"Name: {FirstName} {LastName}");
+    }
+}
+
+public partial class Person
+{
+    public int Age { get; set; }
+
+    public void ShowAge()
+    {
+        Console.WriteLine($"Age: {Age}");
+    }
+}
+class Program
+{
+    static void Main()
+    {
+        Person p = new Person { FirstName = "John", LastName = "Doe", Age = 30 };
+        p.ShowName();
+        p.ShowAge();
+    }
+}
+
+Why Use Partial Classes?
+Large Classes =>	Improves readability by splitting logic
+Auto-generated Code =>	Used in Entity Framework, WinForms, etc.
+Team Collaboration =>	Different developers can work on different parts of the class
+Code Separation =>	Keeps business logic separate from UI logic
+
+Advantages of Partial Classes
+✔ Code Organization – Large classes can be split into smaller, logical parts.
+✔ Auto-Generated Code – Used in Entity Framework, ASP.NET, WinForms, WPF, etc.
+✔ Parallel Development – Multiple developers can work on different parts of the class.
+✔ Encapsulation – Different functionalities can be kept separate.
+
+Disadvantages of Partial Classes
+❌ Code Management Complexity – Having multiple files for a single class can be confusing.
+❌ Debugging Challenges – Searching for methods across multiple files can be difficult.
+❌ Not Suitable for Small Classes – Overuse can make the project harder to maintain.
+
+
+===========5. Static Class ================
+It is the type of class that cannot be instantiated. 
+In other words, we cannot create an object of that class using the new keyword.
+Class members can be called directly using their name.Directly accessed the static method using the class name.
+
+It was created using the static keyword.
+Contains only static members; in other words, everything inside the class must be static.
+We cannot create an object of the static class.
+A Static class cannot be inherited.
+Is sealed by default (cannot be inherited).
+Is used for utility/helper functions.
+
+Static class can have a static constructor.
+	✔ It runs only once, before any member is accessed.
+	✔ It cannot take parameters.
+	✔ It is used for initialization of static fields.
+
+Use Static Classes?
+✅ Utility functions (e.g., Math, Logger, Helper functions)
+✅ Global configuration/settings
+✅ Extension methods
+
+static class MathHelper
+{
+    public static double Square(double number)
+    {
+        return number * number;
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        // ✅ Calling the static method without creating an object
+        double result = MathHelper.Square(5);
+        Console.WriteLine($"Square of 5: {result}");
+    }
+}
+
+
+
+

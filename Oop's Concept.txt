@@ -1,0 +1,360 @@
+
+
+
+=========== Abstraction ===============
+Abstraction is an OOP concept that hides implementation details and only shows essential features to the user.
+Abstraction is the process of hiding the working style of an object and showing the information about an object understandably.
+
+👉 Key Idea:
+
+Only relevant details are exposed.
+Complex implementation is hidden from the user.
+Achieved using Abstract Classes & Interfaces.
+
+Real-World Example of Abstraction
+Consider a car:
+
+You turn the steering wheel to change direction.
+You press the accelerator to move forward.
+You don’t need to know the internal working of the engine.
+This is abstraction – you use the car without knowing its internal mechanics.
+
+✅ Using Abstract Class
+abstract class Vehicle
+{
+    // Abstract method (implementation hidden)
+    public abstract void Start();
+
+    // Concrete method (implementation provided)
+    public void Stop()
+    {
+        Console.WriteLine("Vehicle stopped.");
+    }
+}
+
+// ✅ Derived class must implement the abstract method
+class Car : Vehicle
+{
+    public override void Start()
+    {
+        Console.WriteLine("Car is starting...");
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        Vehicle myCar = new Car();
+        myCar.Start();  // Output: Car is starting...
+        myCar.Stop();   // Output: Vehicle stopped.
+    }
+}
+
+✅ Using Interface
+interface IVehicle
+{
+    void Start();
+}
+
+class Bike : IVehicle
+{
+    public void Start()
+    {
+        Console.WriteLine("Bike is starting...");
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        IVehicle myBike = new Bike();
+        myBike.Start();  // Output: Bike is starting...
+    }
+}
+
+============================================
+================= Encapsulation ============
+============================================
+Encapsulation is an OOP concept that binds data (fields) and methods (functions) together while restricting direct access to them.
+Wrapping up a data member and a method together into a single unit (in other words, class) is called Encapsulation. 
+Encapsulation is like enclosing in a capsule.
+That is, enclosing the related operations and data related to an object into that object.
+
+Encapsulation means hiding the internal details of an object.
+Encapsulation prevents clients from seeing its inside view, where the behavior of the abstraction is implemented.
+Encapsulation is a technique used to protect the information in an object from another object.
+Hide the data for security, such as making the variables private, and expose the property to access the private data that will be public. 
+
+👉 Key Idea:
+
+Protects data from direct access & modification.
+Achieved using access modifiers (private, public, protected, etc.).
+Getters and setters control data access.
+
+👉 Real-World Example of Encapsulation
+Think of a bank account:
+
+You can deposit or withdraw money ✅.
+You cannot directly change the balance from outside ❌.
+Encapsulation ensures that sensitive data (balance) is not modified directly but only via controlled methods.
+
+class BankAccount
+{
+    private double balance; // Private field (Encapsulation)
+
+    public void Deposit(double amount)
+    {
+        if (amount > 0)
+        {
+            balance += amount;
+            Console.WriteLine($"Deposited: {amount}, New Balance: {balance}");
+        }
+        else
+        {
+            Console.WriteLine("Invalid deposit amount.");
+        }
+    }
+
+    public void Withdraw(double amount)
+    {
+        if (amount > 0 && amount <= balance)
+        {
+            balance -= amount;
+            Console.WriteLine($"Withdrawn: {amount}, New Balance: {balance}");
+        }
+        else
+        {
+            Console.WriteLine("Insufficient balance or invalid amount.");
+        }
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        BankAccount acc = new BankAccount();
+        acc.Deposit(500);
+        acc.Withdraw(200);
+    }
+}
+
+📌 Advantages of Encapsulation
+✔ Data Hiding – Prevents unauthorized access to object data.
+✔ Improved Maintainability – Changes in implementation do not affect external code.
+✔ Code Reusability – Encapsulated classes are reusable in different projects.
+✔ Increased Security – Prevents accidental modification of critical data.
+
+📌 When to Use Encapsulation?
+✅ When you need to protect sensitive data in a class.
+✅ When you want controlled access to properties or methods.
+✅ When you need to follow OOP principles in C#.
+
+
+============================================
+=========== Inheritance ====================
+============================================
+Inheritance is an OOP concept in C# that allows a child class (derived class) to acquire properties 
+	and methods from a parent class (base class).
+When a class includes a property of another class, it is known as inheritance. 
+Inheritance is a process of object reusability.
+
+👉 Key Idea:
+Promotes code reusability by avoiding duplication.
+Supports hierarchical relationships (e.g., Vehicle → Car).
+The : symbol is used for inheritance in C#.
+
+For example, a child includes the properties of its parents.
+
+// Base class (Parent)
+public class Animal
+{
+    public void Eat()
+    {
+        Console.WriteLine("Animal eats food");
+    }
+
+    public void Sleep()
+    {
+        Console.WriteLine("Animal sleeps");
+    }
+}
+
+// Derived class (Child)
+public class Dog : Animal
+{
+    public void Bark()
+    {
+        Console.WriteLine("Dog barks");
+    }
+}
+// Main Program
+class Program
+{
+    static void Main(string[] args)
+    {
+        Dog myDog = new Dog();
+
+        myDog.Eat();    // Inherited from Animal
+        myDog.Sleep();  // Inherited from Animal
+        myDog.Bark();   // Defined in Dog
+    }
+}
+
+📌 Types of Inheritance in C#
+Single Inheritance =>	One class inherits from another class.
+Multilevel Inheritance =>	A derived class inherits from another derived class.
+Hierarchical Inheritance =>	Multiple derived classes inherit from a single base class.
+Multiple Inheritance (via Interfaces) =>	A class inherits from multiple interfaces 
+	📌(C# does not support multiple class inheritance).
+
+📌 Advantages of Inheritance
+✔ Code Reusability – No need to rewrite existing code.
+✔ Improves Maintainability – Changes in the base class reflect in derived classes.
+✔ Supports Polymorphism – Allows method overriding.
+✔ Enhances Code Readability – Creates a logical class structure.
+
+📌 When to Use Inheritance?
+✅ When multiple classes share common functionality (e.g., Vehicle → Car, Bike).
+✅ When you need method overriding (polymorphism) for dynamic behavior.
+✅ When you want to follow DRY (Don't Repeat Yourself) principle.
+
+
+=====================================
+============ Polymorphism ===========
+=====================================
+Polymorphism means one name, many forms. 
+One function behaves in different forms. 
+In other words, "Many forms of a single object is called Polymorphism."
+
+👉 Key Idea:
+A single interface, multiple implementations.
+Achieved via Method Overloading & Method Overriding.
+Supports flexibility & scalability in code.
+
+📌 Advantages of Polymorphism
+✔ Code Reusability – Reduce duplication.
+✔ Flexibility – Single method name, multiple behaviors.
+✔ Scalability – Easy to extend functionality.
+✔ Improves Readability & Maintainability – Cleaner code structure.
+
+📌 When to Use Polymorphism?
+✅ When you need dynamic behavior based on object type.
+✅ When you want a base class to define a method but allow customization.
+✅ When you need to write flexible, maintainable, and scalable code.
+
+Real-world Example of Polymorphism
+Example 1
+A teacher behaves with his students. 
+A teacher behaves with their seniors.
+Here the teacher is an object, but the attitude is different in different situations.
+
+📌 Types of Polymorphism in C#
+Compile-time Polymorphism (Static Polymorphism) => Achieved using Method Overloading & Operator Overloading.
+Run-time Polymorphism (Dynamic Polymorphism)    => Achieved using Method Overriding (with virtual & override keywords).
+
+📌 1️⃣ Compile-time Polymorphism (Method Overloading)
+Same method name, different parameters (number or type).
+Decided at compile-time.
+
+class MathOperations
+{
+    public int Add(int a, int b)
+    {
+        return a + b;
+    }
+    public double Add(double a, double b)
+    {
+        return a + b;
+    }
+    public int Add(int a, int b, int c)
+    {
+        return a + b + c;
+    }
+}
+
+📌 2️⃣ Compile-time Polymorphism (Operator Overloading)
+class Box
+{
+    public int Volume { get; set; }
+
+    public static Box operator +(Box b1, Box b2)
+    {
+        return new Box { Volume = b1.Volume + b2.Volume };
+    }
+}
+
+📌 3️⃣ Run-time Polymorphism (Method Overriding)
+Same method name, same parameters, different behavior in derived class.
+Uses virtual keyword in base class & override in derived class.
+Decided at runtime using new, virtual, and override keywords.
+
+class Animal
+{
+    public virtual void MakeSound()
+    {
+        Console.WriteLine("Animal makes a sound...");
+    }
+}
+class Dog : Animal
+{
+    public override void MakeSound()
+    {
+        Console.WriteLine("Dog barks...");
+    }
+}
+class Cat : Animal
+{
+    public override void MakeSound()
+    {
+        Console.WriteLine("Cat meows...");
+    }
+}
+
+📌 4️⃣ Run-time Polymorphism (Abstract Classes)
+Abstract class contains at least one abstract method.
+Forces derived classes to implement abstract methods.
+
+abstract class Shape
+{
+    public abstract void Draw();
+}
+class Circle : Shape
+{
+    public override void Draw()
+    {
+        Console.WriteLine("Drawing Circle...");
+    }
+}
+class Square : Shape
+{
+    public override void Draw()
+    {
+        Console.WriteLine("Drawing Square...");
+    }
+}
+
+📌 5️⃣ Run-time Polymorphism (Interface)
+Achieved using interfaces.
+All derived classes must implement interface methods.
+
+interface IAnimal
+{
+    void Speak();
+}
+class Dog : IAnimal
+{
+    public void Speak()
+    {
+        Console.WriteLine("Dog barks...");
+    }
+}
+class Cat : IAnimal
+{
+    public void Speak()
+    {
+        Console.WriteLine("Cat meows...");
+    }
+}

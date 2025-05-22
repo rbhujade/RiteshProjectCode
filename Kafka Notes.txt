@@ -1,0 +1,31 @@
+================Kafka==========
+
+start zookeeper
+
+cmd
+.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+
+start kafka
+
+cmd => C:\kafka\bin\windows
+.\bin\windows\kafka-server-start.bat .\config\server.properties
+
+producer - create topic
+cmd
+
+.\bin\windows\kafka-topics.bat --create --topic myFirstTopic --bootstrap-server localhost:9092
+
+.\bin\windows\kafka-console-producer.bat --topic myFirstTopic --bootstrap-server localhost:9092
+
+consumer
+cmd
+.\bin\windows\kafka-console-consumer.bat --topic myFirstTopic --from-beginning --bootstrap-server localhost:9092
+
+
+===========================================
+kafka is distributed streaming platform designed to handle large volumes of data in real time.
+Kafka utilizes publish-subscribe model.
+Producers publish messages to topic.
+Consumers subscribe to those topic to receive the messages. 
+Zookeeper play the vital role of managing and coordinating in kafka brokers. 
+

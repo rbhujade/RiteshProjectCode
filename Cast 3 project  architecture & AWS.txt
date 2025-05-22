@@ -1,0 +1,166 @@
+
+======= CAST 3 Project Architecture =========
+🧩 Project Architecture Explanation (use in interview):
+
+Our application follows a serverless architecture using AWS services. 
+The backend is developed in .NET Core 8 (C#) and deployed as AWS Lambda functions. 
+These Lambda functions are triggered through API Gateway for HTTP requests, or 
+	through EventBridge , S3 and SQS for background/event-driven tasks.
+
+User authentication and authorization is handled using AWS Cognito, which provides secure token-based access. 
+We validate JWT tokens in our API Gateway and Lambda layers to ensure protected endpoints.
+
+For data storage, we use SQL Server/PostgreSQL, hosted on Amazon RDS, which is accessed from Lambda functions 
+	using efficient connection pooling strategies.
+
+For file storage, we use Amazon S3 — for example, when client upload documents or images, 
+the files go to S3 and events are published to EventBridge, which then triggers Lambdas to process or validate the content.
+
+SQS is used as a message queue to decouple heavy or long-running tasks — such as report generation 
+	or notification services — from user-facing APIs. This helps maintain responsiveness and scalability.
+
+We use Amazon CloudWatch for logging, monitoring, and alerting. All Lambda logs and custom metrics are pushed to CloudWatch to monitor the health and performance of the system.
+
+
+========== Example =================
+When a user logs in, Cognito issues a JWT token. 
+They make an API call via API Gateway, which triggers a Lambda function. 
+The Lambda reads/writes data from RDS (PostgreSQL), and returns the response. 
+If the user uploads a file, it's stored in S3, and an EventBridge rule triggers another Lambda to validate/process the file. 
+For async processes like sending emails, we push a message to SQS, which another Lambda reads and processes.
+
+--------------------------------------------------
+----🔐 Example Auth Flow in Your .NET Core App----
+User logs in via UI (e.g., React, Angular, Blazor).
+Cognito issues JWT tokens.
+UI sends requests to API Gateway, passing JWT token in headers.
+API Gateway validates token using Cognito authorizer.
+If valid, API Gateway forwards to Lambda (.NET Core 8 backend).
+Lambda extracts claims (e.g., username, roles) and processes logic.
+Response sent back to client.
+
+-------------------------------
+-------Cognito : --------------
+AWS Cognito is a user identity and access management service.
+AWS Cognito is a serverless authentication and user management service provided by Amazon Web Services. 
+It helps developers easily add user sign-up, sign-in, and access control to their web and mobile applications.
+We implemented secure user authentication using Cognito, leveraging its user pools for user directory and JWT tokens 
+for API-level authentication."
+
+🧩 Key Features
+	Feature						Description
+🔑 Authentication -	Handles user login and registration
+🧾 Authorization -	Grants or denies access to APIs or AWS services
+👥 User Management - Stores and manages user details (email, name,mobile etc.)
+🧠 MFA & Password Policies - Built-in support for multi-factor auth and secure passwords
+🛡️ Token-Based Auth -	Issues JWT tokens (ID, Access, Refresh)
+
+1. User Pools
+Used for authentication
+Store user credentials (email, phone, etc.)
+Handles sign-up, sign-in, MFA, and account recovery
+Issues JWT tokens (ID, access, refresh)
+
+2. Identity Pools
+Used for authorization to AWS services
+Maps authenticated users to temporary AWS credentials using IAM roles
+Allows access to services like S3, DynamoDB, etc.
+
+🔁 Example Workflow
+User signs in using email/password or social login (Google/Facebook)
+Cognito authenticates the user and returns JWT tokens
+Tokens are sent in API requests for access control
+Backend or API Gateway validates the token before processing
+(Optional) Identity Pool maps user to temporary AWS credentials for accessing services like S3
+
+-------------------------------
+------------Lambda:------------
+We used AWS Lambda for our backend logic, which provided scalability and reduced operational overhead. 
+Lambda was integrated with other AWS services like PostgreSQL and CloudWatch for seamless operations.
+
+Limitation :
+	Memory & CPU Limits :Memory size 128 MB to 10 GB.
+	Execution Time Limit : Max time lambda function can run 15 minuts.
+	Payload size 6 mb ,each asynchronous envocation it is limited to 256 kb.
+	Size of envirment variable limited to 4 kb.
+	package dependency Add 5 layers to your lambda function.
+	Deployment Package Size Limit : Maximun deployment lambda package size 50 mb for zip file,250 mb for unzipped.
+
+--------------------------------
+----------DB:-------------------
+PostgreSQL was hosted on AWS RDS to ensure high availability and automated backups. 
+We optimized database performance by tuning RDS parameter groups.
+
+---------------------------
+----------VPC:-------------
+Our architecture was built within a custom VPC to ensure security and control. 
+RDS was placed in private subnets, while public subnets were used for Lambda to expose the API endpoints securely.
+A VPC (Virtual Private Cloud) in AWS is a logically isolated network environment 
+	where you can launch and manage AWS resources securely.
+It allows you to define your virtual networking setup, including IP address ranges, subnets, route tables, and gateways.
+VPCs are highly customizable and enable secure communication between resources.
+
+
+Security Group :
+We configured fine-grained security groups to allow only required traffic between Lambda and RDS, 
+ensuring minimal exposure to external networks.
+
+Cloudwatch :
+CloudWatch was used extensively for monitoring application health and diagnosing issues. 
+Metrics and logs from Lambda and RDS were captured, and alerts were set for threshold breaches.
+
+==========================================
+Architecture Flow
+User Access:
+Users authenticate via AWS Cognito. JWT tokens are generated and passed with API requests.
+
+Request Handling:
+Requests hit API Gateway, which routes them to respective Lambda functions.
+
+Data Processing:
+Lambda functions perform the required logic and interact with PostgreSQL (RDS) for data retrieval or updates.
+
+Networking:
+The entire architecture resides in a VPC. Lambda functions operate in public subnets, and the database is secured in private subnets.
+
+Security:
+Security groups control traffic between Lambda and RDS. Access is strictly limited to necessary ports and IP ranges.
+
+Monitoring:
+CloudWatch monitors Lambda logs, RDS performance, and networking flow logs to ensure smooth operations.
+============================================
+
+cognito -user pool -  generate otp - generate access token 
+access token - refresh token - user info
+access token send to other all API/lambda function
+
+CMS API deployed to aws ECR - container
+
+CMS anguler project - stored in s3 - cloudfront
+
+Cognito - User pool - cgup-singtel-cast3-uatez-app
+
+------------------------------
+cloudwatch
+EC2*
+S3*
+Lambda*
+Security Hub
+Cognito*
+RDS
+CloudFront =>
+IAM
+Elastic Container Service 
+Simple Notification Service (SNS)
+VPC*
+Subnet*
+Security Groups*
+Load Balancer - Application load balancer/Network load balancer
+Target Group*
+Network ACLs
+API Gateway*
+EventBridge (CloudWatch Events)
+SQS
+CDN
+Secrete manager
+Elastic Container Registry=>for deploye web api

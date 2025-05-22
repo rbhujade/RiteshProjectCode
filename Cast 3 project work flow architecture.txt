@@ -1,0 +1,68 @@
+
+Cognito :
+We implemented secure user authentication using Cognito, leveraging its user pools for user directory and JWT tokens 
+for API-level authentication."
+
+Lambda:
+We used AWS Lambda for our backend logic, which provided scalability and reduced operational overhead. 
+Lambda was integrated with other AWS services like PostgreSQL and CloudWatch for seamless operations.
+
+DB:
+PostgreSQL was hosted on AWS RDS to ensure high availability and automated backups. 
+We optimized database performance by tuning RDS parameter groups.
+
+VPC:
+Our architecture was built within a custom VPC to ensure security and control. 
+RDS was placed in private subnets, while public subnets were used for Lambda to expose the API endpoints securely.
+
+Security Group :
+We configured fine-grained security groups to allow only required traffic between Lambda and RDS, 
+ensuring minimal exposure to external networks.
+
+Cloudwatch :
+CloudWatch was used extensively for monitoring application health and diagnosing issues. 
+Metrics and logs from Lambda and RDS were captured, and alerts were set for threshold breaches.
+
+==========================================
+Architecture Flow
+User Access:
+Users authenticate via AWS Cognito. JWT tokens are generated and passed with API requests.
+
+Request Handling:
+Requests hit API Gateway, which routes them to respective Lambda functions.
+
+Data Processing:
+Lambda functions perform the required logic and interact with PostgreSQL (RDS) for data retrieval or updates.
+
+Networking:
+The entire architecture resides in a VPC. Lambda functions operate in public subnets, and the database is secured in private subnets.
+
+Security:
+Security groups control traffic between Lambda and RDS. Access is strictly limited to necessary ports and IP ranges.
+
+Monitoring:
+CloudWatch monitors Lambda logs, RDS performance, and networking flow logs to ensure smooth operations.
+============================================
+
+
+cognito -user pool -  generate otp - generate access token 
+access token - refresh token - user info
+access token send to other all API/lambda function
+
+
+CMS API deployed to aws ECR - container
+
+CMS anguler project - stored in s3 - cloudfront
+
+
+Cognito - User pool - cgup-singtel-cast3-uatez-app
+
+
+
+Cognito
+VPC
+Subnet
+Lambda
+Postgresql
+security group
+cloudwatch

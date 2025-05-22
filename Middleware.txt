@@ -1,0 +1,185 @@
+Middleware in .NET Core
+Middleware in .NET Core is a component in the application's request-response pipeline. It handles requests before they reach the endpoint and can also handle responses before they are sent to the client.
+
+How Middleware Works
+Request Processing:
+
+A request comes into the pipeline and passes through a sequence of middleware components.
+Each middleware can perform operations on the request and decide whether to pass it further or end it.
+Response Processing:
+
+After the request is processed by the endpoint, the response travels back through the middleware pipeline in reverse order.
+Delegate Model:
+
+Each middleware has access to the HttpContext and can pass control to the next middleware using next() or short-circuit the pipeline by not calling next().
+Pre-request and Post-request Operations
+Pre-request: Middleware can inspect, modify, or validate the incoming request. For example:
+Authentication/authorization checks.
+Logging requests.
+Validating request headers.
+Post-request: Middleware can modify or log the outgoing response, add headers, or handle errors.
+Error Handling in Middleware
+Middleware can handle exceptions raised during request processing by catching them.
+A centralized error-handling middleware is often used to catch all unhandled exceptions, log them, and return user-friendly error responses.
+Centralized Error Handling Middleware
+Here’s how to create and use centralized error-handling middleware in .NET Core:
+
+Custom Middleware for Centralized Error Handling
+csharp
+Copy
+Edit
+using Microsoft.AspNetCore.Http;
+using System;
+using System.Net;
+using System.Text.Json;
+using System.Threading.Tasks;
+
+public class ErrorHandlingMiddleware
+{
+    private readonly RequestDelegate _next;
+
+    public ErrorHandlingMiddleware(RequestDelegate next)
+    {
+        _next = next;
+    }
+
+    public async Task InvokeAsync(HttpContext context)
+    {
+        try
+        {
+            // Pass the request to the next middleware
+            await _next(context);
+        }
+        catch (Exception ex)
+        {
+            // Handle exceptions globally
+            await HandleExceptionAsync(context, ex);
+        }
+    }
+
+    private Task HandleExceptionAsync(HttpContext context, Exception exception)
+    {
+        // Log the exception (use a logger in real-world apps)
+        Console.WriteLine($"Error: {exception.Message}");
+
+        // Set HTTP status code and response
+        context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
+        context.Response.ContentType = "application/json";
+
+        var errorResponse = new
+        {
+            StatusCode = context.Response.StatusCode,
+            Message = "An unexpected error occurred. Please try again later.",
+            Details = exception.Message // Avoid sending stack trace in production
+        };
+
+        return context.Response.WriteAsync(JsonSerializer.Serialize(errorResponse));
+    }
+}
+Register the Middleware in Startup.cs or Program.cs
+csharp
+Copy
+Edit
+public class Startup
+{
+    public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+    {
+        // Add custom error-handling middleware
+        app.UseMiddleware<ErrorHandlingMiddleware>();
+
+        // Other middlewares
+        app.UseRouting();
+        app.UseEndpoints(endpoints =>
+        {
+            endpoints.MapControllers();
+        });
+    }
+}
+Example: Complete Pipeline with Pre-request, Post-request, and Error Handling
+csharp
+Copy
+Edit
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.DependencyInjection;
+using System;
+using System.Threading.Tasks;
+
+public class Startup
+{
+    public void ConfigureServices(IServiceCollection services)
+    {
+        services.AddControllers();
+    }
+
+    public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+    {
+        // Middleware 1: Logging (Pre-request)
+        app.Use(async (context, next) =>
+        {
+            Console.WriteLine($"Incoming Request: {context.Request.Method} {context.Request.Path}");
+            await next(); // Call the next middleware
+        });
+
+        // Middleware 2: Custom Error Handling
+        app.UseMiddleware<ErrorHandlingMiddleware>();
+
+        // Middleware 3: Post-request processing
+        app.Use(async (context, next) =>
+        {
+            await next(); // Process the request
+            Console.WriteLine($"Outgoing Response: {context.Response.StatusCode}");
+        });
+
+        app.UseRouting();
+
+        // Endpoints
+        app.UseEndpoints(endpoints =>
+        {
+            endpoints.MapGet("/", async context =>
+            {
+                await context.Response.WriteAsync("Hello, World!");
+            });
+
+            endpoints.MapGet("/error", context =>
+            {
+                throw new Exception("Simulated exception for testing");
+            });
+        });
+    }
+}
+Example Run
+Pre-request:
+
+Logs incoming requests.
+E.g., GET /
+Post-request:
+
+Logs outgoing responses.
+E.g., 200 OK.
+Error Handling:
+
+Access /error to trigger an exception.
+Output:
+json
+Copy
+Edit
+{
+    "StatusCode": 500,
+    "Message": "An unexpected error occurred. Please try again later.",
+    "Details": "Simulated exception for testing"
+}
+Key Points for Interviews
+What is middleware?
+
+Middleware is a component that processes HTTP requests and responses.
+How to handle errors globally?
+
+Use centralized error-handling middleware.
+What happens if next() is not called?
+
+The pipeline short-circuits, and subsequent middleware won’t run.
+How do you register middleware?
+
+Use app.UseMiddleware<T>() or inline app.Use().

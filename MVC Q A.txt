@@ -1,0 +1,363 @@
+==============================================
+================= Action Filter  =============
+✅Filters in MVC are used to inject extra logic before or after the execution of :
+	Controller actions ,Action results or even during request processing.
+✅We can create our own custom filters.
+✅In every request, your action method in the controller will have to check if the user was right 
+	or authorized to perform the action and view its result.
+
+✅Types of filters : 
+✅Authorization :
+	These Runs first, before any other filters or the action method.
+	Authentication confirms that you are a valid or invalid user.
+	
+✅Authentication :
+	These are Runs, before any other filters or the action method.
+	Authorization Filters are responsible for checking User Access.
+	
+✅Action :
+	These Runs before and after the action method.
+	you can apply to a controller action or an entire controller.
+	These filters contain logic that is executed before and after a controller action executes.
+	
+✅Result : 
+	Runs before and after the action result are executed.
+	These filters contain logic that is executed before and after a view result is executed. 
+	
+✅Exception : 
+	Runs only if another filter, the action method, or the action result throws an exception.
+	They execute if there are any unhandled exceptions thrown during the execution pipeline.
+
+OutputCache => it makes controller output action cacheable for specified time
+HandleError => it is used to handle error raised when controller action execute.
+Authorize => it allow only authorize user to access resources
+
+✅Custom Action Filter Example:
+
+	public class MyCustomActionFilter : ActionFilterAttribute
+	{
+		public override void OnActionExecuting(ActionExecutingContext context)
+		{
+			Console.WriteLine("Before Action executes.");
+		}
+
+		public override void OnActionExecuted(ActionExecutedContext context)
+		{
+			Console.WriteLine("After Action executed.");
+		}
+	}
+	
+	✅ Use it on your controller:
+	[MyCustomActionFilter]
+	public class ProductController : Controller
+	{
+		public IActionResult List()
+		{
+			return View();
+		}
+	}
+
+========================================================
+================== Routing =============================
+👉Routing is the process of mapping the browser request(URL) to the controller and action method.
+👉When a user types a URL, routing decides which controller and action should handle that request.
+
+👉Example:
+	URL: https://example.com/Product/Details/5
+	Controller → ProductController
+	Action → Details
+	Parameter → id = 5
+	
+✨ 1. Conventional Routing :
+👉URL pattern defined in the RegisterRoutes method of the Route Config class.
+👉Example:
+	routes.MapRoute(
+		name: "Default",
+		url: "{controller}/{action}/{id}",
+		defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+	);
+	
+👉Pattern based, configured in Program.cs (or Startup.cs).
+👉Example:
+	app.UseRouting();
+
+	app.UseEndpoints(endpoints =>
+	{
+		endpoints.MapControllerRoute(
+			name: "default",
+			pattern: "{controller=Home}/{action=Index}/{id?}");
+	});
+
+✨ 2. Attribute Routing :
+👉Define routes directly on the controller or action methods using attributes like [Route].
+👉Example:
+	[Route("products")]
+	public class ProductController : Controller
+	{
+		[Route("details/{id}")]
+		public IActionResult Details(int id)
+		{
+			return View();
+		}
+	}
+
+========================================================
+============= Tempdata,ViewBag,ViewData ================
+👉 To transfer data from one controller to another in MVC, you typically use TempData, Session, QueryString, or RedirectToAction with parameters.
+👉The following are the scenarios where we can use these objects.
+	Pass the data from Controller to View.
+	Pass the data from one action to another action in the same Controller.
+	Pass the data in between Controllers.
+	Pass the data between consecutive requests.
+	
+✅ViewData :
+ViewData is a dictionary object to pass the data from Controller to View.
+Data is passed in the form of a key-value pair.
+Typecasting is required to read the data in View if the data is complex.
+we can access values by using string as a key.
+
+	ViewData["Course"] = "course";
+	//View
+	<h2>@ViewData[“Title”]</h2>
+
+✅ViewBag 
+It is dynamic property which is same as ViewData.
+It is used to send data from controller to view pages.
+ViewBag can set and get value dynamicaly thats why it is called dynamic property.
+It is not required type convertion and convert type dynamically. 
+
+	ViewBag.Course = course;
+
+✅TempData 
+TempData is a dictionary object to passes the data from one action to another action in the same Controller or different Controllers.
+Used for short-lived data ,TempData scope is limited to the next request.
+TempData object will be stored in a session object.
+Tempdata is also required to typecast and for null checking before reading data from it. 
+TempData derived from TempDataDictionary ,we can use its object as we did in ViewData.
+The value of TempData is persist only from one request to next.
+
+	Public ActionResult Index()
+	{
+		TempData[”Data”] = “I am from Index action”;
+		return View();
+	}
+
+	Public string Get()
+	{
+		return TempData[”Data”] ;
+	}
+
+===========================================================
+================== Action Method/Result ==========================
+User requests an URL then the MVC maps URLs to classes that are referred to as Controllers. 
+Controllers process incoming requests using action methods.
+MVC application uses routing rules that are defined in the Global.asax file.
+Action methods typically have a one-to-one mapping with user interactions.
+
+✅ActionResult  : 
+ContentResult :
+	Writes a string value directly into the response.
+	It is used to return user- defined content type. 
+EmptyResult : 
+	Blank HTTP response.
+ViewResult :
+	Renders the specified view and responds to the client with HTML.
+RedirectToRouteResult :
+	RedirectToRoute / RedirectToAction.
+	It is used to redirect another action method.
+RedirectResult :
+	Redirects the client to a new URL.
+	Redirect to another action method by using its url.
+PartialViewResult :
+	Renders the specified view to respond with an HTML fragment.
+	Render a partial view.
+JsonResult :
+	Responds to the client with data in JavaScript Object Notation (JSON).
+	It is used to return serialize json object.
+JavaScriptResult :
+	Responds to the client with a script for the client to execute.
+FileResult :
+	FileContentResult / FilePathResult / FileStreamResult
+	Takes the contents of a file and writes the contents into the HTTP response.
+	return binary output 
+
+
+=====================================================
+============== Bundling =============================
+Bundling is the process of combining multiple files (like CSS or JavaScript) into a single file.
+It reduces the number of HTTP requests the browser makes.
+Result: Faster page load times! 🚀
+
+🎨 Why Bundling?
+When a page loads, it usually needs multiple .css and .js files.
+If each file is requested separately: More HTTP requests → Slower performance.
+Bundling groups them together, so: One HTTP request instead of many.
+
+public class BundleConfig
+{
+    public static void RegisterBundles(BundleCollection bundles)
+    {
+        // Bundle for JavaScript files
+        bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
+                    "~/Scripts/jquery-{version}.js"));
+
+        bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
+                  "~/Scripts/bootstrap.js"));
+
+        // Bundle for CSS files
+        bundles.Add(new StyleBundle("~/Content/css").Include(
+                  "~/Content/bootstrap.css",
+                  "~/Content/site.css"));
+    }
+}
+
+====================================================
+===================== Action Verbs =================
+Action Verbs are HTTP methods that tell your controller what kind of action is being requested.
+Work for the http request method.
+They control which action method gets called based on the type of HTTP request sent from the browser or client.
+
+Common HTTP Verbs (Action Verbs):
+Verb			Usage
+GET		=>  Retrieve data (read only).
+POST	=>	Submit data to server (create).
+PUT		=>	Update existing data.
+DELETE	=>	Delete existing data.
+PATCH	=>	Partially update data.
+
+HttpPost
+Httpget
+Httpput
+Httpdelete
+Httppatch
+Httpoption
+
+======================================================
+=================== Action Name ======================
+Action Name is basically the method name inside your controller that gets called when a user requests a specific URL.
+By default, the method name and action name are the same.
+But if you want the URL to use a different name than your method, you can use the [ActionName] attribute.
+
+	public class HomeController : Controller
+	{
+		[ActionName("Info")]
+		public ActionResult About()
+		{
+			return View();
+		}
+	}
+
+Term						Meaning
+Action					=>	A method inside a controller.
+Action Name				=>  The name mapped to that method for URL routing.
+[ActionName("name")]	=>  Attribute to override method name in URL.
+
+======================================================
+====================== NonAction =====================
+By default all public methods inside a Controller can be called as Actions from the browser (via a URL).
+If you have a method that is public but you don't want it to be treated as an Action,
+👉 you decorate it with the [NonAction] attribute.
+
+Aspect			Details
+Purpose		=>	To prevent public methods from being treated as an Action.
+Attribute	=>	[NonAction]
+Scope		=>	Only affects public methods inside a controller.
+URL Access	=>	Method marked [NonAction] is NOT reachable via URL.
+
+	public class HomeController : Controller
+	{
+		public ActionResult Index()
+		{
+			return View();
+		}
+
+		[NonAction]
+		public string HelperMethod()
+		{
+			return "This is a helper method, not an action!";
+		}
+	}
+
+
+-------------------------------------------------------
+
+https://www.javatpoint.com/asp-net-mvc-entity-framework
+
+model 
+implement the logic for data domain of the application. 
+it is used to retrive and store model state in db such as sql server.
+it is also used for business logic separation from the data in the application.  
+
+view- it is used to created web pages in the application.
+
+controller is class that handle user request .it reteive data from model and render view as response. 
+controller process incoming request ,handle user input and interaction and execute business logic.
+
+
+Action Selectores Attributes=========
+Action Name => gives different name to action model
+
+
+
+
+Model => model is class that contain business logic of the controller.
+it also used for accessing data from the database
+
+Model Binding ========= process of bind model to controller and view.
+
+View ======== > standerd HTML page that may contain scripts.
+it is used to create web pages for application.
+mvc view mapped to the action and then controller render the pages to the browser.
+mvc use Razor view engine so we can write server side code in HTML as well.
+
+Input Validation=====
+
+Required
+DisplayName
+Range
+MaxLength
+RegularExpression
+Bind
+ScaffoldColumn
+StringLenth
+EmailAddress
+DataType
+
+
+Entity Framrework==========
+it is data access framework which used to create and test data.
+Latest version of EF core 7.0
+
+
+Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=master;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;
+ApplicationIntent=ReadWrite;MultiSubnetFailover=False
+<add name="Sample_DBEntities" connectionString="data source=(localdb)\MSSQLLocalDB;initial catalog=Sample_DB;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" providerName="System.Data.EntityClient" />
+
+
+
+
+
+Rezor HTNL Helper=========
+It is used to create HTML controls programmatically.
+
+Action
+BeginForm
+CheckBox
+DropDownList
+Editor
+EndForm
+Label
+ListBox
+Password
+RadioButton
+TextArea
+TextBox
+
+PartialView======================
+Partial view is a view which can be plugged in parent view.
+these view file has same extension as other views have .cshtml.
+when having a large view file that contain several logical sections,we can break it into small component that further can be render as partial view.
+
+Partial
+RenderPartial
+
