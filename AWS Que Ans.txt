@@ -1,0 +1,29 @@
+
+
+========AWS Lambda==========
+AWS Lambda is a serverless compute service that lets you run code without provisioning or managing servers. 
+You just write the function logic, and AWS handles the infrastructure.
+
+Lambda Function =>  The code you write (in C#, Python, Node.js, etc.).
+Event-driven => 	Automatically triggered by events (like API Gateway, S3, DynamoDB, etc.).
+Pay-as-you-go =>	You only pay when your function runs — by milliseconds and resources used.
+Scalable	=> 		Automatically scales up or down based on the number of incoming events.
+
+Limitation :
+The maximum execution timeout for a function is 15 minutes*.
+The disk space is limited to 512 MB and Configurable storage Up to 10 GB.
+The default deployment package size is 50 MB for zip file,250 mb for unzipped.
+The memory range is from 128 MB to 10 GB.
+Request and response (synchronous calls) body payload size can be up to 6 MB.
+The event request (asynchronous calls) body can be up to 256 KB.
+package dependency Add 5 layers to your lambda function.
+
+What is Serverless : 
+"Serverless" does NOT mean there are no servers.
+
+No server management =>	You don't provision, patch, or monitor servers.
+Auto-scaling		=>	AWS scales your function automatically.
+Micro-billing		=>	You pay only when code runs, no idle cost.
+Event-based			=>	Functions are triggered by events, like HTTP requests, file uploads, etc.
+
+	
