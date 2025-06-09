@@ -1,4 +1,69 @@
---------------------------------
+===============================================
+========== ADO .Net and  EF Core ==============
+
+Feature							ADO.NET							EF Core
+Access Style		Uses SQL queries or stored procedures		Uses LINQ and entities
+Mapping				Manual mapping (DataTable/DataReader		Automatic mapping (Entities ↔ Tables)
+									→ Object)
+Control				Fine-grained control over SQL				Less control but faster development
+Speed				Faster										Slower (due to abstraction)
+Transactions		Manual via SqlTransaction					Built-in transaction support via DbContext
+Migration Support	No											Yes
+Unit of Work		Manually implemented						Built-in pattern support
+ / Repository
+ 
+✅ ADO.NET
+
+	using (SqlConnection conn = new SqlConnection(connectionString))
+	{
+		SqlCommand cmd = new SqlCommand("SELECT * FROM Employees", conn);
+		conn.Open();
+		SqlDataReader reader = cmd.ExecuteReader();
+		while (reader.Read())
+		{
+			Console.WriteLine(reader["Name"]);
+		}
+	}
+	
+✅ EF Core
+ 
+	using (var context = new MyDbContext())
+	{
+		var employees = context.Employees.ToList();
+		foreach (var emp in employees)
+		{
+			Console.WriteLine(emp.Name);
+		}
+	}
+	
+🧪 When to Use What
+Scenario							Use ADO.NET					Use EF Core
+High performance or legacy code		✅ Yes						❌ Not ideal
+Rapid development					❌ More work needed			✅ Yes
+Full control over queries			✅ Yes						❌ Limited
+Code-first, model-based approach	❌ No						✅ Yes
+
+✅ Summary
+	ADO.NET is best for performance-critical, low-level control.
+	EF Core is ideal for rapid development, clean architecture, and modern apps.
+
+===================================================
+================== EF and EF core =================
+
+🔍 1. Platform Support
+Feature						Entity Framework (EF)				EF Core
+.NET Version				.NET Framework only				Cross-platform (.NET Core, .NET 5/6/7/8)
+Operating Systems			Windows only					Windows, Linux, macOS
+
+🆕 2. Modernity & Development
+Feature							EF										EF Core
+Actively developed			❌ Legacy (no longer updated)		✅ Actively developed & maintained
+Lightweight					❌ Heavier							✅ Lightweight and modular
+
+LINQ Translation			✅ Limited							✅ Improved LINQ support
+
+Performance					Slower								Faster and more optimized
+------------------------------------------------
 ------------ Entity Framework Core -------------
 EF Core is an open-source, cross-platform ORM (Object-Relational Mapper) developed by Microsoft.
 It helps .NET developers interact with databases using C# objects instead of raw SQL, allowing for clean 

@@ -1,3 +1,75 @@
+=============================================
+============== Data annotation ==============
+Data Annotations are attributes used to validation rules, display formatting, and schema definitions.
+Data Annotations in C# are attributes used to add metadata 
+	(such as validation rules, display formatting, and schema definitions) 
+	to classes, properties, fields, or methods — especially in Entity Framework and ASP.NET Core MVC/Web API.
+
+📌 Common Use Cases : 
+	Validation – Enforce input rules on models.
+	Formatting – Specify display names, formats.
+	EF Core Mapping – Define table names, keys, column types.
+
+✅ Validation Annotations
+	[Required]
+	[StringLength(100, MinimumLength = 3)]
+	[Range(18, 60)]
+	[EmailAddress]
+
+🗂 Entity Framework Annotations
+	[Key]
+	[Column("Product_Name", TypeName = "nvarchar(100)")]
+	[ForeignKey("Category")]
+
+🖼️ Display Annotations
+	[Display(Name = "Employee Full Name")]
+	[DisplayFormat(DataFormatString = "{0:dd-MM-yyyy}")]
+	
+📋 Benefits of Data Annotations
+	Centralize validation logic in the model.
+	Improve readability and maintainability.
+	Reduce boilerplate code.
+	Enable automatic client- and server-side validation in MVC/Web API.
+
+==============================================
+================== MVC Flow ==================
+🔸 1. Client Sends Request :
+	A user sends an HTTP request (e.g., by clicking a link or submitting a form).
+	Example : GET /Products/Details/5
+	
+🔸 2. Routing :
+	The request hits the Routing Middleware in Startup.cs (in .NET Core).
+	It maps the URL to a specific controller and action method.
+	
+🔸 3. Controller Handles Request :
+	The controller (e.g., ProductsController) is instantiated.
+	The specified action method (e.g., Details(int id)) is executed.
+	The controller fetches data from the model/database and prepares it for the view.
+
+🔸 4. Model Interaction :
+	Business logic and data access happen here.
+	It may call a service/repository to fetch data from a database using Entity Framework, Dapper, etc.
+	
+🔸 5. View Rendering :
+	The controller returns a ViewResult using return View(model).
+	The corresponding .cshtml view file (Razor syntax) is rendered with the data.
+	Example: Views/Products/Details.cshtml
+
+🔸 6. Response to Client :
+	The rendered HTML is returned to the browser.
+	The user sees the final output.
+
+
+Summary Table
+
+Step		Action
+1		Request hits Routing
+2		Routing maps to Controller/Action
+3		Controller processes request
+4		Controller interacts with Model
+5		Controller returns View with data
+6		View is rendered and sent as HTML to client
+
 ==============================================
 ================= Action Filter  =============
 ✅Filters in MVC are used to inject extra logic before or after the execution of :

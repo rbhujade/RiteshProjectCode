@@ -1,0 +1,346 @@
+==================================================
+============ Delete Duplicate row ================
+select * from Customers
+
+with cte as
+(
+	select * , ROW_NUMBER() over(partition by PhoneNo order by PhoneNo desc) as row1 from Customers
+)
+delete from cte where row1 > 1;
+
+
+=====================================================================
+========== Difference between delete,drop and truncate ==============
+🔹 DELETE :
+	Purpose: Removes rows from a table based on a condition.
+	Can use WHERE clause: ✅ Yes.
+	Identity column reset: ❌ No.
+	Can be rolled back (if in transaction): ✅ Yes.
+	Logs individual row deletions: ✅ Yes (Slower, but recoverable).
+	Triggers: ✅ Yes, AFTER DELETE triggers fire.
+
+🔹 TRUNCATE :
+	Purpose: Removes all rows from a table without logging individual row deletions.
+	Can use WHERE clause: ❌ No.
+	Identity column reset: ✅ Yes (Resets auto-increment counter).
+	Can be rolled back: ✅ Yes (if inside a transaction).
+	Logs minimal info: ✅ (Much faster than DELETE).
+	Triggers: ❌ No (Triggers don't fire).
+	
+🔹 DROP :
+	Purpose: Completely removes the table (or database) from the schema.
+	Deletes structure and data: ✅ Yes.
+	Can be rolled back: ❌ No (unless supported via some tools or inside transaction-aware DBs).
+	Triggers: ❌ Not applicable (removes entire object).
+	
+====================================================================
+======================== ACID Property ==============================
+1. Atomicity
+Definition: A transaction is all or nothing — it either completes fully or has no effect.
+Example: If you transfer money from Account A to B, both the debit and credit must occur. If one fails, neither happens.
+
+2. Consistency
+Definition: A transaction brings the database from one valid state to another, maintaining all predefined rules (e.g., constraints, cascades).
+Example: If a transaction violates a foreign key constraint, it will be rolled back to maintain consistency.
+
+3. Isolation
+Definition: Transactions operate independently and do not interfere with each other.
+Example: If two users try to book the same seat, isolation ensures one transaction completes before the other starts.
+
+4. Durability
+Definition: Once a transaction is committed, the changes are permanent, even in the case of a system crash.
+Example: If a payment is marked as completed and the server crashes, it won't be lost when the system restarts.
+
+🧠 Summary Table
+Property		Ensures that...
+Atomicity		All operations in a transaction succeed or none do
+Consistency		Data remains valid before and after transactions
+Isolation		Concurrent transactions don’t affect each other’s outcome
+Durability		Committed data remains saved after system failures
+
+=====================================================================
+======================== Index and Type =============================
+✅An index in SQL is a database object that improves the speed of data retrieval from a table 
+	by creating a quick lookup for rows.
+✅Similar to an index in a book — it tells you where to find specific data without scanning every row.
+✅Created on one or more columns of a table.
+
+✅ Advantages:
+	Faster SELECT queries.
+	Optimized search and filter operations.
+
+⚠️ Disadvantages:
+	Slows down INSERT, UPDATE, and DELETE operations due to index maintenance.
+	Consumes extra storage.
+
+📂 Types of Indexes in SQL Server
+Index Type				Description
+Clustered Index			Physically sorts data in the table. Only one clustered index allowed per table.
+Non-Clustered Index		Creates a separate structure with pointers to the data. You can have multiple non-clustered indexes.
+
+🔧 Syntax to Create an Index
+	-- Clustered Index
+	CREATE CLUSTERED INDEX IX_Employee_Name ON Employee(Name);
+
+	-- Non-Clustered Index
+	CREATE NONCLUSTERED INDEX IX_Employee_Salary ON Employee(Salary);
+	
+📌 Clustered vs Non-Clustered Index
+Feature							Clustered Index									Non-Clustered Index
+Data Storage				Reorders the actual data rows in the 		Stores a separate structure with 
+							table to match the index.						pointers to the data rows.
+
+Number Allowed per Table	Only one clustered index per table.			Multiple (up to 999 in SQL Server) 
+																			non-clustered indexes allowed.
+
+Access Speed				Faster for range queries or when 			Slower than clustered for large reads but 
+							retrieving large result sets.				faster for selective queries on non-key columns.
+
+Index Contains Data?		Yes. The leaf nodes of the index 			No. The leaf nodes contain pointers 
+							contain the actual table data.					(row locators) to the actual data.
+
+Default Type for 			Yes, unless specified otherwise.			No, unless explicitly declared.
+Primary Key
+
+Use Case					Best for columns that are frequently 		Best for frequently queried non-key 
+							searched and sorted, like primary keys.		columns or filtering/searching.
+
+========================================================================
+================== Better Performance of SQL Query =====================
+✅ 1. Use Indexes Wisely
+	Create indexes on columns used in WHERE, JOIN, ORDER BY, and GROUP BY.
+	Use covering indexes if the query reads a small set of columns.
+	Use filtered indexes for frequently queried subsets.
+	Avoid too many indexes — they slow down INSERT/UPDATE/DELETE.
+
+✅ **2. Avoid SELECT *** **
+	Always select only the columns you need.
+	
+	-- Bad
+	SELECT * FROM Employees;
+
+	-- Good
+	SELECT FirstName, LastName FROM Employees;
+	
+✅ 3. Use WHERE Clauses Efficiently
+	Filter early to reduce the number of rows being processed.
+	Avoid functions in the WHERE clause that prevent index usage:
+
+	-- Bad: function on column disables index
+	WHERE YEAR(DateCreated) = 2023
+
+	-- Good
+	WHERE DateCreated >= '2023-01-01' AND DateCreated < '2024-01-01'
+
+✅ 4. Use JOINs Correctly
+	Ensure you're joining on indexed keys.
+	Avoid unnecessary OUTER JOINs if INNER JOIN is sufficient.
+	
+✅ 5. Use EXISTS instead of IN (in subqueries)
+
+	-- IN is slower if the subquery returns many rows
+	SELECT * FROM Orders WHERE CustomerID IN (SELECT CustomerID FROM Customers);
+
+	-- EXISTS is usually faster
+	SELECT * FROM Orders o WHERE EXISTS (
+	  SELECT 1 FROM Customers c WHERE c.CustomerID = o.CustomerID
+	);
+	
+✅ 6. Avoid Cursors and Loops
+	Cursors are slow. Replace with set-based operations using joins and subqueries when possible.
+	
+✅ 7. Analyze Execution Plan
+	Use SQL Server Execution Plan to see:
+		Index usage
+		Table scans vs seeks
+		Costly operators like Sort, Nested Loop, Hash Match
+		
+✅ 9. Use Temporary Tables and Table Variables Wisely
+	Temp tables can help break down complex queries.
+	Avoid overusing if data set is small — they incur IO cost.
+	
+✅ 12. Optimize Stored Procedures
+	Avoid re-compilation: use parameters, not hardcoded values.
+	Break large SPs into smaller logical units if needed.
+	
+============================================================
+===================== Type of Table =========================
+
+1. User tables (Regular Tables) / Permanent Table
+	They contain data for later use. 
+	Regular tables are stored in the hard drive.
+	stored in the database permanently.
+	
+	CREATE TABLE Employees
+
+2. Local temporary tables
+	Used to store temporary data during a session or batch.
+	Local temporary tables are the tables stored in tempdb.
+	Local temporary tables are temporary tables that are available only to the session that created them.
+	These tables are automatically destroyed at the termination of the procedure or session.
+	They are specified with the prefix #
+	
+	CREATE TABLE #table_name
+	
+3. Global temporary tables
+	Global temporary tablesare also stored in tempdb. 
+	Global temporary tables are temporary tables that are available to all sessions and all users.
+	Name starts with: ##
+	
+	CREATE TABLE ##GlobalTemporaryTable
+	
+4. Creation of a table with the help of another table
+	create a table that is exactly the copy of a given table
+
+	SELECT * INTO studentCopy FROM employee
+
+5. Table Variable
+	A variable of type table, used for small sets of data.
+	Table variables are alternatives to temporary tables which store a set of records.
+	
+	Declare @Employee Table
+	
+===========================================================
+=================== Triggers in SQL. ======================
+A trigger is a special kind of Stored Procedure or stored program that is automatically fired or executed 
+	when some event (insert, delete and update) occurs.
+A trigger is a special kind of stored procedure that automatically executes (fires) when a specified 
+	event occurs in a table or view—like an INSERT, UPDATE, or DELETE.
+	
+🔸 Types of Triggers in SQL Server
+
+🔸 AFTER Trigger  (using FOR/AFTER CLAUSE)
+
+	Fires after the triggering action.
+	Commonly used to enforce business rules or log changes.
+	
+		CREATE TRIGGER trg_AfterInsert
+		ON Employees
+		AFTER INSERT
+		AS
+		BEGIN
+			PRINT 'Record inserted into Employees table.'
+		END
+		
+🔸 DDL Trigger (Data Definition Language)
+	
+	Fires in response to DDL events like CREATE, ALTER, DROP.
+	
+		CREATE TRIGGER trg_DDLPreventDrop
+		ON DATABASE
+		FOR DROP_TABLE
+		AS
+		BEGIN
+			PRINT 'Dropping tables is not allowed.'
+			ROLLBACK;
+		END
+	
+🔸 DML Triggers
+
+	we can create triggers on DML statements (like INSERT, UPDATE, and DELETE) and Stored Procedures 
+		that do DML-like operations.
+		
+==================================================
+==================== Magic Tables ================
+Magic Tables are invisible tables or virtual tables. 
+You can see them only with the help of Triggers in the SQL Server.
+Magic Tables are those tables that allow you to hold inserted, deleted and updated values during insert, delete 
+	and update DML operations on a table in SQL Server.
+	
+🔸 Types of Magic Tables in SQL Server : 
+
+	Inserted
+	Deleted
+
+🔸 Use with Triggers :
+	If you have implemented a trigger for a table then:
+
+	Whenever you Insert a record on that table, that record will be shown in the INSERTED Magic Table.
+	Whenever you Delete the record on that table, that record will be shown in the DELETED Magic Table Only. 
+	Whenever you Update the record on that table, that existing record will be shown in the DELETED Magic Table 
+		and Updated new data will be shown in the INSERTED Magic Table.
+		
+	Create TRIGGER  Trigger_ForInsertmagic
+	ON [UserDetails]
+	FOR INSERT
+	AS
+	begin
+	SELECT * FROM INSERTED
+	end
+	
+	Create TRIGGER  Trigger_Fordeletemagic
+	ON [UserDetails]
+	FOR DELETE
+	AS
+	begin
+	SELECT * FROM Deleted
+	end
+	
+================================================
+==================== Normalization  ============
+Normalization is the process of organizing data in a database to reduce redundancy and improve data integrity. 
+It involves breaking down large tables into smaller, related ones and defining relationships between them.
+
+✅ Objectives of Normalization
+	Eliminate redundant (duplicate) data
+	Ensure data dependencies make sense (data is logically stored)
+	Improve data consistency and reduce anomalies (insert/update/delete)
+	
+🔄 Example: Normalization Flow
+
+🔸 Unnormalized Table:
+	StudentID	StudentName		Course1		Course2
+	1			John			Math		Science
+
+🔹 1NF:
+	Break repeating groups into rows.
+
+	StudentID		StudentName		Course
+	1				John			Math
+	1				John			Science
+
+🔹 2NF:
+	Separate data into tables to remove partial dependencies.
+
+	Students Table
+
+	StudentID	StudentName
+	1			John
+
+	StudentCourses Table
+
+	StudentID	Course
+	1			Math
+	1			Science
+
+🔹 3NF:
+If Course had a CourseType, and that detail is stored in StudentCourses, move it to its own table to eliminate transitive dependency.
+
+================================================
+=========== ROW_NUMBER() and DENSE_RANK() ======
+
+🔸 ROW_NUMBER()
+	Always gives a unique number to each row.
+	Skips numbers when there are ties (duplicates in the ordering column).
+	
+	SELECT Name, Marks,
+		   ROW_NUMBER() OVER (ORDER BY Marks DESC) AS RowNum
+	FROM Students;
+	
+	Name	Marks	RowNum
+	A		90		1
+	B		90		2
+	C		80		3
+	
+🔸 DENSE_RANK()
+	Assigns the same rank for duplicate values.
+	Does not skip the next rank after ties.
+
+	SELECT Name, Marks,
+		   DENSE_RANK() OVER (ORDER BY Marks DESC) AS DenseRank
+	FROM Students;
+	
+	Name	Marks	DenseRank
+	A		90		1
+	B		90		1
+	C		80		2

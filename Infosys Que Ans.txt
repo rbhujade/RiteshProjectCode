@@ -1,3 +1,204 @@
+=======================Peoplefy 1 08/06 ==========================
+difference between httppatch vs httpput.
+how to monitor app and how it different from development.
+difference between SP and function.type of function.
+difference between Row_Number and Dense_Rank.
+find 5th highest salary.
+what is minimal api.
+difference between .net core and framework.
+what is API versionting.
+how to prevent memory leakage.
+difference between Finalize and dispose method.
+Garbage collection and there type.
+
+======================= Global Logic 07/06 ========================
+write c# program - Input : "He!!o-Wor@ld" , Output : "dl!!r-oWo@eH" - reverse string with special character but speacial character don't change place.
+Authentication and Authorization.how to do at first time-app create from scratch.JWT configuration.
+JWT integration.
+DI and type.
+differenc between Middleware and filters.custom middleware.purpose of middleaware,how to implement.
+Microservices and used.why we used microservice,where to used.
+Design patten.
+OOPs - explain.
+abstraction vs encapsulation.
+what is constructor and there type.can use constructor manually.can constructor overriden.can inherit the constuctor.
+query-find 2nd highest salary.
+ACID property.
+what is CTE,used of CTE.
+Index.
+Normalization in SQL.use and purpos of normalization. 
+
+======================= Kogta 06/06 ==========================
+difference between abstraction and encapsulation.
+what is DI.
+what is middleaware.
+API-rest api vs web api - rest and soap api.
+what is routing.
+SOLID principle.
+difference between SP and function.
+can call SP inside SP.command for call SP and function.
+what is trigger.use case scenario for use trigger.
+query-emp tb-empid,name,salary-find 3rd hightest salary.
+write basic API syntax-Get API.
+
+======================= Haptiq 03/06 ==========================
+ADO .Net vs EF Core.
+Write c# program ,check palindrome or not.Ex:- "{[{}]}".
+Sql query - emp-order tb, select emp name ,id ,corresponding order amount ,greater that 500-order amount.
+code - vehicle,Car class - Drive ,fuelefficiency method.base class have virtual drive method and fuelefficiency is normal method.in derive class-drive method is overriden and fuel method is new keyword.
+Method hiding.
+Design pattern.
+what is unit of work.what is difference in repository and unit of work.
+have you implemented any logging in project.how to store log in project.Structure log.
+Hosted services in .net core.
+protect my app against query injection.how to do.sql injection.
+how to protect app against Denial of Service (DoS)  attack.large no of request-rate limiting.
+centralise exception,middleaware.
+ienumarable vs iquerable.
+
+======================= Amdhan 03/06 ==========================
+DI.
+CICD.
+Difference between .Net core 8 and 3 5 6
+
+====================== Peoplefy  02/06 =========================
+Query - optimize query -how will you analyze that query.
+Lock - how to troubleshout.
+how to create temparary table.
+write query - delete duplicate records from table.you have to partition query.
+how to pass table as parameter in SP.
+why use varchar and nvarchar data type.
+use of Private constructor.how to use that class.
+create instance of static class.
+what is hash table and dictionary, what is difference.
+503 error happend in iis,how to debug that error.how will analyze.
+write c# - print current date with yyyy-dd-mm hh:mm:ss format.
+syncronous and asynchronous method call, what is difference.
+cancellation token.
+how to host site on iis manually.how run in iis.
+what are filters, why we used.custom filter how we add.custom exception.
+generation in garbage collection.
+delete duplicate item from array.
+Agile methodology.
+
+====================== Amdhan  30/05 ==========================
+what is Liskw sub principle.
+what  are return types in API.
+it is possible to save data in post.can we return data using httppost.after saving get or set.
+http code of created.
+httpput vs httppatch.
+can insert data using httpget.
+what is defferred execution.when the query executed in server.
+to find 5th hightest salary from emplyee table and dept HR.
+have you integrating third party web api in project.any exposer on.
+difference between sql server and postgresql.is it going to replace.
+what is CTE.what is scope of CTE.
+what are magic table.
+varchar and nvarchar.
+Query optimization.
+Table partition.
+
+====================== Neosoftech  29/05 ==========================
+What is OOPs.
+what is virtual function.
+What is delegate.
+what is Reflection.
+What is constructor.
+What is routing.Type of routing.Key word used to attribute routing.
+What is filters.
+Difference between authentication and authorization.which comes first.
+what are the authentication technique used.
+What is Dependency injection.Type of DI. AddScoped/AddTransient/AddSingleton.
+What is Middleware.difference between middleaware and filters.
+what is middleaware and hosted services.
+what is swagger.
+what is kestral.
+what is session managment.technic of session managment.
+what is Data annotation.
+what are remote validation.
+Difference between viewbag and viewdata.
+TextBox and TextBoxFor.
+Difference between Minification and bundling.
+what is partial view.
+What is AJAX.
+what is SPA.
+what are microservices.Advantages of microservice.
+
+====================== Amazatic  27/05 ==========================
+what kind of batch job have you done in project.
+Table type.
+Triggers in SQL.
+Flow of the MVC.
+Perpose of Program.cs file.
+AddScoped/AddTransient/AddSingleton.
+purpose of SOLID principle.scenario.
+Dependency Injection vs Dependency inversion.
+Abstarct class vs Interfaces.
+Difference between Action method and API.
+Return type of API.
+Return type in Action method.
+What is routing.Types.
+For vs Foreach loop.
+C# program- string  str ="Ritesh Bhujade", result "hsetiR edajuhB".
+
+====================== Congo R2 27/05 ==========================
+where you project hosted.
+Abstarct class vs Interfaces.which one prefered and why?
+Scenario-create app-create 3 employee-permanant( p3 p2),contract(p1 p4 p5),consultant(p2).Policy-p1 p2 p3 p4 p5,ontime demand,any visiting in company p5 is application.How to apply those policy.
+Delegates.
+Reflection.
+Data structure in c# - List,Enumarator.
+IEnumarable vs Iquerable.
+LINQ - First vs FirstOrDefault.
+Any vs Count.
+Web API- 2 clint A(US location) - Benefit 1, B(Urope) -Benefit 3 ,Add more Benefits- API version.Filters.
+WHich of the architecture used of microservices.
+Clean architecture.
+why microservice architectue approches.benefits.
+3 app-conflict on app 1 2 and we used in project 3.how to find that error.
+AWS -Cloudwatch- getting any logs-response geting -error log-find out error- trace id.
+
+====================== LTIMindtree 27/05 ==========================
+Design Pattern.
+Find the special character from string and count occurrences.
+httpput vs httpput.
+ienumarable vs iquerable.
+AddScoped/AddTransient/AddSingleton.
+CI/CD.
+SAAS.
+403 error.
+EC2-aws.
+DNS/Load Balancer.what kind of services comes in DNS/Load balancer.
+absolute and relative path is CSS.
+Dio and span. 
+
+====================== Congo 26/05 ==========================
+Project Architecture.
+How debug services on local.
+How deploye those services.
+How batch job created in .net.How scheduled BJ.
+Difference between List vs Dictionary.
+Enumerator .
+What is return type in web API.
+What is 401 error.
+Fetching types in API. httpput vs httppatch.
+Fetch large data,hoe to improve performance in c# code,sql.
+client encounter complex problem , how you will solve.-scenario.
+Kafka-which nuget packages used.partition,broker.
+Parallel Each.
+Abstract and sealed class.
+Scenario- 3 switches in hall for 3 room light,want to check which switch is for which room.what is best to do for this.
+
+======================================================
+sudo code 
+primary function EF core
+unit of work and repo design pagination
+benefit of repo design pattern
+integresion testing
+coding standerd
+tracking method in ef
+purpose of migration in ef core
+unit of work.
 ============================= Cybage R2 21/5 ======================
 difference between .net core and .net framework.
 what is middleaware and common middleaware.
@@ -456,7 +657,7 @@ Media type formaters.
 Solid priciple.
 Extension method.how to extend class.
 
-================= LTIMindtree= 08/04/25=========
+================= LTIMindtree 08/04/25=========
 Explain project architecture.
 How access perticuler file by user/How to send data to front user./What kind of data you provide.
 How perticuler file to user.

@@ -1,0 +1,41 @@
+==========================================================
+========= Deferred Vs Immediate Query Execution ==========
+
+✅ Deferred Execution :
+	📌In Deferred Execution, the query is not executed when declared. 
+	📌It is executed when the query object is iterated over a loop.
+	📌Deferred Execution means that a query or method does not execute immediately, 
+		but waits until its results are actually needed.
+	📌The query is defined but not executed until you iterate over it (e.g., using foreach, ToList(), etc.).
+	
+	
+		var employee = GetEmployees();
+		var deffered = employee.Where(w => w.Country == "USA"); //query does not execute here
+		employee.Add(new Employee { Emp_ID = 7, Name = "Ritesh", Email = "ritesh@bhujade.com", Country = "USA" });
+		foreach (var item in deffered) //query execute here
+		{
+			Console.WriteLine($"Name : {item.Name}   ,  Country : {item.Country}");
+		}
+	
+	✅ Benefits of Deferred Execution
+		Performance: Only processes data when needed
+		Flexibility: Query reflects latest data
+		Lazy loading behavior
+
+✅ Immediate Execution : 
+	📌In Immediate Execution, the query is executed when it is declared.
+	📌On calling methods like ToList(), Count(), First(), etc.
+	📌You can force execution immediately using:
+		.ToList()
+		.ToArray()
+		.Count()
+		.Sum()
+		.First()
+
+		var employee = GetEmployees();
+		var deffered = employee.Where(w => w.Country == "USA").ToList(); //Query execute here
+		employee.Add(new Employee { Emp_ID = 7, Name = "Ritesh", Email = "ritesh@bhujade.com", Country = "USA" });
+		foreach (var item in deffered)
+		{
+			Console.WriteLine($"Name : {item.Name}   ,  Country : {item.Country}");
+		}

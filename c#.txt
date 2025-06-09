@@ -126,6 +126,19 @@ The try-catch-finally block in C# is used to handle exceptions
 	}  
 
 -----------------------------------------------
+✅ Final Analogy
+Think of them like building blocks:
+
+🔩 Thread = raw engine part
+
+🔧 Task = engine component using those parts
+
+🏗 TPL = the engine factory
+
+🧠 async/await = smart interface for using the engine
+
+🚗 Async programming = the driving experience (non-blocking, smooth)
+
 --------Task Parallel Library (TPL)------------
 TPL provides a high-level abstraction for writing concurrent and parallel code using tasks instead of manually creating threads.
 Uses Task and Task<TResult> for asynchronous programming.
@@ -135,6 +148,15 @@ TPL simplify parallel loops, async processing and background operations.
 •	Provides APIs for parallel programming.
 •	Key classes include Task and Parallel.
 •	Enables efficient CPU usage and scalability.
+
+TPL give idea of :
+	What's happening in the current task such as knowing the status.
+	Returned values.
+	Did the cancellation happened.
+	Did an exception thrown and/or handled.
+	Continuation.
+
+TPL is a set of APIs using the System.Threading and System.Threading.Task namespace.
 
 Example:
 
@@ -672,6 +694,22 @@ class Program
     }
 }
 
+🔢 Generations in Garbage Collection : 
+Gen 0 :
+	- Contains short-lived objects (e.g., temporary variables).
+	- Collected most frequently.
+	- Most objects die here.
+
+Gen 1 :
+	- Acts as a buffer between short-lived and long-lived objects.
+	- Objects that survive Gen 0 GC move here.
+	- Collected less often than Gen 0.
+
+Gen 2 :
+	- Contains long-lived objects (e.g., static data, app-level data).
+	- Collected least frequently.
+	- Expensive to collect, so happens only when necessary.
+
 Q: What is the role of the Dispose method in garbage collection?
 A: The Dispose method is used to release unmanaged resources manually before the garbage collector runs. 
 	It's part of the IDisposable interface.
@@ -948,3 +986,71 @@ specialization concentrates on expanding a broad class by giving subclasses cert
 			Console.WriteLine($"{Name} is meowing.");
 		}
 	}
+	
+===============================================
+============ Session Management ===============
+Session Management refers to the process of maintaining user state and data across multiple requests in a web application.
+Since HTTP is stateless, session management ensures that the server can remember users between requests.
+
+🔐 Why Session Management is Needed :
+	Track logged-in users.
+	Maintain user preferences or activity.
+	Store temporary data like shopping cart or form inputs.
+	
+🧰 Techniques for Session Management :
+
+Cookies : 
+	Small pieces of data stored on the client-side and sent with every request.
+	Storing tokens, preferences, small identifiers.
+	
+Session State :
+	Server-side storage of user data; typically associated with a session ID stored in a cookie.
+	User-specific data that should remain secure.
+	
+JWT (JSON Web Token) :
+	Token-based stateless authentication, sent in HTTP headers.
+	APIs and distributed systems (microservices).
+
+===================================================
+================ Method Hiding ===================
+The new keyword provides a mechanism for hiding members of a base class in a derived class.
+This feature, known as method hiding or shadowing.
+Allows developers to redefine a member of a base class in a derived class, thereby changing its behavior.
+Method hiding occurs when a derived class declares a member with the same name as a member in its 
+	base class, using the new keyword to explicitly indicate that the derived member is intended to hide the base member.
+This can be applied to methods, properties, events, and indexers.
+
+	public class BaseClass
+	{
+		public void Display()
+		{
+			Console.WriteLine("Display from Base Class.");
+		}
+	}
+
+	public class DerivedClass : BaseClass
+	{
+		public new void Display()
+		{
+			Console.WriteLine("Display from Derived class.");
+		}
+	}
+	
+	public static void Main(string[] args) 
+	{
+		BaseClass b = new BaseClass();
+		b.Display(); // Output: Display from Base Class.
+
+		DerivedClass derived  = new DerivedClass();
+		derived.Display(); // Output:Display from Derived class.
+
+		BaseClass c = new DerivedClass();
+		c.Display(); // Output: Display from Base Class.
+
+		// Accessing the hidden method
+		BaseClass baseRef = derived;
+		baseRef.Display();  // Output: Display from Base Class.
+
+		Console.ReadLine();
+	}
+	

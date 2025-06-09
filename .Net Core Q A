@@ -1,0 +1,40 @@
+1 what is .net core? Is it upgrated version .net framework?
+2 What are the advanteages of .Net Core ?
+3 What are the features in .Net Core?
+4 What is Metapackages?
+5 Can ASP.Net Core application work with full .Net 4.x Framework?
+6 what is the startup class in ASP.Net core?
+7 What is the use of the ConfigureServices method of the startup class?
+8 What is the use of configure method of the startup class?
+9 What is Middleware?
+10 What is routing in ASP.Net Core?
+11 How to enable session in ASP.Net Core?
+12 What are the various JSON files available in ASP.Net Core?
+13 What are the common HTTP responce in ASP.Net Core API?
+14 How to achieve dependency injection in .Net Core API?
+15 How to use Entity Framework core in .net Core ?
+16 What is Auto Mapper?
+17 Whar is CORS? How to enable in .Net Core?
+18 What is Rate Limiting?
+19 What is Authentication and Authorization in .Net Core API?
+20 What is Basic Authentication?
+21 What is JWT Authentication?
+22 What is Refresh Token?
+23 What is Mininmal API?
+24 How do you implement security in a .Net core web application?
+25 Can you explain the difference between a synchronous and asynchronous method in .Net Core?
+26 How do you implement exception handling in a .Net core application?
+27 How do you implement unit testing in a .Net Core application?
+28 Can you explain concept of Identity in .Net core ?
+29 How do you implement cachinf in a .Net Core application?
+30 Can you explaine the concept of SignalR in .Net core?
+31 How doyou implement background task in a .Net core Application?
+32 What is serilog?
+33 What Is API Gateway in microservices?
+
+Point
+Log4Net
+serilog
+DI
+
+

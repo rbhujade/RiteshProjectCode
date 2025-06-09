@@ -1,4 +1,125 @@
-Web API=========
+========================= Stateless & Stateful API =========================
+✅ Stateless API :
+	A Stateless API means each request is independent.
+	The server does not store any session or user context between requests.
+	
+🔹 Examples:
+	API Type		Stateless?			Notes
+	REST API		✅ Yes				Designed to be stateless by principle.
+	AWS Lambda		✅ Yes				Each function invocation is stateless by design.
+
+🧠 Characteristics of Stateless API:
+	No session storage on server
+	Every request must contain all the information (like auth tokens)
+	Easily scalable (load-balanced across instances)
+
+	Example:
+	
+	GET /api/orders/5
+	Authorization: Bearer <token>
+
+✅ Use Stateless APIs when:
+	You want scalability, simplicity, and easy integration
+	You're building microservices or serverless apps
+
+
+❌ Stateful API :
+	A Stateful API remembers information about previous requests (user session, transactions, etc.).
+
+🔹 Examples:
+	API Type					Stateful?			Notes
+	SOAP Web Services			❌ Yes			Can be stateful depending on design.
+	Session-based Web APIs		❌ Yes			If using session cookies or server-side memory.
+
+🧠 Characteristics of Stateful API:
+	Server stores session data or user state
+	Next request depends on previous one
+	Harder to scale due to session "stickiness"
+
+Example:
+	Login sets a session cookie
+	Next request uses the session to track user
+	
+❌ Use Stateful APIs when:
+	You need a continuous session (e.g., chat, video call)
+	Session or transaction consistency is critical
+
+⚖️ Comparison Summary:
+Feature						Stateless API					Stateful API
+Memory on Server		❌ No							✅ Yes (stores state)
+Scalability				✅ High							❌ Low
+Simplicity				✅ Easier to manage				❌ Harder to maintain
+Examples				REST, Lambda, GraphQL			SOAP, gRPC with state
+
+================================================
+========== Return type of API ==============
+
+✅Web API .Net Framework :
+
+Void :
+	Void means it doesn’t return anything.
+	
+		[HttpGet]
+		public void LogMessageinDB(string Message)
+		{
+			new UserProfileDB().LogMessageinDB(Message);
+		}
+
+Any Entity/Datatype :
+	Web API action method can contain any entity type as return type.
+	
+		[HttpGet]
+		[Route("UserProfile/GetUserProfile/{UserId}")]
+		public UserProfile GetUserProfile(int UserId)
+		{
+			return new UserProfileDB().GetUserProfile(UserId);
+		}
+
+HttpResponseMessage :
+	To customize the action result, we can use HttpResponseMessage as return type (action result) of an action method.
+	
+		[HttpGet]
+		[Route("UserProfile/GetUserLoginID/{UserId}")]
+		public HttpResponseMessage GetUserLoginId(int UserId)
+		{
+			HttpResponseMessage response = Request.CreateResponse(HttpStatusCode.Accepted,"Ravikiran");
+			response.Content.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue("text/plain");
+			return response;
+		}
+	
+IHttpActionResult :
+	This is a little-advanced concept of HttpResponseMessage.
+	IHttpActionResult ultimately returns HttpResponseMessage by providing the customization and reusability features to the developer.
+	
+		[HttpGet]
+		[Route("UserProfile/GetUserProfileIHAR/{UserId}")]
+		public IHttpActionResult GetUserProfileIHAR(int UserId)
+		{
+			//get the user profileof UserID
+			UserProfile userProfile = new UserProfileDB().GetUserProfile(UserId);
+
+			//return UserProfileReturnType HttpResponseMessage
+			return new UserProfileReturnType(userProfile, Request);
+		}
+
+
+✅Web API .Net Core :
+
+IActionResult :
+	Flexible return type, allows various HTTP status codes and result types (e.g., Ok(), NotFound())
+
+ActionResult<T> :
+	Combines type safety with IActionResult, lets you return either a specific data type or HTTP response.
+
+T (e.g., string, List<Product>) :
+	Returns raw data; framework serializes it (usually as JSON)
+	
+Task<T> or Task<IActionResult> :
+	Used for asynchronous methods
+
+✅ 2. RESTful API Return Types
+
+================== Web API ===============
 
 web API is an extensible framework for building HTTP based services that can be access in different application on different flatform such as web,mobile,windows.
 it supports olnly HTTP protocol.

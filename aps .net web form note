@@ -1,0 +1,35 @@
+=======ASP .Net WebForm============
+
+Web forms are web pages built on the asp.net technology.
+It execute on the server and generate output on the browser.
+It is compatible to any browser to any language support by .net common language runtime.
+it is flexible and allow us to create and add custome control.
+to write business logic we can choose any languages like c# visual basic.
+web forms made up of two component : the visual portion aspx file and code behind the form ,which resides in seperate file.
+the main purpose of web form is to overcome the limitaion of asp and seperate view from the application logic.
+
+Feature=======
+
+Server control
+Routing
+Master pages
+State management
+Performance
+Security
+Client script and client frameworks
+Error Handling
+Working with data
+Membership
+
+=====Cookie======
+Cookie is the small piece of user information.
+this information can be read by web application whenever the user visit the site.
+cookie store in the user hard disk.
+
+Cookie Collection
+HttpCookie
+
+====Session=======
+session is a state that is used to store and retrive values of users.
+it helps to identify request from same browser during the time period(Session).
+it is used to store the value for the perticular time session.s 
