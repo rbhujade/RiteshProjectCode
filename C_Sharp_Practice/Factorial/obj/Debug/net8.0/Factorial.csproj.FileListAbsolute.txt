@@ -1,0 +1,14 @@
+E:\Study Material\Project\C_Sharp_Practice\Factorial\bin\Debug\net8.0\Factorial.exe
+E:\Study Material\Project\C_Sharp_Practice\Factorial\bin\Debug\net8.0\Factorial.deps.json
+E:\Study Material\Project\C_Sharp_Practice\Factorial\bin\Debug\net8.0\Factorial.runtimeconfig.json
+E:\Study Material\Project\C_Sharp_Practice\Factorial\bin\Debug\net8.0\Factorial.dll
+E:\Study Material\Project\C_Sharp_Practice\Factorial\bin\Debug\net8.0\Factorial.pdb
+E:\Study Material\Project\C_Sharp_Practice\Factorial\obj\Debug\net8.0\Factorial.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study Material\Project\C_Sharp_Practice\Factorial\obj\Debug\net8.0\Factorial.AssemblyInfoInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\Factorial\obj\Debug\net8.0\Factorial.AssemblyInfo.cs
+E:\Study Material\Project\C_Sharp_Practice\Factorial\obj\Debug\net8.0\Factorial.csproj.CoreCompileInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\Factorial\obj\Debug\net8.0\Factorial.dll
+E:\Study Material\Project\C_Sharp_Practice\Factorial\obj\Debug\net8.0\refint\Factorial.dll
+E:\Study Material\Project\C_Sharp_Practice\Factorial\obj\Debug\net8.0\Factorial.pdb
+E:\Study Material\Project\C_Sharp_Practice\Factorial\obj\Debug\net8.0\Factorial.genruntimeconfig.cache
+E:\Study Material\Project\C_Sharp_Practice\Factorial\obj\Debug\net8.0\ref\Factorial.dll

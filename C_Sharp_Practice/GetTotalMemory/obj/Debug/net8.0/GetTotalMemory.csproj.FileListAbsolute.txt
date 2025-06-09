@@ -1,0 +1,14 @@
+E:\Study Material\Project\C_Sharp_Practice\GetTotalMemory\bin\Debug\net8.0\GetTotalMemory.exe
+E:\Study Material\Project\C_Sharp_Practice\GetTotalMemory\bin\Debug\net8.0\GetTotalMemory.deps.json
+E:\Study Material\Project\C_Sharp_Practice\GetTotalMemory\bin\Debug\net8.0\GetTotalMemory.runtimeconfig.json
+E:\Study Material\Project\C_Sharp_Practice\GetTotalMemory\bin\Debug\net8.0\GetTotalMemory.dll
+E:\Study Material\Project\C_Sharp_Practice\GetTotalMemory\bin\Debug\net8.0\GetTotalMemory.pdb
+E:\Study Material\Project\C_Sharp_Practice\GetTotalMemory\obj\Debug\net8.0\GetTotalMemory.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study Material\Project\C_Sharp_Practice\GetTotalMemory\obj\Debug\net8.0\GetTotalMemory.AssemblyInfoInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\GetTotalMemory\obj\Debug\net8.0\GetTotalMemory.AssemblyInfo.cs
+E:\Study Material\Project\C_Sharp_Practice\GetTotalMemory\obj\Debug\net8.0\GetTotalMemory.csproj.CoreCompileInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\GetTotalMemory\obj\Debug\net8.0\GetTotalMemory.dll
+E:\Study Material\Project\C_Sharp_Practice\GetTotalMemory\obj\Debug\net8.0\refint\GetTotalMemory.dll
+E:\Study Material\Project\C_Sharp_Practice\GetTotalMemory\obj\Debug\net8.0\GetTotalMemory.pdb
+E:\Study Material\Project\C_Sharp_Practice\GetTotalMemory\obj\Debug\net8.0\GetTotalMemory.genruntimeconfig.cache
+E:\Study Material\Project\C_Sharp_Practice\GetTotalMemory\obj\Debug\net8.0\ref\GetTotalMemory.dll

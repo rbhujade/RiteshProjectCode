@@ -1,0 +1,14 @@
+E:\Study Material\Project\C_Sharp_Practice\Generics\bin\Debug\net8.0\Generics.exe
+E:\Study Material\Project\C_Sharp_Practice\Generics\bin\Debug\net8.0\Generics.deps.json
+E:\Study Material\Project\C_Sharp_Practice\Generics\bin\Debug\net8.0\Generics.runtimeconfig.json
+E:\Study Material\Project\C_Sharp_Practice\Generics\bin\Debug\net8.0\Generics.dll
+E:\Study Material\Project\C_Sharp_Practice\Generics\bin\Debug\net8.0\Generics.pdb
+E:\Study Material\Project\C_Sharp_Practice\Generics\obj\Debug\net8.0\Generics.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study Material\Project\C_Sharp_Practice\Generics\obj\Debug\net8.0\Generics.AssemblyInfoInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\Generics\obj\Debug\net8.0\Generics.AssemblyInfo.cs
+E:\Study Material\Project\C_Sharp_Practice\Generics\obj\Debug\net8.0\Generics.csproj.CoreCompileInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\Generics\obj\Debug\net8.0\Generics.dll
+E:\Study Material\Project\C_Sharp_Practice\Generics\obj\Debug\net8.0\refint\Generics.dll
+E:\Study Material\Project\C_Sharp_Practice\Generics\obj\Debug\net8.0\Generics.pdb
+E:\Study Material\Project\C_Sharp_Practice\Generics\obj\Debug\net8.0\Generics.genruntimeconfig.cache
+E:\Study Material\Project\C_Sharp_Practice\Generics\obj\Debug\net8.0\ref\Generics.dll

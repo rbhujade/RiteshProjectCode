@@ -1,0 +1,14 @@
+E:\Study Material\Project\C_Sharp_Practice\Possible_Substring_of_String\bin\Debug\net8.0\Possible_Substring_of_String.exe
+E:\Study Material\Project\C_Sharp_Practice\Possible_Substring_of_String\bin\Debug\net8.0\Possible_Substring_of_String.deps.json
+E:\Study Material\Project\C_Sharp_Practice\Possible_Substring_of_String\bin\Debug\net8.0\Possible_Substring_of_String.runtimeconfig.json
+E:\Study Material\Project\C_Sharp_Practice\Possible_Substring_of_String\bin\Debug\net8.0\Possible_Substring_of_String.dll
+E:\Study Material\Project\C_Sharp_Practice\Possible_Substring_of_String\bin\Debug\net8.0\Possible_Substring_of_String.pdb
+E:\Study Material\Project\C_Sharp_Practice\Possible_Substring_of_String\obj\Debug\net8.0\Possible_Substring_of_String.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study Material\Project\C_Sharp_Practice\Possible_Substring_of_String\obj\Debug\net8.0\Possible_Substring_of_String.AssemblyInfoInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\Possible_Substring_of_String\obj\Debug\net8.0\Possible_Substring_of_String.AssemblyInfo.cs
+E:\Study Material\Project\C_Sharp_Practice\Possible_Substring_of_String\obj\Debug\net8.0\Possible_Substring_of_String.csproj.CoreCompileInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\Possible_Substring_of_String\obj\Debug\net8.0\Possible_Substring_of_String.dll
+E:\Study Material\Project\C_Sharp_Practice\Possible_Substring_of_String\obj\Debug\net8.0\refint\Possible_Substring_of_String.dll
+E:\Study Material\Project\C_Sharp_Practice\Possible_Substring_of_String\obj\Debug\net8.0\Possible_Substring_of_String.pdb
+E:\Study Material\Project\C_Sharp_Practice\Possible_Substring_of_String\obj\Debug\net8.0\Possible_Substring_of_String.genruntimeconfig.cache
+E:\Study Material\Project\C_Sharp_Practice\Possible_Substring_of_String\obj\Debug\net8.0\ref\Possible_Substring_of_String.dll

@@ -1,0 +1,14 @@
+E:\Study Material\Project\C_Sharp_Practice\Array_IndexOf\bin\Debug\net8.0\Array_IndexOf.exe
+E:\Study Material\Project\C_Sharp_Practice\Array_IndexOf\bin\Debug\net8.0\Array_IndexOf.deps.json
+E:\Study Material\Project\C_Sharp_Practice\Array_IndexOf\bin\Debug\net8.0\Array_IndexOf.runtimeconfig.json
+E:\Study Material\Project\C_Sharp_Practice\Array_IndexOf\bin\Debug\net8.0\Array_IndexOf.dll
+E:\Study Material\Project\C_Sharp_Practice\Array_IndexOf\bin\Debug\net8.0\Array_IndexOf.pdb
+E:\Study Material\Project\C_Sharp_Practice\Array_IndexOf\obj\Debug\net8.0\Array_IndexOf.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study Material\Project\C_Sharp_Practice\Array_IndexOf\obj\Debug\net8.0\Array_IndexOf.AssemblyInfoInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\Array_IndexOf\obj\Debug\net8.0\Array_IndexOf.AssemblyInfo.cs
+E:\Study Material\Project\C_Sharp_Practice\Array_IndexOf\obj\Debug\net8.0\Array_IndexOf.csproj.CoreCompileInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\Array_IndexOf\obj\Debug\net8.0\Array_IndexOf.dll
+E:\Study Material\Project\C_Sharp_Practice\Array_IndexOf\obj\Debug\net8.0\refint\Array_IndexOf.dll
+E:\Study Material\Project\C_Sharp_Practice\Array_IndexOf\obj\Debug\net8.0\Array_IndexOf.pdb
+E:\Study Material\Project\C_Sharp_Practice\Array_IndexOf\obj\Debug\net8.0\Array_IndexOf.genruntimeconfig.cache
+E:\Study Material\Project\C_Sharp_Practice\Array_IndexOf\obj\Debug\net8.0\ref\Array_IndexOf.dll

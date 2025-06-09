@@ -1,0 +1,14 @@
+E:\Study Material\Project\C_Sharp_Practice\AutoMapper\bin\Debug\net8.0\AutoMapper.exe
+E:\Study Material\Project\C_Sharp_Practice\AutoMapper\bin\Debug\net8.0\AutoMapper.deps.json
+E:\Study Material\Project\C_Sharp_Practice\AutoMapper\bin\Debug\net8.0\AutoMapper.runtimeconfig.json
+E:\Study Material\Project\C_Sharp_Practice\AutoMapper\bin\Debug\net8.0\AutoMapper.dll
+E:\Study Material\Project\C_Sharp_Practice\AutoMapper\bin\Debug\net8.0\AutoMapper.pdb
+E:\Study Material\Project\C_Sharp_Practice\AutoMapper\obj\Debug\net8.0\AutoMapper.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study Material\Project\C_Sharp_Practice\AutoMapper\obj\Debug\net8.0\AutoMapper.AssemblyInfoInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\AutoMapper\obj\Debug\net8.0\AutoMapper.AssemblyInfo.cs
+E:\Study Material\Project\C_Sharp_Practice\AutoMapper\obj\Debug\net8.0\AutoMapper.csproj.CoreCompileInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\AutoMapper\obj\Debug\net8.0\AutoMapper.dll
+E:\Study Material\Project\C_Sharp_Practice\AutoMapper\obj\Debug\net8.0\refint\AutoMapper.dll
+E:\Study Material\Project\C_Sharp_Practice\AutoMapper\obj\Debug\net8.0\AutoMapper.pdb
+E:\Study Material\Project\C_Sharp_Practice\AutoMapper\obj\Debug\net8.0\AutoMapper.genruntimeconfig.cache
+E:\Study Material\Project\C_Sharp_Practice\AutoMapper\obj\Debug\net8.0\ref\AutoMapper.dll

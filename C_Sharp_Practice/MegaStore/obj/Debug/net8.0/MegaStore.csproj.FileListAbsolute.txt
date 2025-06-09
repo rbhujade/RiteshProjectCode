@@ -1,0 +1,14 @@
+E:\Study Material\Project\C_Sharp_Practice\MegaStore\bin\Debug\net8.0\MegaStore.exe
+E:\Study Material\Project\C_Sharp_Practice\MegaStore\bin\Debug\net8.0\MegaStore.deps.json
+E:\Study Material\Project\C_Sharp_Practice\MegaStore\bin\Debug\net8.0\MegaStore.runtimeconfig.json
+E:\Study Material\Project\C_Sharp_Practice\MegaStore\bin\Debug\net8.0\MegaStore.dll
+E:\Study Material\Project\C_Sharp_Practice\MegaStore\bin\Debug\net8.0\MegaStore.pdb
+E:\Study Material\Project\C_Sharp_Practice\MegaStore\obj\Debug\net8.0\MegaStore.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study Material\Project\C_Sharp_Practice\MegaStore\obj\Debug\net8.0\MegaStore.AssemblyInfoInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\MegaStore\obj\Debug\net8.0\MegaStore.AssemblyInfo.cs
+E:\Study Material\Project\C_Sharp_Practice\MegaStore\obj\Debug\net8.0\MegaStore.csproj.CoreCompileInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\MegaStore\obj\Debug\net8.0\MegaStore.dll
+E:\Study Material\Project\C_Sharp_Practice\MegaStore\obj\Debug\net8.0\refint\MegaStore.dll
+E:\Study Material\Project\C_Sharp_Practice\MegaStore\obj\Debug\net8.0\MegaStore.pdb
+E:\Study Material\Project\C_Sharp_Practice\MegaStore\obj\Debug\net8.0\MegaStore.genruntimeconfig.cache
+E:\Study Material\Project\C_Sharp_Practice\MegaStore\obj\Debug\net8.0\ref\MegaStore.dll

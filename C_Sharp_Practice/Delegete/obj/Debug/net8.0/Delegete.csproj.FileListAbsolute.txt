@@ -1,0 +1,14 @@
+E:\Study Material\Project\C_Sharp_Practice\Delegete\bin\Debug\net8.0\Delegete.exe
+E:\Study Material\Project\C_Sharp_Practice\Delegete\bin\Debug\net8.0\Delegete.deps.json
+E:\Study Material\Project\C_Sharp_Practice\Delegete\bin\Debug\net8.0\Delegete.runtimeconfig.json
+E:\Study Material\Project\C_Sharp_Practice\Delegete\bin\Debug\net8.0\Delegete.dll
+E:\Study Material\Project\C_Sharp_Practice\Delegete\bin\Debug\net8.0\Delegete.pdb
+E:\Study Material\Project\C_Sharp_Practice\Delegete\obj\Debug\net8.0\Delegete.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study Material\Project\C_Sharp_Practice\Delegete\obj\Debug\net8.0\Delegete.AssemblyInfoInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\Delegete\obj\Debug\net8.0\Delegete.AssemblyInfo.cs
+E:\Study Material\Project\C_Sharp_Practice\Delegete\obj\Debug\net8.0\Delegete.csproj.CoreCompileInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\Delegete\obj\Debug\net8.0\Delegete.dll
+E:\Study Material\Project\C_Sharp_Practice\Delegete\obj\Debug\net8.0\refint\Delegete.dll
+E:\Study Material\Project\C_Sharp_Practice\Delegete\obj\Debug\net8.0\Delegete.pdb
+E:\Study Material\Project\C_Sharp_Practice\Delegete\obj\Debug\net8.0\Delegete.genruntimeconfig.cache
+E:\Study Material\Project\C_Sharp_Practice\Delegete\obj\Debug\net8.0\ref\Delegete.dll

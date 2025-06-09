@@ -1,0 +1,14 @@
+E:\Study Material\Project\C_Sharp_Practice\Encapsulation\bin\Debug\net8.0\Encapsulation.exe
+E:\Study Material\Project\C_Sharp_Practice\Encapsulation\bin\Debug\net8.0\Encapsulation.deps.json
+E:\Study Material\Project\C_Sharp_Practice\Encapsulation\bin\Debug\net8.0\Encapsulation.runtimeconfig.json
+E:\Study Material\Project\C_Sharp_Practice\Encapsulation\bin\Debug\net8.0\Encapsulation.dll
+E:\Study Material\Project\C_Sharp_Practice\Encapsulation\bin\Debug\net8.0\Encapsulation.pdb
+E:\Study Material\Project\C_Sharp_Practice\Encapsulation\obj\Debug\net8.0\Encapsulation.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study Material\Project\C_Sharp_Practice\Encapsulation\obj\Debug\net8.0\Encapsulation.AssemblyInfoInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\Encapsulation\obj\Debug\net8.0\Encapsulation.AssemblyInfo.cs
+E:\Study Material\Project\C_Sharp_Practice\Encapsulation\obj\Debug\net8.0\Encapsulation.csproj.CoreCompileInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\Encapsulation\obj\Debug\net8.0\Encapsulation.dll
+E:\Study Material\Project\C_Sharp_Practice\Encapsulation\obj\Debug\net8.0\refint\Encapsulation.dll
+E:\Study Material\Project\C_Sharp_Practice\Encapsulation\obj\Debug\net8.0\Encapsulation.pdb
+E:\Study Material\Project\C_Sharp_Practice\Encapsulation\obj\Debug\net8.0\Encapsulation.genruntimeconfig.cache
+E:\Study Material\Project\C_Sharp_Practice\Encapsulation\obj\Debug\net8.0\ref\Encapsulation.dll

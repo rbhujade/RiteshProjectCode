@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Occurrence_of_Each_Character/1.0.0": {
+        "runtime": {
+          "Occurrence_of_Each_Character.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Occurrence_of_Each_Character/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

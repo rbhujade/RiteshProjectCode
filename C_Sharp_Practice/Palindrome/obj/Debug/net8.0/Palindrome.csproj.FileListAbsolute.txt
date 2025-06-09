@@ -1,0 +1,14 @@
+E:\Study Material\Project\C_Sharp_Practice\Palindrome\bin\Debug\net8.0\Palindrome.exe
+E:\Study Material\Project\C_Sharp_Practice\Palindrome\bin\Debug\net8.0\Palindrome.deps.json
+E:\Study Material\Project\C_Sharp_Practice\Palindrome\bin\Debug\net8.0\Palindrome.runtimeconfig.json
+E:\Study Material\Project\C_Sharp_Practice\Palindrome\bin\Debug\net8.0\Palindrome.dll
+E:\Study Material\Project\C_Sharp_Practice\Palindrome\bin\Debug\net8.0\Palindrome.pdb
+E:\Study Material\Project\C_Sharp_Practice\Palindrome\obj\Debug\net8.0\Palindrome.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study Material\Project\C_Sharp_Practice\Palindrome\obj\Debug\net8.0\Palindrome.AssemblyInfoInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\Palindrome\obj\Debug\net8.0\Palindrome.AssemblyInfo.cs
+E:\Study Material\Project\C_Sharp_Practice\Palindrome\obj\Debug\net8.0\Palindrome.csproj.CoreCompileInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\Palindrome\obj\Debug\net8.0\Palindrome.dll
+E:\Study Material\Project\C_Sharp_Practice\Palindrome\obj\Debug\net8.0\refint\Palindrome.dll
+E:\Study Material\Project\C_Sharp_Practice\Palindrome\obj\Debug\net8.0\Palindrome.pdb
+E:\Study Material\Project\C_Sharp_Practice\Palindrome\obj\Debug\net8.0\Palindrome.genruntimeconfig.cache
+E:\Study Material\Project\C_Sharp_Practice\Palindrome\obj\Debug\net8.0\ref\Palindrome.dll

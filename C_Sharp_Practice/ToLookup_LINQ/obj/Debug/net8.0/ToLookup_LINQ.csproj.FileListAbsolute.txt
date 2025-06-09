@@ -1,0 +1,14 @@
+E:\Study Material\Project\C_Sharp_Practice\ToLookup_LINQ\bin\Debug\net8.0\ToLookup_LINQ.exe
+E:\Study Material\Project\C_Sharp_Practice\ToLookup_LINQ\bin\Debug\net8.0\ToLookup_LINQ.deps.json
+E:\Study Material\Project\C_Sharp_Practice\ToLookup_LINQ\bin\Debug\net8.0\ToLookup_LINQ.runtimeconfig.json
+E:\Study Material\Project\C_Sharp_Practice\ToLookup_LINQ\bin\Debug\net8.0\ToLookup_LINQ.dll
+E:\Study Material\Project\C_Sharp_Practice\ToLookup_LINQ\bin\Debug\net8.0\ToLookup_LINQ.pdb
+E:\Study Material\Project\C_Sharp_Practice\ToLookup_LINQ\obj\Debug\net8.0\ToLookup_LINQ.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study Material\Project\C_Sharp_Practice\ToLookup_LINQ\obj\Debug\net8.0\ToLookup_LINQ.AssemblyInfoInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\ToLookup_LINQ\obj\Debug\net8.0\ToLookup_LINQ.AssemblyInfo.cs
+E:\Study Material\Project\C_Sharp_Practice\ToLookup_LINQ\obj\Debug\net8.0\ToLookup_LINQ.csproj.CoreCompileInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\ToLookup_LINQ\obj\Debug\net8.0\ToLookup_LINQ.dll
+E:\Study Material\Project\C_Sharp_Practice\ToLookup_LINQ\obj\Debug\net8.0\refint\ToLookup_LINQ.dll
+E:\Study Material\Project\C_Sharp_Practice\ToLookup_LINQ\obj\Debug\net8.0\ToLookup_LINQ.pdb
+E:\Study Material\Project\C_Sharp_Practice\ToLookup_LINQ\obj\Debug\net8.0\ToLookup_LINQ.genruntimeconfig.cache
+E:\Study Material\Project\C_Sharp_Practice\ToLookup_LINQ\obj\Debug\net8.0\ref\ToLookup_LINQ.dll

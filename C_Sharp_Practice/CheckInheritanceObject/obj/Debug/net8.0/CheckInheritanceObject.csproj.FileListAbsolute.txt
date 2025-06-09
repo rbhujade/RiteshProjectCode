@@ -1,0 +1,14 @@
+E:\Study Material\Project\C_Sharp_Practice\CheckInheritanceObject\obj\Debug\net8.0\CheckInheritanceObject.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study Material\Project\C_Sharp_Practice\CheckInheritanceObject\obj\Debug\net8.0\CheckInheritanceObject.AssemblyInfoInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\CheckInheritanceObject\obj\Debug\net8.0\CheckInheritanceObject.AssemblyInfo.cs
+E:\Study Material\Project\C_Sharp_Practice\CheckInheritanceObject\obj\Debug\net8.0\CheckInheritanceObject.csproj.CoreCompileInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\CheckInheritanceObject\bin\Debug\net8.0\CheckInheritanceObject.exe
+E:\Study Material\Project\C_Sharp_Practice\CheckInheritanceObject\bin\Debug\net8.0\CheckInheritanceObject.deps.json
+E:\Study Material\Project\C_Sharp_Practice\CheckInheritanceObject\bin\Debug\net8.0\CheckInheritanceObject.runtimeconfig.json
+E:\Study Material\Project\C_Sharp_Practice\CheckInheritanceObject\bin\Debug\net8.0\CheckInheritanceObject.dll
+E:\Study Material\Project\C_Sharp_Practice\CheckInheritanceObject\bin\Debug\net8.0\CheckInheritanceObject.pdb
+E:\Study Material\Project\C_Sharp_Practice\CheckInheritanceObject\obj\Debug\net8.0\CheckInheritanceObject.dll
+E:\Study Material\Project\C_Sharp_Practice\CheckInheritanceObject\obj\Debug\net8.0\refint\CheckInheritanceObject.dll
+E:\Study Material\Project\C_Sharp_Practice\CheckInheritanceObject\obj\Debug\net8.0\CheckInheritanceObject.pdb
+E:\Study Material\Project\C_Sharp_Practice\CheckInheritanceObject\obj\Debug\net8.0\CheckInheritanceObject.genruntimeconfig.cache
+E:\Study Material\Project\C_Sharp_Practice\CheckInheritanceObject\obj\Debug\net8.0\ref\CheckInheritanceObject.dll

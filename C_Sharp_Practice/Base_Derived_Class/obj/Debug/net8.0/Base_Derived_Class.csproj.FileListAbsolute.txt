@@ -1,0 +1,14 @@
+E:\Study Material\Project\C_Sharp_Practice\Base_Derived_Class\bin\Debug\net8.0\Base_Derived_Class.exe
+E:\Study Material\Project\C_Sharp_Practice\Base_Derived_Class\bin\Debug\net8.0\Base_Derived_Class.deps.json
+E:\Study Material\Project\C_Sharp_Practice\Base_Derived_Class\bin\Debug\net8.0\Base_Derived_Class.runtimeconfig.json
+E:\Study Material\Project\C_Sharp_Practice\Base_Derived_Class\bin\Debug\net8.0\Base_Derived_Class.dll
+E:\Study Material\Project\C_Sharp_Practice\Base_Derived_Class\bin\Debug\net8.0\Base_Derived_Class.pdb
+E:\Study Material\Project\C_Sharp_Practice\Base_Derived_Class\obj\Debug\net8.0\Base_Derived_Class.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study Material\Project\C_Sharp_Practice\Base_Derived_Class\obj\Debug\net8.0\Base_Derived_Class.AssemblyInfoInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\Base_Derived_Class\obj\Debug\net8.0\Base_Derived_Class.AssemblyInfo.cs
+E:\Study Material\Project\C_Sharp_Practice\Base_Derived_Class\obj\Debug\net8.0\Base_Derived_Class.csproj.CoreCompileInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\Base_Derived_Class\obj\Debug\net8.0\Base_Derived_Class.dll
+E:\Study Material\Project\C_Sharp_Practice\Base_Derived_Class\obj\Debug\net8.0\refint\Base_Derived_Class.dll
+E:\Study Material\Project\C_Sharp_Practice\Base_Derived_Class\obj\Debug\net8.0\Base_Derived_Class.pdb
+E:\Study Material\Project\C_Sharp_Practice\Base_Derived_Class\obj\Debug\net8.0\Base_Derived_Class.genruntimeconfig.cache
+E:\Study Material\Project\C_Sharp_Practice\Base_Derived_Class\obj\Debug\net8.0\ref\Base_Derived_Class.dll

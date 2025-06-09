@@ -1,0 +1,14 @@
+E:\Study Material\Project\C_Sharp_Practice\Multithreading\bin\Debug\net8.0\Multithreading.exe
+E:\Study Material\Project\C_Sharp_Practice\Multithreading\bin\Debug\net8.0\Multithreading.deps.json
+E:\Study Material\Project\C_Sharp_Practice\Multithreading\bin\Debug\net8.0\Multithreading.runtimeconfig.json
+E:\Study Material\Project\C_Sharp_Practice\Multithreading\bin\Debug\net8.0\Multithreading.dll
+E:\Study Material\Project\C_Sharp_Practice\Multithreading\bin\Debug\net8.0\Multithreading.pdb
+E:\Study Material\Project\C_Sharp_Practice\Multithreading\obj\Debug\net8.0\Multithreading.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study Material\Project\C_Sharp_Practice\Multithreading\obj\Debug\net8.0\Multithreading.AssemblyInfoInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\Multithreading\obj\Debug\net8.0\Multithreading.AssemblyInfo.cs
+E:\Study Material\Project\C_Sharp_Practice\Multithreading\obj\Debug\net8.0\Multithreading.csproj.CoreCompileInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\Multithreading\obj\Debug\net8.0\Multithreading.dll
+E:\Study Material\Project\C_Sharp_Practice\Multithreading\obj\Debug\net8.0\refint\Multithreading.dll
+E:\Study Material\Project\C_Sharp_Practice\Multithreading\obj\Debug\net8.0\Multithreading.pdb
+E:\Study Material\Project\C_Sharp_Practice\Multithreading\obj\Debug\net8.0\Multithreading.genruntimeconfig.cache
+E:\Study Material\Project\C_Sharp_Practice\Multithreading\obj\Debug\net8.0\ref\Multithreading.dll

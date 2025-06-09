@@ -1,0 +1,14 @@
+E:\Study Material\Project\C_Sharp_Practice\Private_Constructor\bin\Debug\net8.0\Private_Constructor.exe
+E:\Study Material\Project\C_Sharp_Practice\Private_Constructor\bin\Debug\net8.0\Private_Constructor.deps.json
+E:\Study Material\Project\C_Sharp_Practice\Private_Constructor\bin\Debug\net8.0\Private_Constructor.runtimeconfig.json
+E:\Study Material\Project\C_Sharp_Practice\Private_Constructor\bin\Debug\net8.0\Private_Constructor.dll
+E:\Study Material\Project\C_Sharp_Practice\Private_Constructor\bin\Debug\net8.0\Private_Constructor.pdb
+E:\Study Material\Project\C_Sharp_Practice\Private_Constructor\obj\Debug\net8.0\Private_Constructor.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study Material\Project\C_Sharp_Practice\Private_Constructor\obj\Debug\net8.0\Private_Constructor.AssemblyInfoInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\Private_Constructor\obj\Debug\net8.0\Private_Constructor.AssemblyInfo.cs
+E:\Study Material\Project\C_Sharp_Practice\Private_Constructor\obj\Debug\net8.0\Private_Constructor.csproj.CoreCompileInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\Private_Constructor\obj\Debug\net8.0\Private_Constructor.dll
+E:\Study Material\Project\C_Sharp_Practice\Private_Constructor\obj\Debug\net8.0\refint\Private_Constructor.dll
+E:\Study Material\Project\C_Sharp_Practice\Private_Constructor\obj\Debug\net8.0\Private_Constructor.pdb
+E:\Study Material\Project\C_Sharp_Practice\Private_Constructor\obj\Debug\net8.0\Private_Constructor.genruntimeconfig.cache
+E:\Study Material\Project\C_Sharp_Practice\Private_Constructor\obj\Debug\net8.0\ref\Private_Constructor.dll

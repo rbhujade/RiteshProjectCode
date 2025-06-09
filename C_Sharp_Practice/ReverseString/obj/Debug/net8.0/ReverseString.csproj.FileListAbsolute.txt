@@ -1,0 +1,14 @@
+E:\Study Material\Project\C_Sharp_Practice\ReverseString\bin\Debug\net8.0\ReverseString.exe
+E:\Study Material\Project\C_Sharp_Practice\ReverseString\bin\Debug\net8.0\ReverseString.deps.json
+E:\Study Material\Project\C_Sharp_Practice\ReverseString\bin\Debug\net8.0\ReverseString.runtimeconfig.json
+E:\Study Material\Project\C_Sharp_Practice\ReverseString\bin\Debug\net8.0\ReverseString.dll
+E:\Study Material\Project\C_Sharp_Practice\ReverseString\bin\Debug\net8.0\ReverseString.pdb
+E:\Study Material\Project\C_Sharp_Practice\ReverseString\obj\Debug\net8.0\ReverseString.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study Material\Project\C_Sharp_Practice\ReverseString\obj\Debug\net8.0\ReverseString.AssemblyInfoInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\ReverseString\obj\Debug\net8.0\ReverseString.AssemblyInfo.cs
+E:\Study Material\Project\C_Sharp_Practice\ReverseString\obj\Debug\net8.0\ReverseString.csproj.CoreCompileInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\ReverseString\obj\Debug\net8.0\ReverseString.dll
+E:\Study Material\Project\C_Sharp_Practice\ReverseString\obj\Debug\net8.0\refint\ReverseString.dll
+E:\Study Material\Project\C_Sharp_Practice\ReverseString\obj\Debug\net8.0\ReverseString.pdb
+E:\Study Material\Project\C_Sharp_Practice\ReverseString\obj\Debug\net8.0\ReverseString.genruntimeconfig.cache
+E:\Study Material\Project\C_Sharp_Practice\ReverseString\obj\Debug\net8.0\ref\ReverseString.dll

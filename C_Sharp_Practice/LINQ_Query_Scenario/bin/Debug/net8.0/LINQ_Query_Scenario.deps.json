@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "LINQ_Query_Scenario/1.0.0": {
+        "runtime": {
+          "LINQ_Query_Scenario.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LINQ_Query_Scenario/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

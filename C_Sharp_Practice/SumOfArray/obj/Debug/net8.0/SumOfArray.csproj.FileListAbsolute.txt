@@ -1,0 +1,14 @@
+E:\Study Material\Project\C_Sharp_Practice\SumOfArray\bin\Debug\net8.0\SumOfArray.exe
+E:\Study Material\Project\C_Sharp_Practice\SumOfArray\bin\Debug\net8.0\SumOfArray.deps.json
+E:\Study Material\Project\C_Sharp_Practice\SumOfArray\bin\Debug\net8.0\SumOfArray.runtimeconfig.json
+E:\Study Material\Project\C_Sharp_Practice\SumOfArray\bin\Debug\net8.0\SumOfArray.dll
+E:\Study Material\Project\C_Sharp_Practice\SumOfArray\bin\Debug\net8.0\SumOfArray.pdb
+E:\Study Material\Project\C_Sharp_Practice\SumOfArray\obj\Debug\net8.0\SumOfArray.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study Material\Project\C_Sharp_Practice\SumOfArray\obj\Debug\net8.0\SumOfArray.AssemblyInfoInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\SumOfArray\obj\Debug\net8.0\SumOfArray.AssemblyInfo.cs
+E:\Study Material\Project\C_Sharp_Practice\SumOfArray\obj\Debug\net8.0\SumOfArray.csproj.CoreCompileInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\SumOfArray\obj\Debug\net8.0\SumOfArray.dll
+E:\Study Material\Project\C_Sharp_Practice\SumOfArray\obj\Debug\net8.0\refint\SumOfArray.dll
+E:\Study Material\Project\C_Sharp_Practice\SumOfArray\obj\Debug\net8.0\SumOfArray.pdb
+E:\Study Material\Project\C_Sharp_Practice\SumOfArray\obj\Debug\net8.0\SumOfArray.genruntimeconfig.cache
+E:\Study Material\Project\C_Sharp_Practice\SumOfArray\obj\Debug\net8.0\ref\SumOfArray.dll

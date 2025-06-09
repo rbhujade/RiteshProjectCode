@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Qw+rYoTkqw4=",
+  "success": true,
+  "projectFilePath": "E:\\Study Material\\Project\\C_Sharp_Practice\\DI_Scoped_Transient_Singleton\\DI_Scoped_Transient_Singleton.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\P1324361\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.3\\microsoft.extensions.dependencyinjection.9.0.3.nupkg.sha512",
+    "C:\\Users\\P1324361\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.3\\microsoft.extensions.dependencyinjection.abstractions.9.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

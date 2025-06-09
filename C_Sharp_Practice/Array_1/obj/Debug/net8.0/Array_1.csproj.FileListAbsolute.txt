@@ -1,0 +1,14 @@
+E:\Study Material\Project\C_Sharp_Practice\Array_1\bin\Debug\net8.0\Array_1.exe
+E:\Study Material\Project\C_Sharp_Practice\Array_1\bin\Debug\net8.0\Array_1.deps.json
+E:\Study Material\Project\C_Sharp_Practice\Array_1\bin\Debug\net8.0\Array_1.runtimeconfig.json
+E:\Study Material\Project\C_Sharp_Practice\Array_1\bin\Debug\net8.0\Array_1.dll
+E:\Study Material\Project\C_Sharp_Practice\Array_1\bin\Debug\net8.0\Array_1.pdb
+E:\Study Material\Project\C_Sharp_Practice\Array_1\obj\Debug\net8.0\Array_1.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study Material\Project\C_Sharp_Practice\Array_1\obj\Debug\net8.0\Array_1.AssemblyInfoInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\Array_1\obj\Debug\net8.0\Array_1.AssemblyInfo.cs
+E:\Study Material\Project\C_Sharp_Practice\Array_1\obj\Debug\net8.0\Array_1.csproj.CoreCompileInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\Array_1\obj\Debug\net8.0\Array_1.dll
+E:\Study Material\Project\C_Sharp_Practice\Array_1\obj\Debug\net8.0\refint\Array_1.dll
+E:\Study Material\Project\C_Sharp_Practice\Array_1\obj\Debug\net8.0\Array_1.pdb
+E:\Study Material\Project\C_Sharp_Practice\Array_1\obj\Debug\net8.0\Array_1.genruntimeconfig.cache
+E:\Study Material\Project\C_Sharp_Practice\Array_1\obj\Debug\net8.0\ref\Array_1.dll

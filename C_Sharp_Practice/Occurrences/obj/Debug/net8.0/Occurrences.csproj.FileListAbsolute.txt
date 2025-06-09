@@ -1,0 +1,14 @@
+E:\Study Material\Project\C_Sharp_Practice\Occurrences\bin\Debug\net8.0\Occurrences.exe
+E:\Study Material\Project\C_Sharp_Practice\Occurrences\bin\Debug\net8.0\Occurrences.deps.json
+E:\Study Material\Project\C_Sharp_Practice\Occurrences\bin\Debug\net8.0\Occurrences.runtimeconfig.json
+E:\Study Material\Project\C_Sharp_Practice\Occurrences\bin\Debug\net8.0\Occurrences.dll
+E:\Study Material\Project\C_Sharp_Practice\Occurrences\bin\Debug\net8.0\Occurrences.pdb
+E:\Study Material\Project\C_Sharp_Practice\Occurrences\obj\Debug\net8.0\Occurrences.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study Material\Project\C_Sharp_Practice\Occurrences\obj\Debug\net8.0\Occurrences.AssemblyInfoInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\Occurrences\obj\Debug\net8.0\Occurrences.AssemblyInfo.cs
+E:\Study Material\Project\C_Sharp_Practice\Occurrences\obj\Debug\net8.0\Occurrences.csproj.CoreCompileInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\Occurrences\obj\Debug\net8.0\Occurrences.dll
+E:\Study Material\Project\C_Sharp_Practice\Occurrences\obj\Debug\net8.0\refint\Occurrences.dll
+E:\Study Material\Project\C_Sharp_Practice\Occurrences\obj\Debug\net8.0\Occurrences.pdb
+E:\Study Material\Project\C_Sharp_Practice\Occurrences\obj\Debug\net8.0\Occurrences.genruntimeconfig.cache
+E:\Study Material\Project\C_Sharp_Practice\Occurrences\obj\Debug\net8.0\ref\Occurrences.dll

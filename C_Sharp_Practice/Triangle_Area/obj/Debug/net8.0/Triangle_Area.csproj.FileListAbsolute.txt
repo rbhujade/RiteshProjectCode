@@ -1,0 +1,14 @@
+E:\Study Material\Project\C_Sharp_Practice\Triangle_Area\bin\Debug\net8.0\Triangle_Area.exe
+E:\Study Material\Project\C_Sharp_Practice\Triangle_Area\bin\Debug\net8.0\Triangle_Area.deps.json
+E:\Study Material\Project\C_Sharp_Practice\Triangle_Area\bin\Debug\net8.0\Triangle_Area.runtimeconfig.json
+E:\Study Material\Project\C_Sharp_Practice\Triangle_Area\bin\Debug\net8.0\Triangle_Area.dll
+E:\Study Material\Project\C_Sharp_Practice\Triangle_Area\bin\Debug\net8.0\Triangle_Area.pdb
+E:\Study Material\Project\C_Sharp_Practice\Triangle_Area\obj\Debug\net8.0\Triangle_Area.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study Material\Project\C_Sharp_Practice\Triangle_Area\obj\Debug\net8.0\Triangle_Area.AssemblyInfoInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\Triangle_Area\obj\Debug\net8.0\Triangle_Area.AssemblyInfo.cs
+E:\Study Material\Project\C_Sharp_Practice\Triangle_Area\obj\Debug\net8.0\Triangle_Area.csproj.CoreCompileInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\Triangle_Area\obj\Debug\net8.0\Triangle_Area.dll
+E:\Study Material\Project\C_Sharp_Practice\Triangle_Area\obj\Debug\net8.0\refint\Triangle_Area.dll
+E:\Study Material\Project\C_Sharp_Practice\Triangle_Area\obj\Debug\net8.0\Triangle_Area.pdb
+E:\Study Material\Project\C_Sharp_Practice\Triangle_Area\obj\Debug\net8.0\Triangle_Area.genruntimeconfig.cache
+E:\Study Material\Project\C_Sharp_Practice\Triangle_Area\obj\Debug\net8.0\ref\Triangle_Area.dll

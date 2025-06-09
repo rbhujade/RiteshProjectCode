@@ -1,0 +1,14 @@
+E:\Study Material\Project\C_Sharp_Practice\DependencyInjectionExample\bin\Debug\net8.0\DependencyInjectionExample.exe
+E:\Study Material\Project\C_Sharp_Practice\DependencyInjectionExample\bin\Debug\net8.0\DependencyInjectionExample.deps.json
+E:\Study Material\Project\C_Sharp_Practice\DependencyInjectionExample\bin\Debug\net8.0\DependencyInjectionExample.runtimeconfig.json
+E:\Study Material\Project\C_Sharp_Practice\DependencyInjectionExample\bin\Debug\net8.0\DependencyInjectionExample.dll
+E:\Study Material\Project\C_Sharp_Practice\DependencyInjectionExample\bin\Debug\net8.0\DependencyInjectionExample.pdb
+E:\Study Material\Project\C_Sharp_Practice\DependencyInjectionExample\obj\Debug\net8.0\DependencyInjectionExample.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study Material\Project\C_Sharp_Practice\DependencyInjectionExample\obj\Debug\net8.0\DependencyInjectionExample.AssemblyInfoInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\DependencyInjectionExample\obj\Debug\net8.0\DependencyInjectionExample.AssemblyInfo.cs
+E:\Study Material\Project\C_Sharp_Practice\DependencyInjectionExample\obj\Debug\net8.0\DependencyInjectionExample.csproj.CoreCompileInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\DependencyInjectionExample\obj\Debug\net8.0\DependencyInjectionExample.dll
+E:\Study Material\Project\C_Sharp_Practice\DependencyInjectionExample\obj\Debug\net8.0\refint\DependencyInjectionExample.dll
+E:\Study Material\Project\C_Sharp_Practice\DependencyInjectionExample\obj\Debug\net8.0\DependencyInjectionExample.pdb
+E:\Study Material\Project\C_Sharp_Practice\DependencyInjectionExample\obj\Debug\net8.0\DependencyInjectionExample.genruntimeconfig.cache
+E:\Study Material\Project\C_Sharp_Practice\DependencyInjectionExample\obj\Debug\net8.0\ref\DependencyInjectionExample.dll

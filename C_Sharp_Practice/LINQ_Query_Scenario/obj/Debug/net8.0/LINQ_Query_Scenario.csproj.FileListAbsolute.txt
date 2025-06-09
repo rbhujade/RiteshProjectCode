@@ -1,0 +1,14 @@
+E:\Study Material\Project\C_Sharp_Practice\LINQ_Query_Scenario\bin\Debug\net8.0\LINQ_Query_Scenario.exe
+E:\Study Material\Project\C_Sharp_Practice\LINQ_Query_Scenario\bin\Debug\net8.0\LINQ_Query_Scenario.deps.json
+E:\Study Material\Project\C_Sharp_Practice\LINQ_Query_Scenario\bin\Debug\net8.0\LINQ_Query_Scenario.runtimeconfig.json
+E:\Study Material\Project\C_Sharp_Practice\LINQ_Query_Scenario\bin\Debug\net8.0\LINQ_Query_Scenario.dll
+E:\Study Material\Project\C_Sharp_Practice\LINQ_Query_Scenario\bin\Debug\net8.0\LINQ_Query_Scenario.pdb
+E:\Study Material\Project\C_Sharp_Practice\LINQ_Query_Scenario\obj\Debug\net8.0\LINQ_Query_Scenario.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study Material\Project\C_Sharp_Practice\LINQ_Query_Scenario\obj\Debug\net8.0\LINQ_Query_Scenario.AssemblyInfoInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\LINQ_Query_Scenario\obj\Debug\net8.0\LINQ_Query_Scenario.AssemblyInfo.cs
+E:\Study Material\Project\C_Sharp_Practice\LINQ_Query_Scenario\obj\Debug\net8.0\LINQ_Query_Scenario.csproj.CoreCompileInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\LINQ_Query_Scenario\obj\Debug\net8.0\LINQ_Query_Scenario.dll
+E:\Study Material\Project\C_Sharp_Practice\LINQ_Query_Scenario\obj\Debug\net8.0\refint\LINQ_Query_Scenario.dll
+E:\Study Material\Project\C_Sharp_Practice\LINQ_Query_Scenario\obj\Debug\net8.0\LINQ_Query_Scenario.pdb
+E:\Study Material\Project\C_Sharp_Practice\LINQ_Query_Scenario\obj\Debug\net8.0\LINQ_Query_Scenario.genruntimeconfig.cache
+E:\Study Material\Project\C_Sharp_Practice\LINQ_Query_Scenario\obj\Debug\net8.0\ref\LINQ_Query_Scenario.dll

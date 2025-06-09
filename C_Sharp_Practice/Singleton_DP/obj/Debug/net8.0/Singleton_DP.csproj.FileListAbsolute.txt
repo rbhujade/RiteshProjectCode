@@ -1,0 +1,14 @@
+E:\Study Material\Project\C_Sharp_Practice\Singleton_DP\bin\Debug\net8.0\Singleton_DP.exe
+E:\Study Material\Project\C_Sharp_Practice\Singleton_DP\bin\Debug\net8.0\Singleton_DP.deps.json
+E:\Study Material\Project\C_Sharp_Practice\Singleton_DP\bin\Debug\net8.0\Singleton_DP.runtimeconfig.json
+E:\Study Material\Project\C_Sharp_Practice\Singleton_DP\bin\Debug\net8.0\Singleton_DP.dll
+E:\Study Material\Project\C_Sharp_Practice\Singleton_DP\bin\Debug\net8.0\Singleton_DP.pdb
+E:\Study Material\Project\C_Sharp_Practice\Singleton_DP\obj\Debug\net8.0\Singleton_DP.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study Material\Project\C_Sharp_Practice\Singleton_DP\obj\Debug\net8.0\Singleton_DP.AssemblyInfoInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\Singleton_DP\obj\Debug\net8.0\Singleton_DP.AssemblyInfo.cs
+E:\Study Material\Project\C_Sharp_Practice\Singleton_DP\obj\Debug\net8.0\Singleton_DP.csproj.CoreCompileInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\Singleton_DP\obj\Debug\net8.0\Singleton_DP.dll
+E:\Study Material\Project\C_Sharp_Practice\Singleton_DP\obj\Debug\net8.0\refint\Singleton_DP.dll
+E:\Study Material\Project\C_Sharp_Practice\Singleton_DP\obj\Debug\net8.0\Singleton_DP.pdb
+E:\Study Material\Project\C_Sharp_Practice\Singleton_DP\obj\Debug\net8.0\Singleton_DP.genruntimeconfig.cache
+E:\Study Material\Project\C_Sharp_Practice\Singleton_DP\obj\Debug\net8.0\ref\Singleton_DP.dll

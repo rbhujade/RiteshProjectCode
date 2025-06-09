@@ -1,0 +1,14 @@
+E:\Study Material\Project\C_Sharp_Practice\Ref_Out_Parameter\bin\Debug\net8.0\Ref_Out_Parameter.exe
+E:\Study Material\Project\C_Sharp_Practice\Ref_Out_Parameter\bin\Debug\net8.0\Ref_Out_Parameter.deps.json
+E:\Study Material\Project\C_Sharp_Practice\Ref_Out_Parameter\bin\Debug\net8.0\Ref_Out_Parameter.runtimeconfig.json
+E:\Study Material\Project\C_Sharp_Practice\Ref_Out_Parameter\bin\Debug\net8.0\Ref_Out_Parameter.dll
+E:\Study Material\Project\C_Sharp_Practice\Ref_Out_Parameter\bin\Debug\net8.0\Ref_Out_Parameter.pdb
+E:\Study Material\Project\C_Sharp_Practice\Ref_Out_Parameter\obj\Debug\net8.0\Ref_Out_Parameter.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study Material\Project\C_Sharp_Practice\Ref_Out_Parameter\obj\Debug\net8.0\Ref_Out_Parameter.AssemblyInfoInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\Ref_Out_Parameter\obj\Debug\net8.0\Ref_Out_Parameter.AssemblyInfo.cs
+E:\Study Material\Project\C_Sharp_Practice\Ref_Out_Parameter\obj\Debug\net8.0\Ref_Out_Parameter.csproj.CoreCompileInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\Ref_Out_Parameter\obj\Debug\net8.0\Ref_Out_Parameter.dll
+E:\Study Material\Project\C_Sharp_Practice\Ref_Out_Parameter\obj\Debug\net8.0\refint\Ref_Out_Parameter.dll
+E:\Study Material\Project\C_Sharp_Practice\Ref_Out_Parameter\obj\Debug\net8.0\Ref_Out_Parameter.pdb
+E:\Study Material\Project\C_Sharp_Practice\Ref_Out_Parameter\obj\Debug\net8.0\Ref_Out_Parameter.genruntimeconfig.cache
+E:\Study Material\Project\C_Sharp_Practice\Ref_Out_Parameter\obj\Debug\net8.0\ref\Ref_Out_Parameter.dll

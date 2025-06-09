@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Left_Circular_Rotation_Array/1.0.0": {
+        "runtime": {
+          "Left_Circular_Rotation_Array.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Left_Circular_Rotation_Array/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

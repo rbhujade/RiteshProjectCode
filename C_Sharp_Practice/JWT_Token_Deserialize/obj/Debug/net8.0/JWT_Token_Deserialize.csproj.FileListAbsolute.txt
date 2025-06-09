@@ -1,0 +1,14 @@
+E:\Study Material\Project\C_Sharp_Practice\JWT_Token_Deserialize\bin\Debug\net8.0\JWT_Token_Deserialize.exe
+E:\Study Material\Project\C_Sharp_Practice\JWT_Token_Deserialize\bin\Debug\net8.0\JWT_Token_Deserialize.deps.json
+E:\Study Material\Project\C_Sharp_Practice\JWT_Token_Deserialize\bin\Debug\net8.0\JWT_Token_Deserialize.runtimeconfig.json
+E:\Study Material\Project\C_Sharp_Practice\JWT_Token_Deserialize\bin\Debug\net8.0\JWT_Token_Deserialize.dll
+E:\Study Material\Project\C_Sharp_Practice\JWT_Token_Deserialize\bin\Debug\net8.0\JWT_Token_Deserialize.pdb
+E:\Study Material\Project\C_Sharp_Practice\JWT_Token_Deserialize\obj\Debug\net8.0\JWT_Token_Deserialize.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study Material\Project\C_Sharp_Practice\JWT_Token_Deserialize\obj\Debug\net8.0\JWT_Token_Deserialize.AssemblyInfoInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\JWT_Token_Deserialize\obj\Debug\net8.0\JWT_Token_Deserialize.AssemblyInfo.cs
+E:\Study Material\Project\C_Sharp_Practice\JWT_Token_Deserialize\obj\Debug\net8.0\JWT_Token_Deserialize.csproj.CoreCompileInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\JWT_Token_Deserialize\obj\Debug\net8.0\JWT_Token_Deserialize.dll
+E:\Study Material\Project\C_Sharp_Practice\JWT_Token_Deserialize\obj\Debug\net8.0\refint\JWT_Token_Deserialize.dll
+E:\Study Material\Project\C_Sharp_Practice\JWT_Token_Deserialize\obj\Debug\net8.0\JWT_Token_Deserialize.pdb
+E:\Study Material\Project\C_Sharp_Practice\JWT_Token_Deserialize\obj\Debug\net8.0\JWT_Token_Deserialize.genruntimeconfig.cache
+E:\Study Material\Project\C_Sharp_Practice\JWT_Token_Deserialize\obj\Debug\net8.0\ref\JWT_Token_Deserialize.dll

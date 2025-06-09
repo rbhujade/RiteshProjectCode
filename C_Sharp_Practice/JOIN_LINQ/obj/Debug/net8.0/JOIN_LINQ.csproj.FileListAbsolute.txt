@@ -1,0 +1,14 @@
+E:\Study Material\Project\C_Sharp_Practice\JOIN_LINQ\bin\Debug\net8.0\JOIN_LINQ.exe
+E:\Study Material\Project\C_Sharp_Practice\JOIN_LINQ\bin\Debug\net8.0\JOIN_LINQ.deps.json
+E:\Study Material\Project\C_Sharp_Practice\JOIN_LINQ\bin\Debug\net8.0\JOIN_LINQ.runtimeconfig.json
+E:\Study Material\Project\C_Sharp_Practice\JOIN_LINQ\bin\Debug\net8.0\JOIN_LINQ.dll
+E:\Study Material\Project\C_Sharp_Practice\JOIN_LINQ\bin\Debug\net8.0\JOIN_LINQ.pdb
+E:\Study Material\Project\C_Sharp_Practice\JOIN_LINQ\obj\Debug\net8.0\JOIN_LINQ.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study Material\Project\C_Sharp_Practice\JOIN_LINQ\obj\Debug\net8.0\JOIN_LINQ.AssemblyInfoInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\JOIN_LINQ\obj\Debug\net8.0\JOIN_LINQ.AssemblyInfo.cs
+E:\Study Material\Project\C_Sharp_Practice\JOIN_LINQ\obj\Debug\net8.0\JOIN_LINQ.csproj.CoreCompileInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\JOIN_LINQ\obj\Debug\net8.0\JOIN_LINQ.dll
+E:\Study Material\Project\C_Sharp_Practice\JOIN_LINQ\obj\Debug\net8.0\refint\JOIN_LINQ.dll
+E:\Study Material\Project\C_Sharp_Practice\JOIN_LINQ\obj\Debug\net8.0\JOIN_LINQ.pdb
+E:\Study Material\Project\C_Sharp_Practice\JOIN_LINQ\obj\Debug\net8.0\JOIN_LINQ.genruntimeconfig.cache
+E:\Study Material\Project\C_Sharp_Practice\JOIN_LINQ\obj\Debug\net8.0\ref\JOIN_LINQ.dll

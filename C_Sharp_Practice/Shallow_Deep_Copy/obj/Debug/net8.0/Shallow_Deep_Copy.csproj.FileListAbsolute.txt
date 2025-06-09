@@ -1,0 +1,14 @@
+E:\Study Material\Project\C_Sharp_Practice\Shallow_Deep_Copy\bin\Debug\net8.0\Shallow_Deep_Copy.exe
+E:\Study Material\Project\C_Sharp_Practice\Shallow_Deep_Copy\bin\Debug\net8.0\Shallow_Deep_Copy.deps.json
+E:\Study Material\Project\C_Sharp_Practice\Shallow_Deep_Copy\bin\Debug\net8.0\Shallow_Deep_Copy.runtimeconfig.json
+E:\Study Material\Project\C_Sharp_Practice\Shallow_Deep_Copy\bin\Debug\net8.0\Shallow_Deep_Copy.dll
+E:\Study Material\Project\C_Sharp_Practice\Shallow_Deep_Copy\bin\Debug\net8.0\Shallow_Deep_Copy.pdb
+E:\Study Material\Project\C_Sharp_Practice\Shallow_Deep_Copy\obj\Debug\net8.0\Shallow_Deep_Copy.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study Material\Project\C_Sharp_Practice\Shallow_Deep_Copy\obj\Debug\net8.0\Shallow_Deep_Copy.AssemblyInfoInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\Shallow_Deep_Copy\obj\Debug\net8.0\Shallow_Deep_Copy.AssemblyInfo.cs
+E:\Study Material\Project\C_Sharp_Practice\Shallow_Deep_Copy\obj\Debug\net8.0\Shallow_Deep_Copy.csproj.CoreCompileInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\Shallow_Deep_Copy\obj\Debug\net8.0\Shallow_Deep_Copy.dll
+E:\Study Material\Project\C_Sharp_Practice\Shallow_Deep_Copy\obj\Debug\net8.0\refint\Shallow_Deep_Copy.dll
+E:\Study Material\Project\C_Sharp_Practice\Shallow_Deep_Copy\obj\Debug\net8.0\Shallow_Deep_Copy.pdb
+E:\Study Material\Project\C_Sharp_Practice\Shallow_Deep_Copy\obj\Debug\net8.0\Shallow_Deep_Copy.genruntimeconfig.cache
+E:\Study Material\Project\C_Sharp_Practice\Shallow_Deep_Copy\obj\Debug\net8.0\ref\Shallow_Deep_Copy.dll

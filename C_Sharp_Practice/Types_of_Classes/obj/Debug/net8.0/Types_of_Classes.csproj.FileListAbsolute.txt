@@ -1,0 +1,14 @@
+E:\Study Material\Project\C_Sharp_Practice\Types_of_Classes\bin\Debug\net8.0\Types_of_Classes.exe
+E:\Study Material\Project\C_Sharp_Practice\Types_of_Classes\bin\Debug\net8.0\Types_of_Classes.deps.json
+E:\Study Material\Project\C_Sharp_Practice\Types_of_Classes\bin\Debug\net8.0\Types_of_Classes.runtimeconfig.json
+E:\Study Material\Project\C_Sharp_Practice\Types_of_Classes\bin\Debug\net8.0\Types_of_Classes.dll
+E:\Study Material\Project\C_Sharp_Practice\Types_of_Classes\bin\Debug\net8.0\Types_of_Classes.pdb
+E:\Study Material\Project\C_Sharp_Practice\Types_of_Classes\obj\Debug\net8.0\Types_of_Classes.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study Material\Project\C_Sharp_Practice\Types_of_Classes\obj\Debug\net8.0\Types_of_Classes.AssemblyInfoInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\Types_of_Classes\obj\Debug\net8.0\Types_of_Classes.AssemblyInfo.cs
+E:\Study Material\Project\C_Sharp_Practice\Types_of_Classes\obj\Debug\net8.0\Types_of_Classes.csproj.CoreCompileInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\Types_of_Classes\obj\Debug\net8.0\Types_of_Classes.dll
+E:\Study Material\Project\C_Sharp_Practice\Types_of_Classes\obj\Debug\net8.0\refint\Types_of_Classes.dll
+E:\Study Material\Project\C_Sharp_Practice\Types_of_Classes\obj\Debug\net8.0\Types_of_Classes.pdb
+E:\Study Material\Project\C_Sharp_Practice\Types_of_Classes\obj\Debug\net8.0\Types_of_Classes.genruntimeconfig.cache
+E:\Study Material\Project\C_Sharp_Practice\Types_of_Classes\obj\Debug\net8.0\ref\Types_of_Classes.dll

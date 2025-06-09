@@ -1,0 +1,14 @@
+E:\Study Material\Project\C_Sharp_Practice\File_Handling_Scenario\bin\Debug\net8.0\File_Handling_Scenario.exe
+E:\Study Material\Project\C_Sharp_Practice\File_Handling_Scenario\bin\Debug\net8.0\File_Handling_Scenario.deps.json
+E:\Study Material\Project\C_Sharp_Practice\File_Handling_Scenario\bin\Debug\net8.0\File_Handling_Scenario.runtimeconfig.json
+E:\Study Material\Project\C_Sharp_Practice\File_Handling_Scenario\bin\Debug\net8.0\File_Handling_Scenario.dll
+E:\Study Material\Project\C_Sharp_Practice\File_Handling_Scenario\bin\Debug\net8.0\File_Handling_Scenario.pdb
+E:\Study Material\Project\C_Sharp_Practice\File_Handling_Scenario\obj\Debug\net8.0\File_Handling_Scenario.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study Material\Project\C_Sharp_Practice\File_Handling_Scenario\obj\Debug\net8.0\File_Handling_Scenario.AssemblyInfoInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\File_Handling_Scenario\obj\Debug\net8.0\File_Handling_Scenario.AssemblyInfo.cs
+E:\Study Material\Project\C_Sharp_Practice\File_Handling_Scenario\obj\Debug\net8.0\File_Handling_Scenario.csproj.CoreCompileInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\File_Handling_Scenario\obj\Debug\net8.0\File_Handling_Scenario.dll
+E:\Study Material\Project\C_Sharp_Practice\File_Handling_Scenario\obj\Debug\net8.0\refint\File_Handling_Scenario.dll
+E:\Study Material\Project\C_Sharp_Practice\File_Handling_Scenario\obj\Debug\net8.0\File_Handling_Scenario.pdb
+E:\Study Material\Project\C_Sharp_Practice\File_Handling_Scenario\obj\Debug\net8.0\File_Handling_Scenario.genruntimeconfig.cache
+E:\Study Material\Project\C_Sharp_Practice\File_Handling_Scenario\obj\Debug\net8.0\ref\File_Handling_Scenario.dll

@@ -1,0 +1,14 @@
+E:\Study Material\Project\C_Sharp_Practice\Const_Static_Readonly\bin\Debug\net8.0\Const_Static_Readonly.exe
+E:\Study Material\Project\C_Sharp_Practice\Const_Static_Readonly\bin\Debug\net8.0\Const_Static_Readonly.deps.json
+E:\Study Material\Project\C_Sharp_Practice\Const_Static_Readonly\bin\Debug\net8.0\Const_Static_Readonly.runtimeconfig.json
+E:\Study Material\Project\C_Sharp_Practice\Const_Static_Readonly\bin\Debug\net8.0\Const_Static_Readonly.dll
+E:\Study Material\Project\C_Sharp_Practice\Const_Static_Readonly\bin\Debug\net8.0\Const_Static_Readonly.pdb
+E:\Study Material\Project\C_Sharp_Practice\Const_Static_Readonly\obj\Debug\net8.0\Const_Static_Readonly.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study Material\Project\C_Sharp_Practice\Const_Static_Readonly\obj\Debug\net8.0\Const_Static_Readonly.AssemblyInfoInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\Const_Static_Readonly\obj\Debug\net8.0\Const_Static_Readonly.AssemblyInfo.cs
+E:\Study Material\Project\C_Sharp_Practice\Const_Static_Readonly\obj\Debug\net8.0\Const_Static_Readonly.csproj.CoreCompileInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\Const_Static_Readonly\obj\Debug\net8.0\Const_Static_Readonly.dll
+E:\Study Material\Project\C_Sharp_Practice\Const_Static_Readonly\obj\Debug\net8.0\refint\Const_Static_Readonly.dll
+E:\Study Material\Project\C_Sharp_Practice\Const_Static_Readonly\obj\Debug\net8.0\Const_Static_Readonly.pdb
+E:\Study Material\Project\C_Sharp_Practice\Const_Static_Readonly\obj\Debug\net8.0\Const_Static_Readonly.genruntimeconfig.cache
+E:\Study Material\Project\C_Sharp_Practice\Const_Static_Readonly\obj\Debug\net8.0\ref\Const_Static_Readonly.dll

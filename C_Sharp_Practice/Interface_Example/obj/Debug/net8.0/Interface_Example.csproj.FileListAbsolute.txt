@@ -1,0 +1,14 @@
+E:\Study Material\Project\C_Sharp_Practice\Interface_Example\bin\Debug\net8.0\Interface_Example.exe
+E:\Study Material\Project\C_Sharp_Practice\Interface_Example\bin\Debug\net8.0\Interface_Example.deps.json
+E:\Study Material\Project\C_Sharp_Practice\Interface_Example\bin\Debug\net8.0\Interface_Example.runtimeconfig.json
+E:\Study Material\Project\C_Sharp_Practice\Interface_Example\bin\Debug\net8.0\Interface_Example.dll
+E:\Study Material\Project\C_Sharp_Practice\Interface_Example\bin\Debug\net8.0\Interface_Example.pdb
+E:\Study Material\Project\C_Sharp_Practice\Interface_Example\obj\Debug\net8.0\Interface_Example.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study Material\Project\C_Sharp_Practice\Interface_Example\obj\Debug\net8.0\Interface_Example.AssemblyInfoInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\Interface_Example\obj\Debug\net8.0\Interface_Example.AssemblyInfo.cs
+E:\Study Material\Project\C_Sharp_Practice\Interface_Example\obj\Debug\net8.0\Interface_Example.csproj.CoreCompileInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\Interface_Example\obj\Debug\net8.0\Interface_Example.dll
+E:\Study Material\Project\C_Sharp_Practice\Interface_Example\obj\Debug\net8.0\refint\Interface_Example.dll
+E:\Study Material\Project\C_Sharp_Practice\Interface_Example\obj\Debug\net8.0\Interface_Example.pdb
+E:\Study Material\Project\C_Sharp_Practice\Interface_Example\obj\Debug\net8.0\Interface_Example.genruntimeconfig.cache
+E:\Study Material\Project\C_Sharp_Practice\Interface_Example\obj\Debug\net8.0\ref\Interface_Example.dll

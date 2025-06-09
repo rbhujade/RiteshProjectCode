@@ -1,0 +1,14 @@
+E:\Study Material\Project\C_Sharp_Practice\Reverese_Order_Word_2\bin\Debug\net8.0\Reverese_Order_Word_2.exe
+E:\Study Material\Project\C_Sharp_Practice\Reverese_Order_Word_2\bin\Debug\net8.0\Reverese_Order_Word_2.deps.json
+E:\Study Material\Project\C_Sharp_Practice\Reverese_Order_Word_2\bin\Debug\net8.0\Reverese_Order_Word_2.runtimeconfig.json
+E:\Study Material\Project\C_Sharp_Practice\Reverese_Order_Word_2\bin\Debug\net8.0\Reverese_Order_Word_2.dll
+E:\Study Material\Project\C_Sharp_Practice\Reverese_Order_Word_2\bin\Debug\net8.0\Reverese_Order_Word_2.pdb
+E:\Study Material\Project\C_Sharp_Practice\Reverese_Order_Word_2\obj\Debug\net8.0\Reverese_Order_Word_2.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study Material\Project\C_Sharp_Practice\Reverese_Order_Word_2\obj\Debug\net8.0\Reverese_Order_Word_2.AssemblyInfoInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\Reverese_Order_Word_2\obj\Debug\net8.0\Reverese_Order_Word_2.AssemblyInfo.cs
+E:\Study Material\Project\C_Sharp_Practice\Reverese_Order_Word_2\obj\Debug\net8.0\Reverese_Order_Word_2.csproj.CoreCompileInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\Reverese_Order_Word_2\obj\Debug\net8.0\Reverese_Order_Word_2.dll
+E:\Study Material\Project\C_Sharp_Practice\Reverese_Order_Word_2\obj\Debug\net8.0\refint\Reverese_Order_Word_2.dll
+E:\Study Material\Project\C_Sharp_Practice\Reverese_Order_Word_2\obj\Debug\net8.0\Reverese_Order_Word_2.pdb
+E:\Study Material\Project\C_Sharp_Practice\Reverese_Order_Word_2\obj\Debug\net8.0\Reverese_Order_Word_2.genruntimeconfig.cache
+E:\Study Material\Project\C_Sharp_Practice\Reverese_Order_Word_2\obj\Debug\net8.0\ref\Reverese_Order_Word_2.dll

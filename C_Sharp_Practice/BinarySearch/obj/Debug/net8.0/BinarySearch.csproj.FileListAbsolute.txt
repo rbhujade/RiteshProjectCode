@@ -1,0 +1,14 @@
+E:\Study Material\Project\C_Sharp_Practice\BinarySearch\bin\Debug\net8.0\BinarySearch.exe
+E:\Study Material\Project\C_Sharp_Practice\BinarySearch\bin\Debug\net8.0\BinarySearch.deps.json
+E:\Study Material\Project\C_Sharp_Practice\BinarySearch\bin\Debug\net8.0\BinarySearch.runtimeconfig.json
+E:\Study Material\Project\C_Sharp_Practice\BinarySearch\bin\Debug\net8.0\BinarySearch.dll
+E:\Study Material\Project\C_Sharp_Practice\BinarySearch\bin\Debug\net8.0\BinarySearch.pdb
+E:\Study Material\Project\C_Sharp_Practice\BinarySearch\obj\Debug\net8.0\BinarySearch.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study Material\Project\C_Sharp_Practice\BinarySearch\obj\Debug\net8.0\BinarySearch.AssemblyInfoInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\BinarySearch\obj\Debug\net8.0\BinarySearch.AssemblyInfo.cs
+E:\Study Material\Project\C_Sharp_Practice\BinarySearch\obj\Debug\net8.0\BinarySearch.csproj.CoreCompileInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\BinarySearch\obj\Debug\net8.0\BinarySearch.dll
+E:\Study Material\Project\C_Sharp_Practice\BinarySearch\obj\Debug\net8.0\refint\BinarySearch.dll
+E:\Study Material\Project\C_Sharp_Practice\BinarySearch\obj\Debug\net8.0\BinarySearch.pdb
+E:\Study Material\Project\C_Sharp_Practice\BinarySearch\obj\Debug\net8.0\BinarySearch.genruntimeconfig.cache
+E:\Study Material\Project\C_Sharp_Practice\BinarySearch\obj\Debug\net8.0\ref\BinarySearch.dll

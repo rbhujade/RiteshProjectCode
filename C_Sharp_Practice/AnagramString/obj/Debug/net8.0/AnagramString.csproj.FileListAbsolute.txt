@@ -1,0 +1,14 @@
+E:\Study Material\Project\C_Sharp_Practice\AnagramString\bin\Debug\net8.0\AnagramString.exe
+E:\Study Material\Project\C_Sharp_Practice\AnagramString\bin\Debug\net8.0\AnagramString.deps.json
+E:\Study Material\Project\C_Sharp_Practice\AnagramString\bin\Debug\net8.0\AnagramString.runtimeconfig.json
+E:\Study Material\Project\C_Sharp_Practice\AnagramString\bin\Debug\net8.0\AnagramString.dll
+E:\Study Material\Project\C_Sharp_Practice\AnagramString\bin\Debug\net8.0\AnagramString.pdb
+E:\Study Material\Project\C_Sharp_Practice\AnagramString\obj\Debug\net8.0\AnagramString.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study Material\Project\C_Sharp_Practice\AnagramString\obj\Debug\net8.0\AnagramString.AssemblyInfoInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\AnagramString\obj\Debug\net8.0\AnagramString.AssemblyInfo.cs
+E:\Study Material\Project\C_Sharp_Practice\AnagramString\obj\Debug\net8.0\AnagramString.csproj.CoreCompileInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\AnagramString\obj\Debug\net8.0\AnagramString.dll
+E:\Study Material\Project\C_Sharp_Practice\AnagramString\obj\Debug\net8.0\refint\AnagramString.dll
+E:\Study Material\Project\C_Sharp_Practice\AnagramString\obj\Debug\net8.0\AnagramString.pdb
+E:\Study Material\Project\C_Sharp_Practice\AnagramString\obj\Debug\net8.0\AnagramString.genruntimeconfig.cache
+E:\Study Material\Project\C_Sharp_Practice\AnagramString\obj\Debug\net8.0\ref\AnagramString.dll

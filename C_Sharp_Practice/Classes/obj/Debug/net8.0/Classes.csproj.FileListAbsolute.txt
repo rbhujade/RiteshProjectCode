@@ -1,0 +1,14 @@
+E:\Study Material\Project\C_Sharp_Practice\Classes\bin\Debug\net8.0\Classes.exe
+E:\Study Material\Project\C_Sharp_Practice\Classes\bin\Debug\net8.0\Classes.deps.json
+E:\Study Material\Project\C_Sharp_Practice\Classes\bin\Debug\net8.0\Classes.runtimeconfig.json
+E:\Study Material\Project\C_Sharp_Practice\Classes\bin\Debug\net8.0\Classes.dll
+E:\Study Material\Project\C_Sharp_Practice\Classes\bin\Debug\net8.0\Classes.pdb
+E:\Study Material\Project\C_Sharp_Practice\Classes\obj\Debug\net8.0\Classes.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study Material\Project\C_Sharp_Practice\Classes\obj\Debug\net8.0\Classes.AssemblyInfoInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\Classes\obj\Debug\net8.0\Classes.AssemblyInfo.cs
+E:\Study Material\Project\C_Sharp_Practice\Classes\obj\Debug\net8.0\Classes.csproj.CoreCompileInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\Classes\obj\Debug\net8.0\Classes.dll
+E:\Study Material\Project\C_Sharp_Practice\Classes\obj\Debug\net8.0\refint\Classes.dll
+E:\Study Material\Project\C_Sharp_Practice\Classes\obj\Debug\net8.0\Classes.pdb
+E:\Study Material\Project\C_Sharp_Practice\Classes\obj\Debug\net8.0\Classes.genruntimeconfig.cache
+E:\Study Material\Project\C_Sharp_Practice\Classes\obj\Debug\net8.0\ref\Classes.dll

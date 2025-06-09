@@ -1,0 +1,14 @@
+E:\Study Material\Project\C_Sharp_Practice\Constructore\bin\Debug\net8.0\Constructore.exe
+E:\Study Material\Project\C_Sharp_Practice\Constructore\bin\Debug\net8.0\Constructore.deps.json
+E:\Study Material\Project\C_Sharp_Practice\Constructore\bin\Debug\net8.0\Constructore.runtimeconfig.json
+E:\Study Material\Project\C_Sharp_Practice\Constructore\bin\Debug\net8.0\Constructore.dll
+E:\Study Material\Project\C_Sharp_Practice\Constructore\bin\Debug\net8.0\Constructore.pdb
+E:\Study Material\Project\C_Sharp_Practice\Constructore\obj\Debug\net8.0\Constructore.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study Material\Project\C_Sharp_Practice\Constructore\obj\Debug\net8.0\Constructore.AssemblyInfoInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\Constructore\obj\Debug\net8.0\Constructore.AssemblyInfo.cs
+E:\Study Material\Project\C_Sharp_Practice\Constructore\obj\Debug\net8.0\Constructore.csproj.CoreCompileInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\Constructore\obj\Debug\net8.0\Constructore.dll
+E:\Study Material\Project\C_Sharp_Practice\Constructore\obj\Debug\net8.0\refint\Constructore.dll
+E:\Study Material\Project\C_Sharp_Practice\Constructore\obj\Debug\net8.0\Constructore.pdb
+E:\Study Material\Project\C_Sharp_Practice\Constructore\obj\Debug\net8.0\Constructore.genruntimeconfig.cache
+E:\Study Material\Project\C_Sharp_Practice\Constructore\obj\Debug\net8.0\ref\Constructore.dll

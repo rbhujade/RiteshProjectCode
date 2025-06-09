@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Find_Largest_Num_Using_Loop/1.0.0": {
+        "runtime": {
+          "Find_Largest_Num_Using_Loop.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Find_Largest_Num_Using_Loop/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,5 @@
+E:\Study Material\Project\C_Sharp_Practice\Unit_Of_Work\obj\Debug\net8.0\Unit_Of_Work.csproj.AssemblyReference.cache
+E:\Study Material\Project\C_Sharp_Practice\Unit_Of_Work\obj\Debug\net8.0\Unit_Of_Work.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study Material\Project\C_Sharp_Practice\Unit_Of_Work\obj\Debug\net8.0\Unit_Of_Work.AssemblyInfoInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\Unit_Of_Work\obj\Debug\net8.0\Unit_Of_Work.AssemblyInfo.cs
+E:\Study Material\Project\C_Sharp_Practice\Unit_Of_Work\obj\Debug\net8.0\Unit_Of_Work.csproj.CoreCompileInputs.cache

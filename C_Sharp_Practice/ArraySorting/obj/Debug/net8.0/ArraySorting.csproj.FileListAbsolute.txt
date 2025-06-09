@@ -1,0 +1,14 @@
+E:\Study Material\Project\C_Sharp_Practice\ArraySorting\bin\Debug\net8.0\ArraySorting.exe
+E:\Study Material\Project\C_Sharp_Practice\ArraySorting\bin\Debug\net8.0\ArraySorting.deps.json
+E:\Study Material\Project\C_Sharp_Practice\ArraySorting\bin\Debug\net8.0\ArraySorting.runtimeconfig.json
+E:\Study Material\Project\C_Sharp_Practice\ArraySorting\bin\Debug\net8.0\ArraySorting.dll
+E:\Study Material\Project\C_Sharp_Practice\ArraySorting\bin\Debug\net8.0\ArraySorting.pdb
+E:\Study Material\Project\C_Sharp_Practice\ArraySorting\obj\Debug\net8.0\ArraySorting.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study Material\Project\C_Sharp_Practice\ArraySorting\obj\Debug\net8.0\ArraySorting.AssemblyInfoInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\ArraySorting\obj\Debug\net8.0\ArraySorting.AssemblyInfo.cs
+E:\Study Material\Project\C_Sharp_Practice\ArraySorting\obj\Debug\net8.0\ArraySorting.csproj.CoreCompileInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\ArraySorting\obj\Debug\net8.0\ArraySorting.dll
+E:\Study Material\Project\C_Sharp_Practice\ArraySorting\obj\Debug\net8.0\refint\ArraySorting.dll
+E:\Study Material\Project\C_Sharp_Practice\ArraySorting\obj\Debug\net8.0\ArraySorting.pdb
+E:\Study Material\Project\C_Sharp_Practice\ArraySorting\obj\Debug\net8.0\ArraySorting.genruntimeconfig.cache
+E:\Study Material\Project\C_Sharp_Practice\ArraySorting\obj\Debug\net8.0\ref\ArraySorting.dll

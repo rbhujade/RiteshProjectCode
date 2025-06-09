@@ -1,0 +1,14 @@
+E:\Study Material\Project\C_Sharp_Practice\ExtentionMethod\bin\Debug\net8.0\ExtensionMethod.exe
+E:\Study Material\Project\C_Sharp_Practice\ExtentionMethod\bin\Debug\net8.0\ExtensionMethod.deps.json
+E:\Study Material\Project\C_Sharp_Practice\ExtentionMethod\bin\Debug\net8.0\ExtensionMethod.runtimeconfig.json
+E:\Study Material\Project\C_Sharp_Practice\ExtentionMethod\bin\Debug\net8.0\ExtensionMethod.dll
+E:\Study Material\Project\C_Sharp_Practice\ExtentionMethod\bin\Debug\net8.0\ExtensionMethod.pdb
+E:\Study Material\Project\C_Sharp_Practice\ExtentionMethod\obj\Debug\net8.0\ExtensionMethod.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study Material\Project\C_Sharp_Practice\ExtentionMethod\obj\Debug\net8.0\ExtensionMethod.AssemblyInfoInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\ExtentionMethod\obj\Debug\net8.0\ExtensionMethod.AssemblyInfo.cs
+E:\Study Material\Project\C_Sharp_Practice\ExtentionMethod\obj\Debug\net8.0\ExtensionMethod.csproj.CoreCompileInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\ExtentionMethod\obj\Debug\net8.0\ExtensionMethod.dll
+E:\Study Material\Project\C_Sharp_Practice\ExtentionMethod\obj\Debug\net8.0\refint\ExtensionMethod.dll
+E:\Study Material\Project\C_Sharp_Practice\ExtentionMethod\obj\Debug\net8.0\ExtensionMethod.pdb
+E:\Study Material\Project\C_Sharp_Practice\ExtentionMethod\obj\Debug\net8.0\ExtensionMethod.genruntimeconfig.cache
+E:\Study Material\Project\C_Sharp_Practice\ExtentionMethod\obj\Debug\net8.0\ref\ExtensionMethod.dll

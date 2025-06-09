@@ -1,0 +1,14 @@
+E:\Study Material\Project\C_Sharp_Practice\HttpClient_Call\bin\Debug\net8.0\HttpClient_Call.exe
+E:\Study Material\Project\C_Sharp_Practice\HttpClient_Call\bin\Debug\net8.0\HttpClient_Call.deps.json
+E:\Study Material\Project\C_Sharp_Practice\HttpClient_Call\bin\Debug\net8.0\HttpClient_Call.runtimeconfig.json
+E:\Study Material\Project\C_Sharp_Practice\HttpClient_Call\bin\Debug\net8.0\HttpClient_Call.dll
+E:\Study Material\Project\C_Sharp_Practice\HttpClient_Call\bin\Debug\net8.0\HttpClient_Call.pdb
+E:\Study Material\Project\C_Sharp_Practice\HttpClient_Call\obj\Debug\net8.0\HttpClient_Call.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study Material\Project\C_Sharp_Practice\HttpClient_Call\obj\Debug\net8.0\HttpClient_Call.AssemblyInfoInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\HttpClient_Call\obj\Debug\net8.0\HttpClient_Call.AssemblyInfo.cs
+E:\Study Material\Project\C_Sharp_Practice\HttpClient_Call\obj\Debug\net8.0\HttpClient_Call.csproj.CoreCompileInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\HttpClient_Call\obj\Debug\net8.0\HttpClient_Call.dll
+E:\Study Material\Project\C_Sharp_Practice\HttpClient_Call\obj\Debug\net8.0\refint\HttpClient_Call.dll
+E:\Study Material\Project\C_Sharp_Practice\HttpClient_Call\obj\Debug\net8.0\HttpClient_Call.pdb
+E:\Study Material\Project\C_Sharp_Practice\HttpClient_Call\obj\Debug\net8.0\HttpClient_Call.genruntimeconfig.cache
+E:\Study Material\Project\C_Sharp_Practice\HttpClient_Call\obj\Debug\net8.0\ref\HttpClient_Call.dll

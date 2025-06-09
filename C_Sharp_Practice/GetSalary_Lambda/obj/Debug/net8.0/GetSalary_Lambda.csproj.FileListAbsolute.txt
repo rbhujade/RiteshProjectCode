@@ -1,0 +1,14 @@
+E:\Study Material\Project\C_Sharp_Practice\GetSalary_Lambda\bin\Debug\net8.0\GetSalary_Lambda.exe
+E:\Study Material\Project\C_Sharp_Practice\GetSalary_Lambda\bin\Debug\net8.0\GetSalary_Lambda.deps.json
+E:\Study Material\Project\C_Sharp_Practice\GetSalary_Lambda\bin\Debug\net8.0\GetSalary_Lambda.runtimeconfig.json
+E:\Study Material\Project\C_Sharp_Practice\GetSalary_Lambda\bin\Debug\net8.0\GetSalary_Lambda.dll
+E:\Study Material\Project\C_Sharp_Practice\GetSalary_Lambda\bin\Debug\net8.0\GetSalary_Lambda.pdb
+E:\Study Material\Project\C_Sharp_Practice\GetSalary_Lambda\obj\Debug\net8.0\GetSalary_Lambda.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study Material\Project\C_Sharp_Practice\GetSalary_Lambda\obj\Debug\net8.0\GetSalary_Lambda.AssemblyInfoInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\GetSalary_Lambda\obj\Debug\net8.0\GetSalary_Lambda.AssemblyInfo.cs
+E:\Study Material\Project\C_Sharp_Practice\GetSalary_Lambda\obj\Debug\net8.0\GetSalary_Lambda.csproj.CoreCompileInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\GetSalary_Lambda\obj\Debug\net8.0\GetSalary_Lambda.dll
+E:\Study Material\Project\C_Sharp_Practice\GetSalary_Lambda\obj\Debug\net8.0\refint\GetSalary_Lambda.dll
+E:\Study Material\Project\C_Sharp_Practice\GetSalary_Lambda\obj\Debug\net8.0\GetSalary_Lambda.pdb
+E:\Study Material\Project\C_Sharp_Practice\GetSalary_Lambda\obj\Debug\net8.0\GetSalary_Lambda.genruntimeconfig.cache
+E:\Study Material\Project\C_Sharp_Practice\GetSalary_Lambda\obj\Debug\net8.0\ref\GetSalary_Lambda.dll

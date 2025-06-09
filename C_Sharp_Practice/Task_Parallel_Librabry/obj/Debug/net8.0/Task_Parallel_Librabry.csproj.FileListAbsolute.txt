@@ -1,0 +1,14 @@
+E:\Study Material\Project\C_Sharp_Practice\Task_Parallel_Librabry\bin\Debug\net8.0\Task_Parallel_Librabry.exe
+E:\Study Material\Project\C_Sharp_Practice\Task_Parallel_Librabry\bin\Debug\net8.0\Task_Parallel_Librabry.deps.json
+E:\Study Material\Project\C_Sharp_Practice\Task_Parallel_Librabry\bin\Debug\net8.0\Task_Parallel_Librabry.runtimeconfig.json
+E:\Study Material\Project\C_Sharp_Practice\Task_Parallel_Librabry\bin\Debug\net8.0\Task_Parallel_Librabry.dll
+E:\Study Material\Project\C_Sharp_Practice\Task_Parallel_Librabry\bin\Debug\net8.0\Task_Parallel_Librabry.pdb
+E:\Study Material\Project\C_Sharp_Practice\Task_Parallel_Librabry\obj\Debug\net8.0\Task_Parallel_Librabry.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study Material\Project\C_Sharp_Practice\Task_Parallel_Librabry\obj\Debug\net8.0\Task_Parallel_Librabry.AssemblyInfoInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\Task_Parallel_Librabry\obj\Debug\net8.0\Task_Parallel_Librabry.AssemblyInfo.cs
+E:\Study Material\Project\C_Sharp_Practice\Task_Parallel_Librabry\obj\Debug\net8.0\Task_Parallel_Librabry.csproj.CoreCompileInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\Task_Parallel_Librabry\obj\Debug\net8.0\Task_Parallel_Librabry.dll
+E:\Study Material\Project\C_Sharp_Practice\Task_Parallel_Librabry\obj\Debug\net8.0\refint\Task_Parallel_Librabry.dll
+E:\Study Material\Project\C_Sharp_Practice\Task_Parallel_Librabry\obj\Debug\net8.0\Task_Parallel_Librabry.pdb
+E:\Study Material\Project\C_Sharp_Practice\Task_Parallel_Librabry\obj\Debug\net8.0\Task_Parallel_Librabry.genruntimeconfig.cache
+E:\Study Material\Project\C_Sharp_Practice\Task_Parallel_Librabry\obj\Debug\net8.0\ref\Task_Parallel_Librabry.dll

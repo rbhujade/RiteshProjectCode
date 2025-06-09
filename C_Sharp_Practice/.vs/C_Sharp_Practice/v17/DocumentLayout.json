@@ -1,0 +1,132 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Study Material\\Project\\C_Sharp_Practice\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{06BEA10D-A2C4-42A8-870E-1F7A3D3E0334}|LINQ_Join\\LINQ_Join.csproj|e:\\study material\\project\\c_sharp_practice\\linq_join\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06BEA10D-A2C4-42A8-870E-1F7A3D3E0334}|LINQ_Join\\LINQ_Join.csproj|solutionrelative:linq_join\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A073E843-3CD2-425D-A85B-341182599159}|LINQ\\LINQ.csproj|e:\\study material\\project\\c_sharp_practice\\linq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A073E843-3CD2-425D-A85B-341182599159}|LINQ\\LINQ.csproj|solutionrelative:linq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C20E833-7BC1-41BF-999A-EE563933B8B7}|JOIN_LINQ\\JOIN_LINQ.csproj|e:\\study material\\project\\c_sharp_practice\\join_linq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C20E833-7BC1-41BF-999A-EE563933B8B7}|JOIN_LINQ\\JOIN_LINQ.csproj|solutionrelative:join_linq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F58D2CEB-CAC8-4C18-AB84-120F372143BD}|Interface_Example\\Interface_Example.csproj|e:\\study material\\project\\c_sharp_practice\\interface_example\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F58D2CEB-CAC8-4C18-AB84-120F372143BD}|Interface_Example\\Interface_Example.csproj|solutionrelative:interface_example\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE0EF7B8-DF9E-4BB7-BC8B-CEFE4E1DD14C}|Abstract_Interface\\Abstract_Interface.csproj|e:\\study material\\project\\c_sharp_practice\\abstract_interface\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE0EF7B8-DF9E-4BB7-BC8B-CEFE4E1DD14C}|Abstract_Interface\\Abstract_Interface.csproj|solutionrelative:abstract_interface\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8409F25B-BA51-4F2B-9634-8ADCD206FF70}|Method_Hiding\\Method_Hiding.csproj|e:\\study material\\project\\c_sharp_practice\\method_hiding\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8409F25B-BA51-4F2B-9634-8ADCD206FF70}|Method_Hiding\\Method_Hiding.csproj|solutionrelative:method_hiding\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Study Material\\Project\\C_Sharp_Practice\\LINQ_Join\\Program.cs",
+              "RelativeDocumentMoniker": "LINQ_Join\\Program.cs",
+              "ToolTip": "E:\\Study Material\\Project\\C_Sharp_Practice\\LINQ_Join\\Program.cs",
+              "RelativeToolTip": "LINQ_Join\\Program.cs",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAAABIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T07:35:30.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Study Material\\Project\\C_Sharp_Practice\\LINQ\\Program.cs",
+              "RelativeDocumentMoniker": "LINQ\\Program.cs",
+              "ToolTip": "E:\\Study Material\\Project\\C_Sharp_Practice\\LINQ\\Program.cs",
+              "RelativeToolTip": "LINQ\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T07:34:08.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Study Material\\Project\\C_Sharp_Practice\\JOIN_LINQ\\Program.cs",
+              "RelativeDocumentMoniker": "JOIN_LINQ\\Program.cs",
+              "ToolTip": "E:\\Study Material\\Project\\C_Sharp_Practice\\JOIN_LINQ\\Program.cs",
+              "RelativeToolTip": "JOIN_LINQ\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T07:32:32.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Study Material\\Project\\C_Sharp_Practice\\Interface_Example\\Program.cs",
+              "RelativeDocumentMoniker": "Interface_Example\\Program.cs",
+              "ToolTip": "E:\\Study Material\\Project\\C_Sharp_Practice\\Interface_Example\\Program.cs",
+              "RelativeToolTip": "Interface_Example\\Program.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T07:23:09.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Study Material\\Project\\C_Sharp_Practice\\Abstract_Interface\\Program.cs",
+              "RelativeDocumentMoniker": "Abstract_Interface\\Program.cs",
+              "ToolTip": "E:\\Study Material\\Project\\C_Sharp_Practice\\Abstract_Interface\\Program.cs",
+              "RelativeToolTip": "Abstract_Interface\\Program.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAGIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T07:10:57.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Study Material\\Project\\C_Sharp_Practice\\Method_Hiding\\Program.cs",
+              "RelativeDocumentMoniker": "Method_Hiding\\Program.cs",
+              "ToolTip": "E:\\Study Material\\Project\\C_Sharp_Practice\\Method_Hiding\\Program.cs",
+              "RelativeToolTip": "Method_Hiding\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T07:00:06.25Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 294,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

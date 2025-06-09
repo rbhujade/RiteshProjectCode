@@ -1,0 +1,14 @@
+E:\Study Material\Project\C_Sharp_Practice\Task_Parallel_Library_TPL\bin\Debug\net8.0\Task_Parallel_Library_TPL.exe
+E:\Study Material\Project\C_Sharp_Practice\Task_Parallel_Library_TPL\bin\Debug\net8.0\Task_Parallel_Library_TPL.deps.json
+E:\Study Material\Project\C_Sharp_Practice\Task_Parallel_Library_TPL\bin\Debug\net8.0\Task_Parallel_Library_TPL.runtimeconfig.json
+E:\Study Material\Project\C_Sharp_Practice\Task_Parallel_Library_TPL\bin\Debug\net8.0\Task_Parallel_Library_TPL.dll
+E:\Study Material\Project\C_Sharp_Practice\Task_Parallel_Library_TPL\bin\Debug\net8.0\Task_Parallel_Library_TPL.pdb
+E:\Study Material\Project\C_Sharp_Practice\Task_Parallel_Library_TPL\obj\Debug\net8.0\Task_Parallel_Library_TPL.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study Material\Project\C_Sharp_Practice\Task_Parallel_Library_TPL\obj\Debug\net8.0\Task_Parallel_Library_TPL.AssemblyInfoInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\Task_Parallel_Library_TPL\obj\Debug\net8.0\Task_Parallel_Library_TPL.AssemblyInfo.cs
+E:\Study Material\Project\C_Sharp_Practice\Task_Parallel_Library_TPL\obj\Debug\net8.0\Task_Parallel_Library_TPL.csproj.CoreCompileInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\Task_Parallel_Library_TPL\obj\Debug\net8.0\Task_Parallel_Library_TPL.dll
+E:\Study Material\Project\C_Sharp_Practice\Task_Parallel_Library_TPL\obj\Debug\net8.0\refint\Task_Parallel_Library_TPL.dll
+E:\Study Material\Project\C_Sharp_Practice\Task_Parallel_Library_TPL\obj\Debug\net8.0\Task_Parallel_Library_TPL.pdb
+E:\Study Material\Project\C_Sharp_Practice\Task_Parallel_Library_TPL\obj\Debug\net8.0\Task_Parallel_Library_TPL.genruntimeconfig.cache
+E:\Study Material\Project\C_Sharp_Practice\Task_Parallel_Library_TPL\obj\Debug\net8.0\ref\Task_Parallel_Library_TPL.dll

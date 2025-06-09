@@ -1,0 +1,14 @@
+E:\Study Material\Project\C_Sharp_Practice\TryParse\bin\Debug\net8.0\TryParse.exe
+E:\Study Material\Project\C_Sharp_Practice\TryParse\bin\Debug\net8.0\TryParse.deps.json
+E:\Study Material\Project\C_Sharp_Practice\TryParse\bin\Debug\net8.0\TryParse.runtimeconfig.json
+E:\Study Material\Project\C_Sharp_Practice\TryParse\bin\Debug\net8.0\TryParse.dll
+E:\Study Material\Project\C_Sharp_Practice\TryParse\bin\Debug\net8.0\TryParse.pdb
+E:\Study Material\Project\C_Sharp_Practice\TryParse\obj\Debug\net8.0\TryParse.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study Material\Project\C_Sharp_Practice\TryParse\obj\Debug\net8.0\TryParse.AssemblyInfoInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\TryParse\obj\Debug\net8.0\TryParse.AssemblyInfo.cs
+E:\Study Material\Project\C_Sharp_Practice\TryParse\obj\Debug\net8.0\TryParse.csproj.CoreCompileInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\TryParse\obj\Debug\net8.0\TryParse.dll
+E:\Study Material\Project\C_Sharp_Practice\TryParse\obj\Debug\net8.0\refint\TryParse.dll
+E:\Study Material\Project\C_Sharp_Practice\TryParse\obj\Debug\net8.0\TryParse.pdb
+E:\Study Material\Project\C_Sharp_Practice\TryParse\obj\Debug\net8.0\TryParse.genruntimeconfig.cache
+E:\Study Material\Project\C_Sharp_Practice\TryParse\obj\Debug\net8.0\ref\TryParse.dll

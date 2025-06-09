@@ -1,0 +1,14 @@
+E:\Study Material\Project\C_Sharp_Practice\Tuples\bin\Debug\net8.0\Tuples.exe
+E:\Study Material\Project\C_Sharp_Practice\Tuples\bin\Debug\net8.0\Tuples.deps.json
+E:\Study Material\Project\C_Sharp_Practice\Tuples\bin\Debug\net8.0\Tuples.runtimeconfig.json
+E:\Study Material\Project\C_Sharp_Practice\Tuples\bin\Debug\net8.0\Tuples.dll
+E:\Study Material\Project\C_Sharp_Practice\Tuples\bin\Debug\net8.0\Tuples.pdb
+E:\Study Material\Project\C_Sharp_Practice\Tuples\obj\Debug\net8.0\Tuples.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study Material\Project\C_Sharp_Practice\Tuples\obj\Debug\net8.0\Tuples.AssemblyInfoInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\Tuples\obj\Debug\net8.0\Tuples.AssemblyInfo.cs
+E:\Study Material\Project\C_Sharp_Practice\Tuples\obj\Debug\net8.0\Tuples.csproj.CoreCompileInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\Tuples\obj\Debug\net8.0\Tuples.dll
+E:\Study Material\Project\C_Sharp_Practice\Tuples\obj\Debug\net8.0\refint\Tuples.dll
+E:\Study Material\Project\C_Sharp_Practice\Tuples\obj\Debug\net8.0\Tuples.pdb
+E:\Study Material\Project\C_Sharp_Practice\Tuples\obj\Debug\net8.0\Tuples.genruntimeconfig.cache
+E:\Study Material\Project\C_Sharp_Practice\Tuples\obj\Debug\net8.0\ref\Tuples.dll

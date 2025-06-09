@@ -1,0 +1,14 @@
+E:\Study Material\Project\C_Sharp_Practice\Odd_Even_List\bin\Debug\net8.0\Odd_Even_List.exe
+E:\Study Material\Project\C_Sharp_Practice\Odd_Even_List\bin\Debug\net8.0\Odd_Even_List.deps.json
+E:\Study Material\Project\C_Sharp_Practice\Odd_Even_List\bin\Debug\net8.0\Odd_Even_List.runtimeconfig.json
+E:\Study Material\Project\C_Sharp_Practice\Odd_Even_List\bin\Debug\net8.0\Odd_Even_List.dll
+E:\Study Material\Project\C_Sharp_Practice\Odd_Even_List\bin\Debug\net8.0\Odd_Even_List.pdb
+E:\Study Material\Project\C_Sharp_Practice\Odd_Even_List\obj\Debug\net8.0\Odd_Even_List.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study Material\Project\C_Sharp_Practice\Odd_Even_List\obj\Debug\net8.0\Odd_Even_List.AssemblyInfoInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\Odd_Even_List\obj\Debug\net8.0\Odd_Even_List.AssemblyInfo.cs
+E:\Study Material\Project\C_Sharp_Practice\Odd_Even_List\obj\Debug\net8.0\Odd_Even_List.csproj.CoreCompileInputs.cache
+E:\Study Material\Project\C_Sharp_Practice\Odd_Even_List\obj\Debug\net8.0\Odd_Even_List.dll
+E:\Study Material\Project\C_Sharp_Practice\Odd_Even_List\obj\Debug\net8.0\refint\Odd_Even_List.dll
+E:\Study Material\Project\C_Sharp_Practice\Odd_Even_List\obj\Debug\net8.0\Odd_Even_List.pdb
+E:\Study Material\Project\C_Sharp_Practice\Odd_Even_List\obj\Debug\net8.0\Odd_Even_List.genruntimeconfig.cache
+E:\Study Material\Project\C_Sharp_Practice\Odd_Even_List\obj\Debug\net8.0\ref\Odd_Even_List.dll
