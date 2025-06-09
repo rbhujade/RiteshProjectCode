@@ -1,0 +1,13 @@
+D:\PERSONAL\C# Basics\BasicConcepts\SerializationAndDeserialization\bin\Debug\SerializationAndDeserialization.exe.config
+D:\PERSONAL\C# Basics\BasicConcepts\SerializationAndDeserialization\bin\Debug\SerializationAndDeserialization.exe
+D:\PERSONAL\C# Basics\BasicConcepts\SerializationAndDeserialization\bin\Debug\SerializationAndDeserialization.pdb
+D:\PERSONAL\C# Basics\BasicConcepts\SerializationAndDeserialization\obj\Debug\SerializationAndDeserialization.csproj.CoreCompileInputs.cache
+D:\PERSONAL\C# Basics\BasicConcepts\SerializationAndDeserialization\obj\Debug\SerializationAndDeserialization.exe
+D:\PERSONAL\C# Basics\BasicConcepts\SerializationAndDeserialization\obj\Debug\SerializationAndDeserialization.pdb
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\SerializationAndDeserialization\bin\Debug\SerializationAndDeserialization.exe.config
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\SerializationAndDeserialization\bin\Debug\SerializationAndDeserialization.exe
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\SerializationAndDeserialization\bin\Debug\SerializationAndDeserialization.pdb
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\SerializationAndDeserialization\obj\Debug\SerializationAndDeserialization.csproj.AssemblyReference.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\SerializationAndDeserialization\obj\Debug\SerializationAndDeserialization.csproj.CoreCompileInputs.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\SerializationAndDeserialization\obj\Debug\SerializationAndDeserialization.exe
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\SerializationAndDeserialization\obj\Debug\SerializationAndDeserialization.pdb

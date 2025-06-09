@@ -1,0 +1,14 @@
+D:\PERSONAL\C# Basics\BasicConcepts\TPL1\bin\Debug\TPL1.exe.config
+D:\PERSONAL\C# Basics\BasicConcepts\TPL1\bin\Debug\TPL1.exe
+D:\PERSONAL\C# Basics\BasicConcepts\TPL1\bin\Debug\TPL1.pdb
+D:\PERSONAL\C# Basics\BasicConcepts\TPL1\obj\Debug\TPL1.csproj.CoreCompileInputs.cache
+D:\PERSONAL\C# Basics\BasicConcepts\TPL1\obj\Debug\TPL1.exe
+D:\PERSONAL\C# Basics\BasicConcepts\TPL1\obj\Debug\TPL1.pdb
+D:\PERSONAL\C# Basics\BasicConcepts\TPL1\obj\Debug\TPL1.csproj.AssemblyReference.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\TPL1\bin\Debug\TPL1.exe.config
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\TPL1\bin\Debug\TPL1.exe
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\TPL1\bin\Debug\TPL1.pdb
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\TPL1\obj\Debug\TPL1.csproj.AssemblyReference.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\TPL1\obj\Debug\TPL1.csproj.CoreCompileInputs.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\TPL1\obj\Debug\TPL1.exe
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\TPL1\obj\Debug\TPL1.pdb

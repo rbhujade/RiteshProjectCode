@@ -1,0 +1,14 @@
+D:\MyBackUP\Personal-Study\DesignPatterns\Singleton\bin\Debug\net8.0\Singleton.exe
+D:\MyBackUP\Personal-Study\DesignPatterns\Singleton\bin\Debug\net8.0\Singleton.deps.json
+D:\MyBackUP\Personal-Study\DesignPatterns\Singleton\bin\Debug\net8.0\Singleton.runtimeconfig.json
+D:\MyBackUP\Personal-Study\DesignPatterns\Singleton\bin\Debug\net8.0\Singleton.dll
+D:\MyBackUP\Personal-Study\DesignPatterns\Singleton\bin\Debug\net8.0\Singleton.pdb
+D:\MyBackUP\Personal-Study\DesignPatterns\Singleton\obj\Debug\net8.0\Singleton.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyBackUP\Personal-Study\DesignPatterns\Singleton\obj\Debug\net8.0\Singleton.AssemblyInfoInputs.cache
+D:\MyBackUP\Personal-Study\DesignPatterns\Singleton\obj\Debug\net8.0\Singleton.AssemblyInfo.cs
+D:\MyBackUP\Personal-Study\DesignPatterns\Singleton\obj\Debug\net8.0\Singleton.csproj.CoreCompileInputs.cache
+D:\MyBackUP\Personal-Study\DesignPatterns\Singleton\obj\Debug\net8.0\Singleton.dll
+D:\MyBackUP\Personal-Study\DesignPatterns\Singleton\obj\Debug\net8.0\refint\Singleton.dll
+D:\MyBackUP\Personal-Study\DesignPatterns\Singleton\obj\Debug\net8.0\Singleton.pdb
+D:\MyBackUP\Personal-Study\DesignPatterns\Singleton\obj\Debug\net8.0\Singleton.genruntimeconfig.cache
+D:\MyBackUP\Personal-Study\DesignPatterns\Singleton\obj\Debug\net8.0\ref\Singleton.dll

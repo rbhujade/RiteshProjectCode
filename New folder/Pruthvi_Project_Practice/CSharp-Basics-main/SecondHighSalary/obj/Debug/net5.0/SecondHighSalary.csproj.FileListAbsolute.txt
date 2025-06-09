@@ -1,0 +1,32 @@
+D:\PERSONAL\C# Basics\BasicConcepts\SecondHighSalary\bin\Debug\net5.0\SecondHighSalary.exe
+D:\PERSONAL\C# Basics\BasicConcepts\SecondHighSalary\bin\Debug\net5.0\SecondHighSalary.deps.json
+D:\PERSONAL\C# Basics\BasicConcepts\SecondHighSalary\bin\Debug\net5.0\SecondHighSalary.runtimeconfig.json
+D:\PERSONAL\C# Basics\BasicConcepts\SecondHighSalary\bin\Debug\net5.0\SecondHighSalary.runtimeconfig.dev.json
+D:\PERSONAL\C# Basics\BasicConcepts\SecondHighSalary\bin\Debug\net5.0\SecondHighSalary.dll
+D:\PERSONAL\C# Basics\BasicConcepts\SecondHighSalary\bin\Debug\net5.0\ref\SecondHighSalary.dll
+D:\PERSONAL\C# Basics\BasicConcepts\SecondHighSalary\bin\Debug\net5.0\SecondHighSalary.pdb
+D:\PERSONAL\C# Basics\BasicConcepts\SecondHighSalary\obj\Debug\net5.0\SecondHighSalary.csproj.AssemblyReference.cache
+D:\PERSONAL\C# Basics\BasicConcepts\SecondHighSalary\obj\Debug\net5.0\SecondHighSalary.GeneratedMSBuildEditorConfig.editorconfig
+D:\PERSONAL\C# Basics\BasicConcepts\SecondHighSalary\obj\Debug\net5.0\SecondHighSalary.AssemblyInfoInputs.cache
+D:\PERSONAL\C# Basics\BasicConcepts\SecondHighSalary\obj\Debug\net5.0\SecondHighSalary.AssemblyInfo.cs
+D:\PERSONAL\C# Basics\BasicConcepts\SecondHighSalary\obj\Debug\net5.0\SecondHighSalary.csproj.CoreCompileInputs.cache
+D:\PERSONAL\C# Basics\BasicConcepts\SecondHighSalary\obj\Debug\net5.0\SecondHighSalary.dll
+D:\PERSONAL\C# Basics\BasicConcepts\SecondHighSalary\obj\Debug\net5.0\ref\SecondHighSalary.dll
+D:\PERSONAL\C# Basics\BasicConcepts\SecondHighSalary\obj\Debug\net5.0\SecondHighSalary.pdb
+D:\PERSONAL\C# Basics\BasicConcepts\SecondHighSalary\obj\Debug\net5.0\SecondHighSalary.genruntimeconfig.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\SecondHighSalary\bin\Debug\net5.0\SecondHighSalary.exe
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\SecondHighSalary\bin\Debug\net5.0\SecondHighSalary.deps.json
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\SecondHighSalary\bin\Debug\net5.0\SecondHighSalary.runtimeconfig.json
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\SecondHighSalary\bin\Debug\net5.0\SecondHighSalary.runtimeconfig.dev.json
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\SecondHighSalary\bin\Debug\net5.0\SecondHighSalary.dll
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\SecondHighSalary\bin\Debug\net5.0\SecondHighSalary.pdb
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\SecondHighSalary\obj\Debug\net5.0\SecondHighSalary.csproj.AssemblyReference.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\SecondHighSalary\obj\Debug\net5.0\SecondHighSalary.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\SecondHighSalary\obj\Debug\net5.0\SecondHighSalary.AssemblyInfoInputs.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\SecondHighSalary\obj\Debug\net5.0\SecondHighSalary.AssemblyInfo.cs
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\SecondHighSalary\obj\Debug\net5.0\SecondHighSalary.csproj.CoreCompileInputs.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\SecondHighSalary\obj\Debug\net5.0\SecondHighSalary.dll
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\SecondHighSalary\obj\Debug\net5.0\refint\SecondHighSalary.dll
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\SecondHighSalary\obj\Debug\net5.0\SecondHighSalary.pdb
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\SecondHighSalary\obj\Debug\net5.0\SecondHighSalary.genruntimeconfig.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\SecondHighSalary\obj\Debug\net5.0\ref\SecondHighSalary.dll

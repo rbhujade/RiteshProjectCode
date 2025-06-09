@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\MyBackUP\\Personal-Study\\NetCore\\ApiVersioning\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BEBADD89-A009-4DA3-BA08-ECE55875A306}|ApiVersioning\\ApiVersioning.csproj|d:\\mybackup\\personal-study\\netcore\\apiversioning\\apiversioning\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEBADD89-A009-4DA3-BA08-ECE55875A306}|ApiVersioning\\ApiVersioning.csproj|solutionrelative:apiversioning\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEBADD89-A009-4DA3-BA08-ECE55875A306}|ApiVersioning\\ApiVersioning.csproj|d:\\mybackup\\personal-study\\netcore\\apiversioning\\apiversioning\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEBADD89-A009-4DA3-BA08-ECE55875A306}|ApiVersioning\\ApiVersioning.csproj|solutionrelative:apiversioning\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\MyBackUP\\Personal-Study\\NetCore\\ApiVersioning\\ApiVersioning\\Program.cs",
+              "RelativeDocumentMoniker": "ApiVersioning\\Program.cs",
+              "ToolTip": "D:\\MyBackUP\\Personal-Study\\NetCore\\ApiVersioning\\ApiVersioning\\Program.cs",
+              "RelativeToolTip": "ApiVersioning\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T11:09:10.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\MyBackUP\\Personal-Study\\NetCore\\ApiVersioning\\ApiVersioning\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "ApiVersioning\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\MyBackUP\\Personal-Study\\NetCore\\ApiVersioning\\ApiVersioning\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "ApiVersioning\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T10:22:52.884Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

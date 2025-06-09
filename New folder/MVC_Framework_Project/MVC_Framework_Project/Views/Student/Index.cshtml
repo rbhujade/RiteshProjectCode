@@ -1,0 +1,61 @@
+﻿@model IEnumerable<MVC_Framework_Project.Models.TB_Student>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+@{ 
+    foreach (var c in ViewData["Course"] as List<String>)
+            {
+                <li>@c</li>
+            }
+}
+<p>=====================================================</p>
+@{ foreach (var i in ViewBag.Course)
+    {
+        <li>@i</li>
+    }
+}
+
+<p>======================================</p>
+@{ 
+    foreach(var item in TempData["Course"] as List<string>)
+            {
+                <li>@item</li>
+            }
+}
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Course)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Contact)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Course)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Contact)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>
+    </tr>
+}
+
+</table>

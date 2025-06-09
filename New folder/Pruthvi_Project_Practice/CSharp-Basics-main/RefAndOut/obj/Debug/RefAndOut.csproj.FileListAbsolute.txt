@@ -1,0 +1,14 @@
+D:\PERSONAL\C# Basics\BasicConcepts\RefAndOut\bin\Debug\RefAndOut.exe.config
+D:\PERSONAL\C# Basics\BasicConcepts\RefAndOut\bin\Debug\RefAndOut.exe
+D:\PERSONAL\C# Basics\BasicConcepts\RefAndOut\bin\Debug\RefAndOut.pdb
+D:\PERSONAL\C# Basics\BasicConcepts\RefAndOut\obj\Debug\RefAndOut.csproj.CoreCompileInputs.cache
+D:\PERSONAL\C# Basics\BasicConcepts\RefAndOut\obj\Debug\RefAndOut.exe
+D:\PERSONAL\C# Basics\BasicConcepts\RefAndOut\obj\Debug\RefAndOut.pdb
+D:\PERSONAL\C# Basics\BasicConcepts\RefAndOut\obj\Debug\RefAndOut.csproj.AssemblyReference.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\RefAndOut\obj\Debug\RefAndOut.csproj.AssemblyReference.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\RefAndOut\obj\Debug\RefAndOut.csproj.CoreCompileInputs.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\RefAndOut\obj\Debug\RefAndOut.exe
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\RefAndOut\obj\Debug\RefAndOut.pdb
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\RefAndOut\bin\Debug\RefAndOut.exe.config
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\RefAndOut\bin\Debug\RefAndOut.exe
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\RefAndOut\bin\Debug\RefAndOut.pdb

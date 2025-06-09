@@ -1,0 +1,14 @@
+D:\MyBackUP\Personal-Study\DesignPatterns\Decorator\bin\Debug\net8.0\Decorator.exe
+D:\MyBackUP\Personal-Study\DesignPatterns\Decorator\bin\Debug\net8.0\Decorator.deps.json
+D:\MyBackUP\Personal-Study\DesignPatterns\Decorator\bin\Debug\net8.0\Decorator.runtimeconfig.json
+D:\MyBackUP\Personal-Study\DesignPatterns\Decorator\bin\Debug\net8.0\Decorator.dll
+D:\MyBackUP\Personal-Study\DesignPatterns\Decorator\bin\Debug\net8.0\Decorator.pdb
+D:\MyBackUP\Personal-Study\DesignPatterns\Decorator\obj\Debug\net8.0\Decorator.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyBackUP\Personal-Study\DesignPatterns\Decorator\obj\Debug\net8.0\Decorator.AssemblyInfoInputs.cache
+D:\MyBackUP\Personal-Study\DesignPatterns\Decorator\obj\Debug\net8.0\Decorator.AssemblyInfo.cs
+D:\MyBackUP\Personal-Study\DesignPatterns\Decorator\obj\Debug\net8.0\Decorator.csproj.CoreCompileInputs.cache
+D:\MyBackUP\Personal-Study\DesignPatterns\Decorator\obj\Debug\net8.0\Decorator.dll
+D:\MyBackUP\Personal-Study\DesignPatterns\Decorator\obj\Debug\net8.0\refint\Decorator.dll
+D:\MyBackUP\Personal-Study\DesignPatterns\Decorator\obj\Debug\net8.0\Decorator.pdb
+D:\MyBackUP\Personal-Study\DesignPatterns\Decorator\obj\Debug\net8.0\Decorator.genruntimeconfig.cache
+D:\MyBackUP\Personal-Study\DesignPatterns\Decorator\obj\Debug\net8.0\ref\Decorator.dll

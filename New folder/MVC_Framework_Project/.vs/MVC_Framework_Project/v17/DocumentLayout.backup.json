@@ -1,0 +1,64 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Study Material\\Project\\MVC_Framework_Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{35BECAE9-D260-4CE5-8CB6-D5C22A6EE6B5}|Middleware_Web_App_Test\\Middleware_Web_App_Test.csproj|e:\\study material\\project\\mvc_framework_project\\middleware_web_app_test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35BECAE9-D260-4CE5-8CB6-D5C22A6EE6B5}|Middleware_Web_App_Test\\Middleware_Web_App_Test.csproj|solutionrelative:middleware_web_app_test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35BECAE9-D260-4CE5-8CB6-D5C22A6EE6B5}|Middleware_Web_App_Test\\Middleware_Web_App_Test.csproj|e:\\study material\\project\\mvc_framework_project\\middleware_web_app_test\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{35BECAE9-D260-4CE5-8CB6-D5C22A6EE6B5}|Middleware_Web_App_Test\\Middleware_Web_App_Test.csproj|solutionrelative:middleware_web_app_test\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "E:\\Study Material\\Project\\MVC_Framework_Project\\Middleware_Web_App_Test\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Middleware_Web_App_Test\\Properties\\launchSettings.json",
+              "ToolTip": "E:\\Study Material\\Project\\MVC_Framework_Project\\Middleware_Web_App_Test\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Middleware_Web_App_Test\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-02T08:57:36.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Study Material\\Project\\MVC_Framework_Project\\Middleware_Web_App_Test\\Program.cs",
+              "RelativeDocumentMoniker": "Middleware_Web_App_Test\\Program.cs",
+              "ToolTip": "E:\\Study Material\\Project\\MVC_Framework_Project\\Middleware_Web_App_Test\\Program.cs",
+              "RelativeToolTip": "Middleware_Web_App_Test\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T08:54:49.17Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 294,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

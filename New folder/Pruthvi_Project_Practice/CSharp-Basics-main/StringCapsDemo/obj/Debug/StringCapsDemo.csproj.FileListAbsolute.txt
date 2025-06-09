@@ -1,0 +1,14 @@
+D:\PERSONAL\C# Basics\BasicConcepts\StringCapsDemo\bin\Debug\StringCapsDemo.exe.config
+D:\PERSONAL\C# Basics\BasicConcepts\StringCapsDemo\bin\Debug\StringCapsDemo.exe
+D:\PERSONAL\C# Basics\BasicConcepts\StringCapsDemo\bin\Debug\StringCapsDemo.pdb
+D:\PERSONAL\C# Basics\BasicConcepts\StringCapsDemo\obj\Debug\StringCapsDemo.csproj.CoreCompileInputs.cache
+D:\PERSONAL\C# Basics\BasicConcepts\StringCapsDemo\obj\Debug\StringCapsDemo.exe
+D:\PERSONAL\C# Basics\BasicConcepts\StringCapsDemo\obj\Debug\StringCapsDemo.pdb
+D:\PERSONAL\C# Basics\BasicConcepts\StringCapsDemo\obj\Debug\StringCapsDemo.csproj.AssemblyReference.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\StringCapsDemo\bin\Debug\StringCapsDemo.exe.config
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\StringCapsDemo\bin\Debug\StringCapsDemo.exe
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\StringCapsDemo\bin\Debug\StringCapsDemo.pdb
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\StringCapsDemo\obj\Debug\StringCapsDemo.csproj.AssemblyReference.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\StringCapsDemo\obj\Debug\StringCapsDemo.csproj.CoreCompileInputs.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\StringCapsDemo\obj\Debug\StringCapsDemo.exe
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\StringCapsDemo\obj\Debug\StringCapsDemo.pdb

@@ -1,0 +1,14 @@
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\DisposePattern\bin\Debug\net8.0\DisposePattern.exe
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\DisposePattern\bin\Debug\net8.0\DisposePattern.deps.json
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\DisposePattern\bin\Debug\net8.0\DisposePattern.runtimeconfig.json
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\DisposePattern\bin\Debug\net8.0\DisposePattern.dll
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\DisposePattern\bin\Debug\net8.0\DisposePattern.pdb
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\DisposePattern\obj\Debug\net8.0\DisposePattern.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\DisposePattern\obj\Debug\net8.0\DisposePattern.AssemblyInfoInputs.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\DisposePattern\obj\Debug\net8.0\DisposePattern.AssemblyInfo.cs
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\DisposePattern\obj\Debug\net8.0\DisposePattern.csproj.CoreCompileInputs.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\DisposePattern\obj\Debug\net8.0\DisposePattern.dll
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\DisposePattern\obj\Debug\net8.0\refint\DisposePattern.dll
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\DisposePattern\obj\Debug\net8.0\DisposePattern.pdb
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\DisposePattern\obj\Debug\net8.0\DisposePattern.genruntimeconfig.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\DisposePattern\obj\Debug\net8.0\ref\DisposePattern.dll

@@ -1,0 +1,20 @@
+D:\PERSONAL\C# Basics\BasicConcepts\BackgroundWorker\bin\Debug\BackgroundWorker.exe.config
+D:\PERSONAL\C# Basics\BasicConcepts\BackgroundWorker\bin\Debug\BackgroundWorker.exe
+D:\PERSONAL\C# Basics\BasicConcepts\BackgroundWorker\bin\Debug\BackgroundWorker.pdb
+D:\PERSONAL\C# Basics\BasicConcepts\BackgroundWorker\obj\Debug\BackgroundWorker.Form1.resources
+D:\PERSONAL\C# Basics\BasicConcepts\BackgroundWorker\obj\Debug\BackgroundWorker.Properties.Resources.resources
+D:\PERSONAL\C# Basics\BasicConcepts\BackgroundWorker\obj\Debug\BackgroundWorker.csproj.GenerateResource.cache
+D:\PERSONAL\C# Basics\BasicConcepts\BackgroundWorker\obj\Debug\BackgroundWorker.csproj.CoreCompileInputs.cache
+D:\PERSONAL\C# Basics\BasicConcepts\BackgroundWorker\obj\Debug\BackgroundWorker.exe
+D:\PERSONAL\C# Basics\BasicConcepts\BackgroundWorker\obj\Debug\BackgroundWorker.pdb
+D:\PERSONAL\C# Basics\BasicConcepts\BackgroundWorker\obj\Debug\BackgroundWorker.csproj.AssemblyReference.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\BackgroundWorker\bin\Debug\BackgroundWorker.exe.config
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\BackgroundWorker\bin\Debug\BackgroundWorker.exe
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\BackgroundWorker\bin\Debug\BackgroundWorker.pdb
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\BackgroundWorker\obj\Debug\BackgroundWorker.csproj.AssemblyReference.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\BackgroundWorker\obj\Debug\BackgroundWorker.Form1.resources
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\BackgroundWorker\obj\Debug\BackgroundWorker.Properties.Resources.resources
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\BackgroundWorker\obj\Debug\BackgroundWorker.csproj.GenerateResource.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\BackgroundWorker\obj\Debug\BackgroundWorker.csproj.CoreCompileInputs.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\BackgroundWorker\obj\Debug\BackgroundWorker.exe
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\BackgroundWorker\obj\Debug\BackgroundWorker.pdb

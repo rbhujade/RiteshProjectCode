@@ -1,0 +1,14 @@
+D:\PERSONAL\C# Basics\BasicConcepts\Delegate1\bin\Debug\Delegate1.exe.config
+D:\PERSONAL\C# Basics\BasicConcepts\Delegate1\bin\Debug\Delegate1.exe
+D:\PERSONAL\C# Basics\BasicConcepts\Delegate1\bin\Debug\Delegate1.pdb
+D:\PERSONAL\C# Basics\BasicConcepts\Delegate1\obj\Debug\Delegate1.csproj.CoreCompileInputs.cache
+D:\PERSONAL\C# Basics\BasicConcepts\Delegate1\obj\Debug\Delegate1.exe
+D:\PERSONAL\C# Basics\BasicConcepts\Delegate1\obj\Debug\Delegate1.pdb
+D:\PERSONAL\C# Basics\BasicConcepts\Delegate1\obj\Debug\Delegate1.csproj.AssemblyReference.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\Delegate1\bin\Debug\Delegate1.exe.config
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\Delegate1\bin\Debug\Delegate1.exe
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\Delegate1\bin\Debug\Delegate1.pdb
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\Delegate1\obj\Debug\Delegate1.csproj.AssemblyReference.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\Delegate1\obj\Debug\Delegate1.csproj.CoreCompileInputs.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\Delegate1\obj\Debug\Delegate1.exe
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\Delegate1\obj\Debug\Delegate1.pdb

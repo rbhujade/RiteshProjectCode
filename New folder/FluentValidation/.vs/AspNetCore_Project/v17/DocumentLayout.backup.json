@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Study Material\\Project\\FluentValidation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{06485F4B-019A-4060-B733-816729661A41}|DB_First_EF_Approach\\DB_First_EF_Approach.csproj|e:\\study material\\project\\fluentvalidation\\db_first_ef_approach\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06485F4B-019A-4060-B733-816729661A41}|DB_First_EF_Approach\\DB_First_EF_Approach.csproj|solutionrelative:db_first_ef_approach\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06485F4B-019A-4060-B733-816729661A41}|DB_First_EF_Approach\\DB_First_EF_Approach.csproj|e:\\study material\\project\\fluentvalidation\\db_first_ef_approach\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{06485F4B-019A-4060-B733-816729661A41}|DB_First_EF_Approach\\DB_First_EF_Approach.csproj|solutionrelative:db_first_ef_approach\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06485F4B-019A-4060-B733-816729661A41}|DB_First_EF_Approach\\DB_First_EF_Approach.csproj|e:\\study material\\project\\fluentvalidation\\db_first_ef_approach\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{06485F4B-019A-4060-B733-816729661A41}|DB_First_EF_Approach\\DB_First_EF_Approach.csproj|solutionrelative:db_first_ef_approach\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06485F4B-019A-4060-B733-816729661A41}|DB_First_EF_Approach\\DB_First_EF_Approach.csproj|e:\\study material\\project\\fluentvalidation\\db_first_ef_approach\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06485F4B-019A-4060-B733-816729661A41}|DB_First_EF_Approach\\DB_First_EF_Approach.csproj|solutionrelative:db_first_ef_approach\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06485F4B-019A-4060-B733-816729661A41}|DB_First_EF_Approach\\DB_First_EF_Approach.csproj|e:\\study material\\project\\fluentvalidation\\db_first_ef_approach\\models\\sampledbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06485F4B-019A-4060-B733-816729661A41}|DB_First_EF_Approach\\DB_First_EF_Approach.csproj|solutionrelative:db_first_ef_approach\\models\\sampledbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74D1CE31-52B0-4CFC-BF14-914F94378FF9}|CodeFirst_EF_Approach_2\\CodeFirst_EF_Approach_2.csproj|e:\\study material\\project\\fluentvalidation\\codefirst_ef_approach_2\\models\\efcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74D1CE31-52B0-4CFC-BF14-914F94378FF9}|CodeFirst_EF_Approach_2\\CodeFirst_EF_Approach_2.csproj|solutionrelative:codefirst_ef_approach_2\\models\\efcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A260FA3-BA4E-45BD-A5AB-49BCF36A951B}|CodeFirst_EF_Approach\\CodeFirst_EF_Approach.csproj|e:\\study material\\project\\fluentvalidation\\codefirst_ef_approach\\models\\inventorydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A260FA3-BA4E-45BD-A5AB-49BCF36A951B}|CodeFirst_EF_Approach\\CodeFirst_EF_Approach.csproj|solutionrelative:codefirst_ef_approach\\models\\inventorydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "E:\\Study Material\\Project\\FluentValidation\\DB_First_EF_Approach\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "DB_First_EF_Approach\\appsettings.Development.json",
+              "ToolTip": "E:\\Study Material\\Project\\FluentValidation\\DB_First_EF_Approach\\appsettings.Development.json",
+              "RelativeToolTip": "DB_First_EF_Approach\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-23T12:05:28.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "E:\\Study Material\\Project\\FluentValidation\\DB_First_EF_Approach\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "DB_First_EF_Approach\\Properties\\launchSettings.json",
+              "ToolTip": "E:\\Study Material\\Project\\FluentValidation\\DB_First_EF_Approach\\Properties\\launchSettings.json",
+              "RelativeToolTip": "DB_First_EF_Approach\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAoAAAAAAAAAAADwvxsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-23T12:00:20.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "E:\\Study Material\\Project\\FluentValidation\\DB_First_EF_Approach\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "DB_First_EF_Approach\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "E:\\Study Material\\Project\\FluentValidation\\DB_First_EF_Approach\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "DB_First_EF_Approach\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T11:58:06.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Study Material\\Project\\FluentValidation\\DB_First_EF_Approach\\Program.cs",
+              "RelativeDocumentMoniker": "DB_First_EF_Approach\\Program.cs",
+              "ToolTip": "E:\\Study Material\\Project\\FluentValidation\\DB_First_EF_Approach\\Program.cs",
+              "RelativeToolTip": "DB_First_EF_Approach\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T11:56:41.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SampleDbContext.cs",
+              "DocumentMoniker": "E:\\Study Material\\Project\\FluentValidation\\DB_First_EF_Approach\\Models\\SampleDbContext.cs",
+              "RelativeDocumentMoniker": "DB_First_EF_Approach\\Models\\SampleDbContext.cs",
+              "ToolTip": "E:\\Study Material\\Project\\FluentValidation\\DB_First_EF_Approach\\Models\\SampleDbContext.cs",
+              "RelativeToolTip": "DB_First_EF_Approach\\Models\\SampleDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T11:41:14.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "InventoryDbContext.cs",
+              "DocumentMoniker": "E:\\Study Material\\Project\\FluentValidation\\CodeFirst_EF_Approach\\Models\\InventoryDbContext.cs",
+              "RelativeDocumentMoniker": "CodeFirst_EF_Approach\\Models\\InventoryDbContext.cs",
+              "ToolTip": "E:\\Study Material\\Project\\FluentValidation\\CodeFirst_EF_Approach\\Models\\InventoryDbContext.cs",
+              "RelativeToolTip": "CodeFirst_EF_Approach\\Models\\InventoryDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T11:35:20.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EFContext.cs",
+              "DocumentMoniker": "E:\\Study Material\\Project\\FluentValidation\\CodeFirst_EF_Approach_2\\Models\\EFContext.cs",
+              "RelativeDocumentMoniker": "CodeFirst_EF_Approach_2\\Models\\EFContext.cs",
+              "ToolTip": "E:\\Study Material\\Project\\FluentValidation\\CodeFirst_EF_Approach_2\\Models\\EFContext.cs",
+              "RelativeToolTip": "CodeFirst_EF_Approach_2\\Models\\EFContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T11:33:58.079Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

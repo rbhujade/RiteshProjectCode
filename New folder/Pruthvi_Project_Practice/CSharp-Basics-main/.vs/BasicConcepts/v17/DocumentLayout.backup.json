@@ -1,0 +1,132 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Study Material\\Project\\Pruthvi_Project_Practice\\CSharp-Basics-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A459588C-FB68-4CE4-905B-26AF072AC15A}|EvenOddDemo\\EvenOddDemo.csproj|e:\\study material\\project\\pruthvi_project_practice\\csharp-basics-main\\evenodddemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A459588C-FB68-4CE4-905B-26AF072AC15A}|EvenOddDemo\\EvenOddDemo.csproj|solutionrelative:evenodddemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37CF1F17-9B2E-43A1-9D57-9C92084EA0DA}|DisposePattern\\DisposePattern.csproj|e:\\study material\\project\\pruthvi_project_practice\\csharp-basics-main\\disposepattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37CF1F17-9B2E-43A1-9D57-9C92084EA0DA}|DisposePattern\\DisposePattern.csproj|solutionrelative:disposepattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB6106E1-5AAF-4F75-97EF-FB19E228F319}|Delegate1\\Delegate1.csproj|e:\\study material\\project\\pruthvi_project_practice\\csharp-basics-main\\delegate1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB6106E1-5AAF-4F75-97EF-FB19E228F319}|Delegate1\\Delegate1.csproj|solutionrelative:delegate1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2313808-0F9B-4874-9B2C-C5CA6A57FA2C}|CustomeMiddleware\\CustomeMiddleware.csproj|e:\\study material\\project\\pruthvi_project_practice\\csharp-basics-main\\customemiddleware\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2313808-0F9B-4874-9B2C-C5CA6A57FA2C}|CustomeMiddleware\\CustomeMiddleware.csproj|solutionrelative:customemiddleware\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2313808-0F9B-4874-9B2C-C5CA6A57FA2C}|CustomeMiddleware\\CustomeMiddleware.csproj|e:\\study material\\project\\pruthvi_project_practice\\csharp-basics-main\\customemiddleware\\exceptionhandling\\globalexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2313808-0F9B-4874-9B2C-C5CA6A57FA2C}|CustomeMiddleware\\CustomeMiddleware.csproj|solutionrelative:customemiddleware\\exceptionhandling\\globalexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2313808-0F9B-4874-9B2C-C5CA6A57FA2C}|CustomeMiddleware\\CustomeMiddleware.csproj|e:\\study material\\project\\pruthvi_project_practice\\csharp-basics-main\\customemiddleware\\middleware\\custommiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2313808-0F9B-4874-9B2C-C5CA6A57FA2C}|CustomeMiddleware\\CustomeMiddleware.csproj|solutionrelative:customemiddleware\\middleware\\custommiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Study Material\\Project\\Pruthvi_Project_Practice\\CSharp-Basics-main\\EvenOddDemo\\Program.cs",
+              "RelativeDocumentMoniker": "EvenOddDemo\\Program.cs",
+              "ToolTip": "E:\\Study Material\\Project\\Pruthvi_Project_Practice\\CSharp-Basics-main\\EvenOddDemo\\Program.cs",
+              "RelativeToolTip": "EvenOddDemo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T10:16:01.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Study Material\\Project\\Pruthvi_Project_Practice\\CSharp-Basics-main\\DisposePattern\\Program.cs",
+              "RelativeDocumentMoniker": "DisposePattern\\Program.cs",
+              "ToolTip": "E:\\Study Material\\Project\\Pruthvi_Project_Practice\\CSharp-Basics-main\\DisposePattern\\Program.cs",
+              "RelativeToolTip": "DisposePattern\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T10:07:28.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Study Material\\Project\\Pruthvi_Project_Practice\\CSharp-Basics-main\\Delegate1\\Program.cs",
+              "RelativeDocumentMoniker": "Delegate1\\Program.cs",
+              "ToolTip": "E:\\Study Material\\Project\\Pruthvi_Project_Practice\\CSharp-Basics-main\\Delegate1\\Program.cs",
+              "RelativeToolTip": "Delegate1\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T10:00:25.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GlobalException.cs",
+              "DocumentMoniker": "E:\\Study Material\\Project\\Pruthvi_Project_Practice\\CSharp-Basics-main\\CustomeMiddleware\\ExceptionHandling\\GlobalException.cs",
+              "RelativeDocumentMoniker": "CustomeMiddleware\\ExceptionHandling\\GlobalException.cs",
+              "ToolTip": "E:\\Study Material\\Project\\Pruthvi_Project_Practice\\CSharp-Basics-main\\CustomeMiddleware\\ExceptionHandling\\GlobalException.cs",
+              "RelativeToolTip": "CustomeMiddleware\\ExceptionHandling\\GlobalException.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T06:51:30.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomMiddleware.cs",
+              "DocumentMoniker": "E:\\Study Material\\Project\\Pruthvi_Project_Practice\\CSharp-Basics-main\\CustomeMiddleware\\Middleware\\CustomMiddleware.cs",
+              "RelativeDocumentMoniker": "CustomeMiddleware\\Middleware\\CustomMiddleware.cs",
+              "ToolTip": "E:\\Study Material\\Project\\Pruthvi_Project_Practice\\CSharp-Basics-main\\CustomeMiddleware\\Middleware\\CustomMiddleware.cs",
+              "RelativeToolTip": "CustomeMiddleware\\Middleware\\CustomMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T06:51:00.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Study Material\\Project\\Pruthvi_Project_Practice\\CSharp-Basics-main\\CustomeMiddleware\\Program.cs",
+              "RelativeDocumentMoniker": "CustomeMiddleware\\Program.cs",
+              "ToolTip": "E:\\Study Material\\Project\\Pruthvi_Project_Practice\\CSharp-Basics-main\\CustomeMiddleware\\Program.cs",
+              "RelativeToolTip": "CustomeMiddleware\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T06:50:55.191Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 294,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

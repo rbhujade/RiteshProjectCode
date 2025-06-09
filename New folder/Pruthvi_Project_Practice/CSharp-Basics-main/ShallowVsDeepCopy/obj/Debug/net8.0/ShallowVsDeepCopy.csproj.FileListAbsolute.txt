@@ -1,0 +1,14 @@
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\ShallowVsDeepCopy\bin\Debug\net8.0\ShallowVsDeepCopy.exe
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\ShallowVsDeepCopy\bin\Debug\net8.0\ShallowVsDeepCopy.deps.json
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\ShallowVsDeepCopy\bin\Debug\net8.0\ShallowVsDeepCopy.runtimeconfig.json
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\ShallowVsDeepCopy\bin\Debug\net8.0\ShallowVsDeepCopy.dll
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\ShallowVsDeepCopy\bin\Debug\net8.0\ShallowVsDeepCopy.pdb
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\ShallowVsDeepCopy\obj\Debug\net8.0\ShallowVsDeepCopy.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\ShallowVsDeepCopy\obj\Debug\net8.0\ShallowVsDeepCopy.AssemblyInfoInputs.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\ShallowVsDeepCopy\obj\Debug\net8.0\ShallowVsDeepCopy.AssemblyInfo.cs
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\ShallowVsDeepCopy\obj\Debug\net8.0\ShallowVsDeepCopy.csproj.CoreCompileInputs.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\ShallowVsDeepCopy\obj\Debug\net8.0\ShallowVsDeepCopy.dll
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\ShallowVsDeepCopy\obj\Debug\net8.0\refint\ShallowVsDeepCopy.dll
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\ShallowVsDeepCopy\obj\Debug\net8.0\ShallowVsDeepCopy.pdb
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\ShallowVsDeepCopy\obj\Debug\net8.0\ShallowVsDeepCopy.genruntimeconfig.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\ShallowVsDeepCopy\obj\Debug\net8.0\ref\ShallowVsDeepCopy.dll

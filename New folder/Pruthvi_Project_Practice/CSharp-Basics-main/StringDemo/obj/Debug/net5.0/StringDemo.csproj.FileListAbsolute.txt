@@ -1,0 +1,32 @@
+D:\PERSONAL\C# Basics\BasicConcepts\StringDemo\bin\Debug\net5.0\StringDemo.exe
+D:\PERSONAL\C# Basics\BasicConcepts\StringDemo\bin\Debug\net5.0\StringDemo.deps.json
+D:\PERSONAL\C# Basics\BasicConcepts\StringDemo\bin\Debug\net5.0\StringDemo.runtimeconfig.json
+D:\PERSONAL\C# Basics\BasicConcepts\StringDemo\bin\Debug\net5.0\StringDemo.runtimeconfig.dev.json
+D:\PERSONAL\C# Basics\BasicConcepts\StringDemo\bin\Debug\net5.0\StringDemo.dll
+D:\PERSONAL\C# Basics\BasicConcepts\StringDemo\bin\Debug\net5.0\ref\StringDemo.dll
+D:\PERSONAL\C# Basics\BasicConcepts\StringDemo\bin\Debug\net5.0\StringDemo.pdb
+D:\PERSONAL\C# Basics\BasicConcepts\StringDemo\obj\Debug\net5.0\StringDemo.csproj.AssemblyReference.cache
+D:\PERSONAL\C# Basics\BasicConcepts\StringDemo\obj\Debug\net5.0\StringDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\PERSONAL\C# Basics\BasicConcepts\StringDemo\obj\Debug\net5.0\StringDemo.AssemblyInfoInputs.cache
+D:\PERSONAL\C# Basics\BasicConcepts\StringDemo\obj\Debug\net5.0\StringDemo.AssemblyInfo.cs
+D:\PERSONAL\C# Basics\BasicConcepts\StringDemo\obj\Debug\net5.0\StringDemo.csproj.CoreCompileInputs.cache
+D:\PERSONAL\C# Basics\BasicConcepts\StringDemo\obj\Debug\net5.0\StringDemo.dll
+D:\PERSONAL\C# Basics\BasicConcepts\StringDemo\obj\Debug\net5.0\ref\StringDemo.dll
+D:\PERSONAL\C# Basics\BasicConcepts\StringDemo\obj\Debug\net5.0\StringDemo.pdb
+D:\PERSONAL\C# Basics\BasicConcepts\StringDemo\obj\Debug\net5.0\StringDemo.genruntimeconfig.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\StringDemo\bin\Debug\net5.0\StringDemo.exe
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\StringDemo\bin\Debug\net5.0\StringDemo.deps.json
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\StringDemo\bin\Debug\net5.0\StringDemo.runtimeconfig.json
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\StringDemo\bin\Debug\net5.0\StringDemo.runtimeconfig.dev.json
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\StringDemo\bin\Debug\net5.0\StringDemo.dll
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\StringDemo\bin\Debug\net5.0\StringDemo.pdb
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\StringDemo\obj\Debug\net5.0\StringDemo.csproj.AssemblyReference.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\StringDemo\obj\Debug\net5.0\StringDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\StringDemo\obj\Debug\net5.0\StringDemo.AssemblyInfoInputs.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\StringDemo\obj\Debug\net5.0\StringDemo.AssemblyInfo.cs
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\StringDemo\obj\Debug\net5.0\StringDemo.csproj.CoreCompileInputs.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\StringDemo\obj\Debug\net5.0\StringDemo.dll
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\StringDemo\obj\Debug\net5.0\refint\StringDemo.dll
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\StringDemo\obj\Debug\net5.0\StringDemo.pdb
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\StringDemo\obj\Debug\net5.0\StringDemo.genruntimeconfig.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\StringDemo\obj\Debug\net5.0\ref\StringDemo.dll

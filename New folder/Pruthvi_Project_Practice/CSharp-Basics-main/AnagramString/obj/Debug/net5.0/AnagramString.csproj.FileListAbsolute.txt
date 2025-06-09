@@ -1,0 +1,32 @@
+D:\PERSONAL\C# Basics\BasicConcepts\AnagramString\bin\Debug\net5.0\AnagramString.exe
+D:\PERSONAL\C# Basics\BasicConcepts\AnagramString\bin\Debug\net5.0\AnagramString.deps.json
+D:\PERSONAL\C# Basics\BasicConcepts\AnagramString\bin\Debug\net5.0\AnagramString.runtimeconfig.json
+D:\PERSONAL\C# Basics\BasicConcepts\AnagramString\bin\Debug\net5.0\AnagramString.runtimeconfig.dev.json
+D:\PERSONAL\C# Basics\BasicConcepts\AnagramString\bin\Debug\net5.0\AnagramString.dll
+D:\PERSONAL\C# Basics\BasicConcepts\AnagramString\bin\Debug\net5.0\ref\AnagramString.dll
+D:\PERSONAL\C# Basics\BasicConcepts\AnagramString\bin\Debug\net5.0\AnagramString.pdb
+D:\PERSONAL\C# Basics\BasicConcepts\AnagramString\obj\Debug\net5.0\AnagramString.csproj.AssemblyReference.cache
+D:\PERSONAL\C# Basics\BasicConcepts\AnagramString\obj\Debug\net5.0\AnagramString.GeneratedMSBuildEditorConfig.editorconfig
+D:\PERSONAL\C# Basics\BasicConcepts\AnagramString\obj\Debug\net5.0\AnagramString.AssemblyInfoInputs.cache
+D:\PERSONAL\C# Basics\BasicConcepts\AnagramString\obj\Debug\net5.0\AnagramString.AssemblyInfo.cs
+D:\PERSONAL\C# Basics\BasicConcepts\AnagramString\obj\Debug\net5.0\AnagramString.csproj.CoreCompileInputs.cache
+D:\PERSONAL\C# Basics\BasicConcepts\AnagramString\obj\Debug\net5.0\AnagramString.dll
+D:\PERSONAL\C# Basics\BasicConcepts\AnagramString\obj\Debug\net5.0\ref\AnagramString.dll
+D:\PERSONAL\C# Basics\BasicConcepts\AnagramString\obj\Debug\net5.0\AnagramString.pdb
+D:\PERSONAL\C# Basics\BasicConcepts\AnagramString\obj\Debug\net5.0\AnagramString.genruntimeconfig.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\AnagramString\bin\Debug\net5.0\AnagramString.exe
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\AnagramString\bin\Debug\net5.0\AnagramString.deps.json
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\AnagramString\bin\Debug\net5.0\AnagramString.runtimeconfig.json
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\AnagramString\bin\Debug\net5.0\AnagramString.runtimeconfig.dev.json
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\AnagramString\bin\Debug\net5.0\AnagramString.dll
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\AnagramString\bin\Debug\net5.0\AnagramString.pdb
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\AnagramString\obj\Debug\net5.0\AnagramString.csproj.AssemblyReference.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\AnagramString\obj\Debug\net5.0\AnagramString.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\AnagramString\obj\Debug\net5.0\AnagramString.AssemblyInfoInputs.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\AnagramString\obj\Debug\net5.0\AnagramString.AssemblyInfo.cs
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\AnagramString\obj\Debug\net5.0\AnagramString.csproj.CoreCompileInputs.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\AnagramString\obj\Debug\net5.0\AnagramString.dll
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\AnagramString\obj\Debug\net5.0\refint\AnagramString.dll
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\AnagramString\obj\Debug\net5.0\AnagramString.pdb
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\AnagramString\obj\Debug\net5.0\AnagramString.genruntimeconfig.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\AnagramString\obj\Debug\net5.0\ref\AnagramString.dll

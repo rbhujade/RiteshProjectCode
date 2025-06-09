@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "3ilFExfAhpg3K3uKGqNMTpWHwqo3hxUzBBHNxMX9KxA=",
+  "Source": "InventoryConsumer",
+  "BasePath": "_content/InventoryConsumer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

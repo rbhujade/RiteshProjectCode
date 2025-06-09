@@ -1,0 +1,47 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Study Material\\Project\\Docker_Web_API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C83B8F90-F42E-4814-9FD5-1937AF8F392E}|Docker_Web_API\\Docker_Web_API.csproj|e:\\study material\\project\\docker_web_api\\docker_web_api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C83B8F90-F42E-4814-9FD5-1937AF8F392E}|Docker_Web_API\\Docker_Web_API.csproj|solutionrelative:docker_web_api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "E:\\Study Material\\Project\\Docker_Web_API\\Docker_Web_API\\Dockerfile",
+              "RelativeDocumentMoniker": "Docker_Web_API\\Dockerfile",
+              "ToolTip": "E:\\Study Material\\Project\\Docker_Web_API\\Docker_Web_API\\Dockerfile",
+              "RelativeToolTip": "Docker_Web_API\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-06T06:28:16.353Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 294,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

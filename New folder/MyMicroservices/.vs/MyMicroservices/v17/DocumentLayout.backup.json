@@ -1,0 +1,55 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Study Material\\Project\\MyMicroservices\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5B5FFFB1-7F9E-4059-8EB2-4B1157B65378}|MyMicroservices.csproj|e:\\study material\\project\\mymicroservices\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B5FFFB1-7F9E-4059-8EB2-4B1157B65378}|MyMicroservices.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B5FFFB1-7F9E-4059-8EB2-4B1157B65378}|MyMicroservices.csproj|e:\\study material\\project\\mymicroservices\\mymicroservices.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{5B5FFFB1-7F9E-4059-8EB2-4B1157B65378}|MyMicroservices.csproj|solutionrelative:mymicroservices.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Study Material\\Project\\MyMicroservices\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\Study Material\\Project\\MyMicroservices\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T09:24:35.889Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MyMicroservices.http",
+              "DocumentMoniker": "E:\\Study Material\\Project\\MyMicroservices\\MyMicroservices.http",
+              "RelativeDocumentMoniker": "MyMicroservices.http",
+              "ToolTip": "E:\\Study Material\\Project\\MyMicroservices\\MyMicroservices.http",
+              "RelativeToolTip": "MyMicroservices.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-08-29T09:24:41.004Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

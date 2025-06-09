@@ -1,0 +1,16 @@
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\DelegateDemoWin\bin\Debug\net8.0-windows\DelegateDemoWin.exe
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\DelegateDemoWin\bin\Debug\net8.0-windows\DelegateDemoWin.deps.json
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\DelegateDemoWin\bin\Debug\net8.0-windows\DelegateDemoWin.runtimeconfig.json
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\DelegateDemoWin\bin\Debug\net8.0-windows\DelegateDemoWin.dll
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\DelegateDemoWin\bin\Debug\net8.0-windows\DelegateDemoWin.pdb
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\DelegateDemoWin\obj\Debug\net8.0-windows\DelegateDemoWin.Form1.resources
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\DelegateDemoWin\obj\Debug\net8.0-windows\DelegateDemoWin.csproj.GenerateResource.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\DelegateDemoWin\obj\Debug\net8.0-windows\DelegateDemoWin.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\DelegateDemoWin\obj\Debug\net8.0-windows\DelegateDemoWin.AssemblyInfoInputs.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\DelegateDemoWin\obj\Debug\net8.0-windows\DelegateDemoWin.AssemblyInfo.cs
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\DelegateDemoWin\obj\Debug\net8.0-windows\DelegateDemoWin.csproj.CoreCompileInputs.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\DelegateDemoWin\obj\Debug\net8.0-windows\DelegateDemoWin.dll
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\DelegateDemoWin\obj\Debug\net8.0-windows\refint\DelegateDemoWin.dll
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\DelegateDemoWin\obj\Debug\net8.0-windows\DelegateDemoWin.pdb
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\DelegateDemoWin\obj\Debug\net8.0-windows\DelegateDemoWin.genruntimeconfig.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\DelegateDemoWin\obj\Debug\net8.0-windows\ref\DelegateDemoWin.dll

@@ -1,0 +1,14 @@
+D:\PERSONAL\C# Basics\BasicConcepts\Generic\bin\Debug\Generic.exe.config
+D:\PERSONAL\C# Basics\BasicConcepts\Generic\bin\Debug\Generic.exe
+D:\PERSONAL\C# Basics\BasicConcepts\Generic\bin\Debug\Generic.pdb
+D:\PERSONAL\C# Basics\BasicConcepts\Generic\obj\Debug\Generic.csproj.CoreCompileInputs.cache
+D:\PERSONAL\C# Basics\BasicConcepts\Generic\obj\Debug\Generic.exe
+D:\PERSONAL\C# Basics\BasicConcepts\Generic\obj\Debug\Generic.pdb
+D:\PERSONAL\C# Basics\BasicConcepts\Generic\obj\Debug\Generic.csproj.AssemblyReference.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\Generic\bin\Debug\Generic.exe.config
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\Generic\bin\Debug\Generic.exe
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\Generic\bin\Debug\Generic.pdb
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\Generic\obj\Debug\Generic.csproj.AssemblyReference.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\Generic\obj\Debug\Generic.csproj.CoreCompileInputs.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\Generic\obj\Debug\Generic.exe
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\Generic\obj\Debug\Generic.pdb

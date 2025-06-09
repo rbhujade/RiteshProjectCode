@@ -1,0 +1,14 @@
+D:\PERSONAL\C# Basics\BasicConcepts\Predicate\bin\Debug\Predicate.exe.config
+D:\PERSONAL\C# Basics\BasicConcepts\Predicate\bin\Debug\Predicate.exe
+D:\PERSONAL\C# Basics\BasicConcepts\Predicate\bin\Debug\Predicate.pdb
+D:\PERSONAL\C# Basics\BasicConcepts\Predicate\obj\Debug\Predicate.csproj.CoreCompileInputs.cache
+D:\PERSONAL\C# Basics\BasicConcepts\Predicate\obj\Debug\Predicate.exe
+D:\PERSONAL\C# Basics\BasicConcepts\Predicate\obj\Debug\Predicate.pdb
+D:\PERSONAL\C# Basics\BasicConcepts\Predicate\obj\Debug\Predicate.csproj.AssemblyReference.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\Predicate\bin\Debug\Predicate.exe.config
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\Predicate\bin\Debug\Predicate.exe
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\Predicate\bin\Debug\Predicate.pdb
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\Predicate\obj\Debug\Predicate.csproj.AssemblyReference.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\Predicate\obj\Debug\Predicate.csproj.CoreCompileInputs.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\Predicate\obj\Debug\Predicate.exe
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\Predicate\obj\Debug\Predicate.pdb

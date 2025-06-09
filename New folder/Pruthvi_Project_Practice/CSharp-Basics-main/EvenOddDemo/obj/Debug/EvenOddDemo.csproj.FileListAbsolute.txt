@@ -1,0 +1,21 @@
+D:\PERSONAL\C# Basics\BasicConcepts\EvenOddDemo\obj\Debug\EvenOddDemo.csproj.CoreCompileInputs.cache
+D:\PERSONAL\C# Basics\BasicConcepts\EvenOddDemo\bin\Debug\EvenOddDemo.exe.config
+D:\PERSONAL\C# Basics\BasicConcepts\EvenOddDemo\bin\Debug\EvenOddDemo.exe
+D:\PERSONAL\C# Basics\BasicConcepts\EvenOddDemo\bin\Debug\EvenOddDemo.pdb
+D:\PERSONAL\C# Basics\BasicConcepts\EvenOddDemo\obj\Debug\EvenOddDemo.exe
+D:\PERSONAL\C# Basics\BasicConcepts\EvenOddDemo\obj\Debug\EvenOddDemo.pdb
+D:\PERSONAL\C# Basics\BasicConcepts\EvenOddDemo\obj\Debug\EvenOddDemo.csproj.AssemblyReference.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\EvenOddDemo\bin\Debug\EvenOddDemo.exe.config
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\EvenOddDemo\bin\Debug\EvenOddDemo.exe
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\EvenOddDemo\bin\Debug\EvenOddDemo.pdb
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\EvenOddDemo\obj\Debug\EvenOddDemo.csproj.AssemblyReference.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\EvenOddDemo\obj\Debug\EvenOddDemo.csproj.CoreCompileInputs.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\EvenOddDemo\obj\Debug\EvenOddDemo.exe
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\EvenOddDemo\obj\Debug\EvenOddDemo.pdb
+E:\Study Material\Project\Pruthvi_Project_Practice\CSharp-Basics-main\EvenOddDemo\bin\Debug\EvenOddDemo.exe.config
+E:\Study Material\Project\Pruthvi_Project_Practice\CSharp-Basics-main\EvenOddDemo\bin\Debug\EvenOddDemo.exe
+E:\Study Material\Project\Pruthvi_Project_Practice\CSharp-Basics-main\EvenOddDemo\bin\Debug\EvenOddDemo.pdb
+E:\Study Material\Project\Pruthvi_Project_Practice\CSharp-Basics-main\EvenOddDemo\obj\Debug\EvenOddDemo.csproj.AssemblyReference.cache
+E:\Study Material\Project\Pruthvi_Project_Practice\CSharp-Basics-main\EvenOddDemo\obj\Debug\EvenOddDemo.csproj.CoreCompileInputs.cache
+E:\Study Material\Project\Pruthvi_Project_Practice\CSharp-Basics-main\EvenOddDemo\obj\Debug\EvenOddDemo.exe
+E:\Study Material\Project\Pruthvi_Project_Practice\CSharp-Basics-main\EvenOddDemo\obj\Debug\EvenOddDemo.pdb

@@ -1,0 +1,32 @@
+D:\PERSONAL\C# Basics\BasicConcepts\AccessModifier\bin\Debug\net5.0\AccessModifier.exe
+D:\PERSONAL\C# Basics\BasicConcepts\AccessModifier\bin\Debug\net5.0\AccessModifier.deps.json
+D:\PERSONAL\C# Basics\BasicConcepts\AccessModifier\bin\Debug\net5.0\AccessModifier.runtimeconfig.json
+D:\PERSONAL\C# Basics\BasicConcepts\AccessModifier\bin\Debug\net5.0\AccessModifier.runtimeconfig.dev.json
+D:\PERSONAL\C# Basics\BasicConcepts\AccessModifier\bin\Debug\net5.0\AccessModifier.dll
+D:\PERSONAL\C# Basics\BasicConcepts\AccessModifier\bin\Debug\net5.0\ref\AccessModifier.dll
+D:\PERSONAL\C# Basics\BasicConcepts\AccessModifier\bin\Debug\net5.0\AccessModifier.pdb
+D:\PERSONAL\C# Basics\BasicConcepts\AccessModifier\obj\Debug\net5.0\AccessModifier.csproj.AssemblyReference.cache
+D:\PERSONAL\C# Basics\BasicConcepts\AccessModifier\obj\Debug\net5.0\AccessModifier.GeneratedMSBuildEditorConfig.editorconfig
+D:\PERSONAL\C# Basics\BasicConcepts\AccessModifier\obj\Debug\net5.0\AccessModifier.AssemblyInfoInputs.cache
+D:\PERSONAL\C# Basics\BasicConcepts\AccessModifier\obj\Debug\net5.0\AccessModifier.AssemblyInfo.cs
+D:\PERSONAL\C# Basics\BasicConcepts\AccessModifier\obj\Debug\net5.0\AccessModifier.csproj.CoreCompileInputs.cache
+D:\PERSONAL\C# Basics\BasicConcepts\AccessModifier\obj\Debug\net5.0\AccessModifier.dll
+D:\PERSONAL\C# Basics\BasicConcepts\AccessModifier\obj\Debug\net5.0\ref\AccessModifier.dll
+D:\PERSONAL\C# Basics\BasicConcepts\AccessModifier\obj\Debug\net5.0\AccessModifier.pdb
+D:\PERSONAL\C# Basics\BasicConcepts\AccessModifier\obj\Debug\net5.0\AccessModifier.genruntimeconfig.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\AccessModifier\bin\Debug\net5.0\AccessModifier.exe
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\AccessModifier\bin\Debug\net5.0\AccessModifier.deps.json
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\AccessModifier\bin\Debug\net5.0\AccessModifier.runtimeconfig.json
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\AccessModifier\bin\Debug\net5.0\AccessModifier.runtimeconfig.dev.json
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\AccessModifier\bin\Debug\net5.0\AccessModifier.dll
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\AccessModifier\bin\Debug\net5.0\AccessModifier.pdb
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\AccessModifier\obj\Debug\net5.0\AccessModifier.csproj.AssemblyReference.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\AccessModifier\obj\Debug\net5.0\AccessModifier.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\AccessModifier\obj\Debug\net5.0\AccessModifier.AssemblyInfoInputs.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\AccessModifier\obj\Debug\net5.0\AccessModifier.AssemblyInfo.cs
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\AccessModifier\obj\Debug\net5.0\AccessModifier.csproj.CoreCompileInputs.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\AccessModifier\obj\Debug\net5.0\AccessModifier.dll
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\AccessModifier\obj\Debug\net5.0\refint\AccessModifier.dll
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\AccessModifier\obj\Debug\net5.0\AccessModifier.pdb
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\AccessModifier\obj\Debug\net5.0\AccessModifier.genruntimeconfig.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\AccessModifier\obj\Debug\net5.0\ref\AccessModifier.dll

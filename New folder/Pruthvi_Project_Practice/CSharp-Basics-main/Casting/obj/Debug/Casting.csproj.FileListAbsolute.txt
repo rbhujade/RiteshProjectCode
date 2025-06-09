@@ -1,0 +1,14 @@
+D:\PERSONAL\C# Basics\BasicConcepts\Casting\bin\Debug\Casting.exe.config
+D:\PERSONAL\C# Basics\BasicConcepts\Casting\bin\Debug\Casting.exe
+D:\PERSONAL\C# Basics\BasicConcepts\Casting\bin\Debug\Casting.pdb
+D:\PERSONAL\C# Basics\BasicConcepts\Casting\obj\Debug\Casting.csproj.CoreCompileInputs.cache
+D:\PERSONAL\C# Basics\BasicConcepts\Casting\obj\Debug\Casting.exe
+D:\PERSONAL\C# Basics\BasicConcepts\Casting\obj\Debug\Casting.pdb
+D:\PERSONAL\C# Basics\BasicConcepts\Casting\obj\Debug\Casting.csproj.AssemblyReference.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\Casting\bin\Debug\Casting.exe.config
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\Casting\bin\Debug\Casting.exe
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\Casting\bin\Debug\Casting.pdb
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\Casting\obj\Debug\Casting.csproj.AssemblyReference.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\Casting\obj\Debug\Casting.csproj.CoreCompileInputs.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\Casting\obj\Debug\Casting.exe
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\Casting\obj\Debug\Casting.pdb

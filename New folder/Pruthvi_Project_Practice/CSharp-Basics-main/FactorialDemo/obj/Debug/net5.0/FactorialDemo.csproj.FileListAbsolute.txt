@@ -1,0 +1,32 @@
+D:\PERSONAL\C# Basics\BasicConcepts\FactorialDemo\bin\Debug\net5.0\FactorialDemo.exe
+D:\PERSONAL\C# Basics\BasicConcepts\FactorialDemo\bin\Debug\net5.0\FactorialDemo.deps.json
+D:\PERSONAL\C# Basics\BasicConcepts\FactorialDemo\bin\Debug\net5.0\FactorialDemo.runtimeconfig.json
+D:\PERSONAL\C# Basics\BasicConcepts\FactorialDemo\bin\Debug\net5.0\FactorialDemo.runtimeconfig.dev.json
+D:\PERSONAL\C# Basics\BasicConcepts\FactorialDemo\bin\Debug\net5.0\FactorialDemo.dll
+D:\PERSONAL\C# Basics\BasicConcepts\FactorialDemo\bin\Debug\net5.0\ref\FactorialDemo.dll
+D:\PERSONAL\C# Basics\BasicConcepts\FactorialDemo\bin\Debug\net5.0\FactorialDemo.pdb
+D:\PERSONAL\C# Basics\BasicConcepts\FactorialDemo\obj\Debug\net5.0\FactorialDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\PERSONAL\C# Basics\BasicConcepts\FactorialDemo\obj\Debug\net5.0\FactorialDemo.AssemblyInfoInputs.cache
+D:\PERSONAL\C# Basics\BasicConcepts\FactorialDemo\obj\Debug\net5.0\FactorialDemo.AssemblyInfo.cs
+D:\PERSONAL\C# Basics\BasicConcepts\FactorialDemo\obj\Debug\net5.0\FactorialDemo.csproj.CoreCompileInputs.cache
+D:\PERSONAL\C# Basics\BasicConcepts\FactorialDemo\obj\Debug\net5.0\FactorialDemo.dll
+D:\PERSONAL\C# Basics\BasicConcepts\FactorialDemo\obj\Debug\net5.0\ref\FactorialDemo.dll
+D:\PERSONAL\C# Basics\BasicConcepts\FactorialDemo\obj\Debug\net5.0\FactorialDemo.pdb
+D:\PERSONAL\C# Basics\BasicConcepts\FactorialDemo\obj\Debug\net5.0\FactorialDemo.genruntimeconfig.cache
+D:\PERSONAL\C# Basics\BasicConcepts\FactorialDemo\obj\Debug\net5.0\FactorialDemo.csproj.AssemblyReference.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\FactorialDemo\bin\Debug\net5.0\FactorialDemo.exe
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\FactorialDemo\bin\Debug\net5.0\FactorialDemo.deps.json
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\FactorialDemo\bin\Debug\net5.0\FactorialDemo.runtimeconfig.json
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\FactorialDemo\bin\Debug\net5.0\FactorialDemo.runtimeconfig.dev.json
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\FactorialDemo\bin\Debug\net5.0\FactorialDemo.dll
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\FactorialDemo\bin\Debug\net5.0\FactorialDemo.pdb
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\FactorialDemo\obj\Debug\net5.0\FactorialDemo.csproj.AssemblyReference.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\FactorialDemo\obj\Debug\net5.0\FactorialDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\FactorialDemo\obj\Debug\net5.0\FactorialDemo.AssemblyInfoInputs.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\FactorialDemo\obj\Debug\net5.0\FactorialDemo.AssemblyInfo.cs
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\FactorialDemo\obj\Debug\net5.0\FactorialDemo.csproj.CoreCompileInputs.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\FactorialDemo\obj\Debug\net5.0\FactorialDemo.dll
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\FactorialDemo\obj\Debug\net5.0\refint\FactorialDemo.dll
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\FactorialDemo\obj\Debug\net5.0\FactorialDemo.pdb
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\FactorialDemo\obj\Debug\net5.0\FactorialDemo.genruntimeconfig.cache
+D:\MyBackUP\Personal-Study\CSharp-Basics-main\FactorialDemo\obj\Debug\net5.0\ref\FactorialDemo.dll

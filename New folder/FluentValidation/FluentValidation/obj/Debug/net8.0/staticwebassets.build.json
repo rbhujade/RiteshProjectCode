@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "13WIbVzoRbtzMZlRboOzfdhNslLdRlMLAbXvoDvfn0w=",
+  "Source": "FluentValidation",
+  "BasePath": "_content/FluentValidation",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
