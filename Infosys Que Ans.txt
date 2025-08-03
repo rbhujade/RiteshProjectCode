@@ -1,3 +1,499 @@
+===========================================
+Create Relationship between World,country,state and city using OOP's concept.
+Register DI without interface and inject in controller, one interface - two service impliment DI.
+Collection in c#.
+Action method type.
+can we set entity/object/class as key in ToDictionary.
+Singleton design pattern, why used singleton why not use static.Diff betw singleton and static class.
+
+======================= UST 9/7 ====================
+can allowed clone of singleton design pattern.
+when all, wait all and wait any in asynchronous programming.
+on first button click data saved in database ,after that i clicked same button what will happen in .net app
+how to debug post request in web api.
+why do we need of singlton design pattern ,why we not used static class.
+
+======================= Stantec 9/7 ====================
+Design pattern.
+DI.
+ORM.
+Improve Slow query performance.
+how deploy your project app.how manage.
+Short term and long term goal.
+Legecy app vs microservice.
+SQl injection , how to implement.
+Caching.
+how to improve app performence.
+intresting problem/issue you solved in project.
+create MVC app with CRUD opration.
+
+======================= Infovision 2 9/7 ====================
+Explain Oops concept.
+not following the encapsulation for class, what will happen.
+SOLID principle.
+implement dynamic polymorphism.
+Extension method and why we used static.
+scenario - class A B- static and private constroctor - write output of that.
+create class want to prevent that.how to call that.
+bundling and minification.
+how to create user control in MVC.
+EMp dept tb-LINQ-left join
+how to implement DI.
+how to creat custom middleaware.how handle exception handle by middleaware.
+Filter in mvc/web api.
+find duplicate record- emp name duplicate sql.
+How to write Unit test cases.
+which Methodology u follow.
+
+======================= Capgemini 1 9/7 ====================
+app.Use vd app.Run
+how to get value/read from appJsonSetting file.
+how to implement DI.
+have you created Custome Middleware. 
+Middleware vs filters.
+Logger .
+when used Iquerable and IEnumarable.
+Explain Liskw principle.
+Extension method and use.
+Generics and non generics collection.
+get count of each character in string.Linq.
+what is Anonimous method.
+get list of employee, count of same salary using Linq.
+abstract class inside non abstract method - how to call that method.
+what is non cluster index.
+pu and patch method.
+web api- how to achive authentication.
+how to perform unit testing.
+handling exception in your project.
+
+======================= ITC infotech 8/7 ====================
+Authentication technique used in your project.
+difference between .net framework and .net core.
+ADO .net vs EF.
+configure async/await.pass parameter.
+how handle configuration in your project.
+How Middleware pipeline work.app.run and app.use.
+DI - lifetime. use case.
+how GC work.
+use of AsNoTracking in EF.
+Shadow property.
+Navigation property.
+return JSON and XML in web api.How to implement.Middleware.
+ref and out and in parameter.
+const ,readonly,static readonly.
+in memory data collection.
+write c# program for print 1 to 10 without using any loop.recursion can be use.
+Index- which index type is faster.
+Having clause in sql.
+what is query execution plan.
+types of join in sql.cross join.
+ACID property.
+how you write transation in sql/c#.
+row level security .
+open transaction and forget to write commit,what will happen.
+triggers.
+challengase face in aws lambda.
+how to use common feature in multiple aws lambda.
+aws sqs vs sns
+
+======================= Fulcrum 2 8/7 ====================
+role and responsiblity in your project.
+coding statnderd follow in your project.
+your Short and long term vision.
+
+======================= Infovision 8/7 ====================
+difference between .net framework and .net core.
+Project architectue.
+How you deploy your app.
+what is aws lambda.
+what is aws load balancer.
+benefit/drawback of microservice.how they communicate.How to scale.
+what is SQS,life of msg in sqq when you pass through microservice.
+if any microservices slow in progress, how will you check and where.
+which data structer used in SQS.
+have you work on balzer/razor.
+have you aware of telerick control.
+API integration.have you consume third party API.
+How you implement Authentication in project.
+Part of JWT, which property used to get user details.
+What web api do for Authentication.
+Authorization in your app.Types of authorization in MVC.
+Security on web API.Attack on API.
+rate limiting in .net core app.how to implement.How to identify user for rate liminting.
+logging and monotoring in your app.
+Design pattern.
+CQRS.
+explain MVC architectur.
+how can pass data from one controller to othet controller.
+session management technic.
+which view engine used.
+extending mvc functionality.inheritence in MVC.
+validation in global level in mvc.
+want to route only Admin.
+retrive mechanism.retry policy.
+data structure in c#.
+extension method.
+singleton patten, why we used and how.
+how to improve sql query.
+Index and type.
+ienumarable vs iquerable.
+
+======================= Fulcrum 7/7 ====================
+Day to day activity in project.
+Project Architecture.
+Issue in production, how do you solve this.
+DI-how to achive DI.addscop/singleton/Transient
+security in API.
+LINQ- AsNoTracking.
+SQL-sql getting slow or C# code getting slow.
+ 
+======================= Infinite 6/7 ====================
+Authentication and Authorization.
+validationing and sanitizing user credential in .net core app.
+Web API filters and type.
+httppost vs httpPut vs httppatch.
+Status code 200 and 204.
+component in MVC pattern.
+Validation in MVC.
+viewdata,viewbag,tempdata.
+how interconnection between services.
+
+======================= Credence 2/7 ====================
+your role in project.
+which software model you follow.
+create star/pyramid pattern - logic
+sql-write sql query for select emp name ,salary,salary ban from two table.
+
+======================= Synechron R2 2/7 ====================
+sql-emp-select-from-where-groupby-having-order - execution sequence of clause.
+what are joins in sql.
+two classes A B-A:B-A have public,private,protected property.which one accesible in class B.create object of B-which property will eccessible.
+scenarion - contex.Movie;
+httpPut vs httpPatch.
+controller have 2 similer method with same signature.how it will call by framework.
+what is middleaware.
+what is JWT,part of JWT token.
+how aws cognito work.
+what is aws lambda.how it work.serverless means.
+
+======================= Harman 30/06 ====================
+what is new in .net core 8.
+update the value in array- code should be faster and get less memory-update 3,4,5 index.
+declare any variable without allocate any memory, it is possible.
+3 API-each api get 2 sec for run-can execute in 2 sec all 3 api.
+what happen when any api/method will fails.
+2 developer-one return throw other use exception ex.which one correct and why.
+row_number vs dense_rank vs dense in sql.
+sql - find 4th max salary.
+child SP inline insert query -parent SP call chile SP.it will work.
+sql- how maintaining the version data/tb/db.
+duplicate record-can handle using versioning.or update identity .
+
+======================= Global Logic 30/06 ====================
+Abstarct class.why we use abstract class.use cases.
+ienumarable vs iquerable.
+clustor vs non clustor.
+single vs first.
+code-paragraph-slit by ,.?!-
+code-HashSet-List-sort int array- find duplicate array item.
+code-fibboneci series program.
+difference type of ec2 instance option for deployment.
+IAM role vs IAM User. 
+aws code deploy vs aws elastic.
+fulomi vs terraform.
+how you manage secrete key in aws.
+how to use/set environment variable in aws lambda.
+how handle caching data in aws.
+how manage high trafic in aws lambda-how it scale.
+static app deployed in aws,which service you will use.
+
+======================= Synechron 26/06 ====================
+Constructor chaining.
+static vs private constructor.
+how call private constroctor.
+Parallal programing.
+SOLID- Liskw principle,Dependency Inversion 
+Middleware.Order of Middleware,how it works.
+DI vs DIP.
+addScope<IEmployee,Peremnent>,addScope<IEmployee,Temp>.
+write linq for group join- Emp,Dept TB-Left join.
+API concurrency-same time update same record.API side how will handle.
+write output of async await program.
+Unit testing.
+How you did Authentication and Authorization in project.
+Docker.
+CI/CD pipeline.
+Union vs Union All.
+
+======================= I2E 25/06 ====================
+Project Architecture.
+Javascript-have you used third party component.
+double equal vd triple equal in JS.
+Design pattern.
+Write Syntax of repository pattern.
+SQL-Delete duplicate record from tb.
+How getting /fetch some details in view.
+
+======================= Accion Lab 2 24/06 ====================
+linq-list of country-comma seperated value.
+EMP tb-salary,name,dept-show max salary by dept.
+temp tb vs CTE.
+delete vs truncate.
+sql-get last identity row.getting last.
+define entity relation in EF-foregein key. 
+how to set default value in db context file.
+
+======================= Accion Lab 23/06 ====================
+c# feature in 8,9,10,11.
+task vs await, async.
+Log and monitor in c#.
+write c# program . create right angle of increasing number.
+linq- delete duplicate record.
+Design pattern.how to decide design pattern.
+what is microservice.issue with connecting two microservices,how will you fix that issue.
+have you write Unit test cases.
+
+======================= Encora 23/06 ========================
+have you follow Event-driven architectur.
+core steps in concept of DI.benefits of DI.DI life cycle.
+What are the filters in web api.
+Design pattern.Repository pattern.
+Benefit of refresh token.
+AWS cognito.
+what type of method u used, async,await.
+Serialization.
+Backend job.
+how to create user defind function.type.
+can call SP from function.vice versa.
+CTE,temp tb,
+why we should not create index.
+let vs var in javascript. 
+can call server side method in js. 
+
+======================= Aziro 23/06 ========================
+How work DI.it is mandetory to use interfaces for DI,can we use abstract class.
+write program for - input - 123456789, output - *****6789
+EF - performence related operation.
+can call SP from EF.can addp parameter.
+SOLID principle - real time example for LSP.
+Rank,Dense rank,Row number.
+
+======================= Tata Tech 23/06 ========================
+stateless vs statefull.
+how to connect api with db.
+sql-emp-100 record - empDetail 50 record -it is possible to left/right join in linq.
+Lazy and Eager loading.
+How deploy your app.
+what purpose you used EC2 instance.
+use of aws Cognito.how to set Admin/user role.
+how do exception handling.
+can call SP in function.
+Type of user defind function.
+can combination of two column as key.
+use of unique key.
+what are temp table.
+Improve performence of sql.
+app.Use vs app.Run.
+Use of DI.
+what are HTML helper.
+temp data,view bag, view data.
+Return types of view.
+Attribute vs conventional routing.
+httppost vs httpput.
+mvc view-call to third party api from view,it is posible.
+partial view.
+use of layout.
+view start.
+
+======================= Xoriant 1 21/06 ========================
+how microservice interconnected with each other in your project.
+Kafka.
+Login-aws cognito.
+how to find error/failer in microservices.
+which architectur pattern you follow in project.
+web api vs microservice.what is difference.faster development.
+microservice work style for 3 different endpoint.solution.
+scaling-hacker got you endpoint-he started call multiple request 1000 per min how handle in .net app.rate limiting.
+app tunning-app performence-entire system want to improve performance of system/sql.
+clustor index-non clustor index- foregin key- inner join-int in 1st tb,big int in 2nd table-write query-it will index scan or table scan.
+tb data have billion-query response to much time-partition on tb.
+how scaling applied on db.
+query-emp dept tb-get department name -employee count-salary > 2000,if epm not available count will zero.
+
+======================= LTIMindtree 1 21/06 ========================
+Design pattern.
+MVC filter and there sequence.
+purpose of antiforegn token.
+first vs firstOrDefault, single vs singleordefault.
+ienumarable vs iquerable,which is best.
+EF-approches.
+how to improve app performance.
+student profile form-100 fields-edit some info but not changes any, why we need to save or update this in db.restrict db to not save this in db.
+update only 2 fileds- what will do.
+update using post method is possible.
+get student info hit on button-again hit button for same data-how to avaoid get same data.
+SP-insert row 1st tb- in second tb insert primary key of 1st tb.use 1st tb key in 2nd tb,new generated id.how it will work.
+add new column in exist table- check column are available of not in tb.
+write program-addition of input digit-input 123-output - 6.
+security and performance related issue have you faced and how you resolved them.
+
+======================= Trinus 19/06 ========================
+abstraction vs encapsulation.
+Filter are MVC.
+temp data ,view data, view bag.
+Bundling and minification.
+how handle client side validation in mvc.
+DI.
+Eager and early loading.
+httppatch vs httpput.
+Design pattern.FDP.
+what is Multithreading.
+async and await.
+how to improve app performence.
+method overloading - same method with ref and out parameter.what happence with ref and out.
+can have catch block with try block.
+c# support multiple inheritence.
+boxing vs unboxing.
+what are action methods.
+what is DB first and Code first approach in EF.
+middlware vs Filters.
+have you create Custom middlware, exaplain.
+use of Using keyword.
+how to improve .net app/SQL performence.
+no lock and row lock in sql.
+wher we rollback our data after drop/delete/truncate.
+where vs having cluse in sql.
+what is contraint.
+what is trigger.
+char vs varchar.
+
+======================= Nice 18/06 ========================
+Resposiblitity and project architectur.
+How you make sure your app working fine on aws.what is any API batch /fail.
+what is aws lambda.how to track fails in aws lambda. 
+how to configure aws lambda code with cloudwatch.what is specific packages for that.
+advantages of lambda.when not used lambda.execution limit of lambda.disadvantages of execution limit.
+what is cold start in lambda.
+stafe function/fargate.
+stateless and statefull.aws lambda is which.
+packages size in lambda.
+scaling in - EC2 and lambda,which one is more expensive.
+DIP-SOLID.scenario.
+DI-service injection-lifecycle time of DI.
+Design patten.write code for factory pattern.
+write program-enter roman string-count the number/values.and each roman char value.
+
+======================= Peoplefy 2 16/06 ========================
+DI.
+what is IIS,Security types in IIS.how to configure.where to check IIS log
+Out parameter.
+Array vs ArrayList.
+Delegates.
+project architectue.
+how to improve app/query performance.
+where to host app.
+Deadlock.
+memory management/session.
+Restore, Backup in sql.
+cursor/loop in sql.
+
+======================= Global Logic 3 16/06 ========================
+project architecture.Batch process.
+aws lambda function.how lambda trigger.what precaution for more than 15 min execution. 
+what if subscriber increase-load extended on lambda.
+API gateway-what is need-purpose of api gateway.
+how to build your app.how to build and deploy.
+how many environment in app.
+differenc between microservice vs monolethic.disadvantages of microservice.
+blue green deployment.
+Rolling update.
+clustor and non cluster index.when used non cluster index.
+abstraction vs encapsulation.
+need of interfaces over abstarct class.
+c# support multiple inheritence.
+DI
+abstarct class-abstarct method-inherit those method in another abstarct class.
+static class have constructor.
+statement class can inherit,can inherit in other static class,when static class execute.when constructor will call.
+Singleton class.singleton class invoke as static class.
+c# -program - string array -frequency of similer word.
+what is group by/to dictionary.type of g.what is return of group by.
+
+======================= Persistent 1 14/06 ========================
+differenc between .net core and .net framework.
+Middleware.
+DI.AddScoped/AddTransient/AddSingleton.
+what is appsetting.json file.how to set environment.
+what is LaunchSetting.Json.when we publish site.
+what is http verbs in web api.
+what is caching.
+Microservices architecture-differenc between MS vs monolethic.how communicate MS each other.
+design pattern.
+solid principle.
+abstract class vs interface.
+method overloading vs overriding.
+how memory management.
+how Query optimization.
+what are the trigger.types of trigger.
+transactions-ACID property.
+query-get 2nd hightes salary.
+
+======================= Mouser 10/06 ========================
+Abstraction in oops.
+parent child class - default constructor in both class - create obj of derived class - which constroctor will call.when base class contructor will include.
+prevent class A from instantiated in other class B. 
+can have static contructor in side the non static class.
+write singleton design pattern code.
+
+======================= Kogta 2 10/06 ========================
+architectue of project.
+how to communicate microservice in project.
+what is middleaware.
+have you used Intefaces in project.
+How to implement interface in DI.
+why we used try catch block.devide by zero scenario.
+function overloading and overriding.
+scenario- class a ,b - output of code.overloading - 3 method with decimal,int and string return.
+LINQ - scenario - where , first , firstOrDefault.
+what is magic table.
+what is temporary table.
+can call one SP from other SP.how to get SP value inside that SP.
+how can set one to one relationship between two table.one to many.
+differenc between aws EC2 and aws lambda.
+code version.
+
+======================= Synechron 10/06 ========================
+log incoming and outgoing request, how to log in .net core.
+want to sent response in XML formate what to do .
+how to return multiple data.
+method inside method,don't want to wait for 2nd method.thread.
+what is generics method.how to identify user input datatype.how to identify parameter.
+how to identity generics class if 2 method there.
+dispose and finalize method.
+scenario-2 interface created.and inherit in one class,how to implement.
+DI life cycle.
+add new column in code first approach.
+join two tables in EF.LINQ.
+what is CTE.
+tem table and global tabel.how to create global table.
+
+======================= Global Logic L2 10/06 ========================
+Project architecture.
+overview of microservice architecture.
+deployment and life cycle of project.
+failer between microservices architecture.
+Design pattern.
+write c# program find the word in a sentence.
+write c# program reverse string.
+glue/blue green deployment.
+which is best monolithic architecture compare with microservice.why.
+syncronous communication.
+how to design microservice to upload document.
+how to generate jwt.
+what is DI.
+differenc between abstraction and encapsulation.
+what is life span of object.oops concept.
+
 =======================Peoplefy 1 08/06 ==========================
 difference between httppatch vs httpput.
 how to monitor app and how it different from development.
